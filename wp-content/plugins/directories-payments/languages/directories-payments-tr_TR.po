@@ -1,0 +1,633 @@
+# Copyright (C) 2019 unnamed project
+# This file is distributed under the same license as the unnamed project package.
+msgid ""
+msgstr ""
+"Project-Id-Version: unnamed project\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.4\n"
+"Last-Translator: \n"
+"Language: tr_TR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: lib/components/Payment/PaymentComponent.php:176,
+#: lib/components/Payment/DisplayButton/PostDisplayButton.php:67
+msgid "Renew"
+msgstr "Yenile"
+
+#: lib/components/Payment/PaymentComponent.php:178,
+#: lib/components/Payment/DisplayButton/PostDisplayButton.php:69,
+#: lib/components/Payment/Helper/UtilHelper.php:13
+msgid "Upgrade / Downgrade"
+msgstr "Yükseltme / Düşürme"
+
+#: lib/components/Payment/PaymentComponent.php:180,
+#: lib/components/Payment/DisplayButton/PostDisplayButton.php:71,
+#: lib/components/Payment/Helper/UtilHelper.php:17
+msgid "Order Add-on"
+msgstr "Sipariş Eklentisi"
+
+#: lib/components/Payment/PaymentComponent.php:182
+msgid "Pricing Table"
+msgstr "Fiyatlandırma Tablosu"
+
+#: lib/components/Payment/PaymentComponent.php:346
+msgid "Enable payments"
+msgstr "Ödemeleri etkinleştirme"
+
+#: lib/components/Payment/PaymentComponent.php:399,
+#: lib/components/Payment/DashboardPanel/PaymentsDashboardPanel.php:30,
+#: lib/components/Payment/FieldType/OrdersFieldType.php:11,
+#: lib/components/Payment/FieldWidget/OrdersFieldWidget.php:12
+msgid "Orders"
+msgstr "Siparişler"
+
+#: lib/components/Payment/PaymentComponent.php:465
+msgid "Found %d expiring item(s)."
+msgstr "Bulunan %d süresi dolan madde(ler)."
+
+#: lib/components/Payment/PaymentComponent.php:471
+msgid "Found %d expired item(s)."
+msgstr "Bulunan %d süresi dolmuş madde(ler)."
+
+#: lib/components/Payment/PaymentComponent.php:477
+msgid "Found %d fully expired item(s)."
+msgstr "Bulunan %d tam süresi dolmuş madde(ler)."
+
+#: lib/components/Payment/PaymentComponent.php:554,
+#: lib/components/Payment/PaymentComponent.php:803
+msgid "Payment"
+msgstr "Ödeme"
+
+#: lib/components/Payment/PaymentComponent.php:558
+msgid "Default Feature Settings"
+msgstr "Varsayılan Özellik Ayarları"
+
+#: lib/components/Payment/PaymentComponent.php:559
+msgid "Configure features applied to items without any payment plan."
+msgstr ""
+"Herhangi bir ödeme planı olmadan maddelere uygulanan özellikleri "
+"yapılandırın."
+
+#: lib/components/Payment/PaymentComponent.php:755
+msgid "Expiring item notification e-mail messages sent."
+msgstr "Süresi dolan madde bildirimi e-posta iletileri gönderildi."
+
+#: lib/components/Payment/PaymentComponent.php:767
+msgid "Expired item notification e-mail messages sent."
+msgstr "Süresi dolan madde bildirimi e-posta iletileri gönderildi."
+
+#: lib/components/Payment/PaymentComponent.php:781
+msgid "Deactivated item notification e-mail messages sent."
+msgstr "Devre dışı bırakılan madde bildirimi e-posta iletileri gönderildi."
+
+#: lib/components/Payment/PaymentComponent.php:846
+msgid "General Settings"
+msgstr "Genel Ayarlar"
+
+#: lib/components/Payment/PaymentComponent.php:849
+msgid "Select payment component"
+msgstr "Ödeme bileşenini seçin"
+
+#: lib/components/Payment/PaymentComponent.php:850,
+#: lib/components/Payment/FieldWidget/PlanFieldWidget.php:84
+msgid "— Select —"
+msgstr "— Seçiniz —"
+
+#: lib/components/Payment/PaymentComponent.php:860
+msgid "Action after payment plan expiration"
+msgstr "Ödeme planının sona ermesinden sonra eylem"
+
+#: lib/components/Payment/PaymentComponent.php:862
+msgid "Deactivate"
+msgstr "Devre dışı bırak"
+
+#: lib/components/Payment/PaymentComponent.php:863
+msgid "Unassign payment plan and author"
+msgstr "Ödeme planını ve yazarı atamaz"
+
+#: lib/components/Payment/PaymentComponent.php:864
+msgid "Unassign payment plan"
+msgstr "Ödeme planını atama"
+
+#: lib/components/Payment/PaymentComponent.php:865
+msgid "Trash"
+msgstr "Çöp"
+
+#: lib/components/Payment/PaymentComponent.php:866,
+#: lib/components/Payment/FieldWidget/PlanFieldWidget.php:46
+msgid "None"
+msgstr "Yok"
+
+#: lib/components/Payment/PaymentComponent.php:875
+msgid "Add \"No payment plan\" option"
+msgstr "\"Ödeme planı yok\" seçeneği ekle"
+
+#: lib/components/Payment/PaymentComponent.php:881
+msgid "Label"
+msgstr "Etiket"
+
+#: lib/components/Payment/PaymentComponent.php:883
+msgid "No payment plan (FREE)"
+msgstr "Ödeme planı yok (ÜCRETSİz)"
+
+#: lib/components/Payment/PaymentComponent.php:892
+msgid "Description"
+msgstr "Açıklama"
+
+#: lib/components/Payment/PaymentComponent.php:907
+msgid "Display pricing table"
+msgstr "Fiyatlandırma tablosunu görüntüleme"
+
+#: lib/components/Payment/PaymentComponent.php:915
+msgid "Plan Renewal Settings"
+msgstr "Yenileme Ayarlarını Planla"
+
+#: lib/components/Payment/PaymentComponent.php:917
+msgid "Renewal period in days"
+msgstr "Gün içinde yenileme süresi"
+
+#: lib/components/Payment/PaymentComponent.php:928
+msgid "Renewal grace period in days"
+msgstr "Gün içinde yenileme yetkisiz kullanım süresi"
+
+#: lib/components/Payment/PaymentComponent.php:939
+msgctxt "currency symbol"
+msgid "Re-activation fee (%s)"
+msgstr "Yeniden etkinleştirme ücreti (%s)"
+
+#: lib/components/Payment/PaymentComponent.php:949
+msgid "Plan Upgrade/Downgrade Settings"
+msgstr "Yükseltme/Düşürme Ayarlarını Planla"
+
+#: lib/components/Payment/PaymentComponent.php:951
+msgctxt "currency symbol"
+msgid "Switch plan fee (%s)"
+msgstr "Geçiş planı ücreti (%s)"
+
+#: lib/components/Payment/PaymentComponent.php:959
+msgid "Enable prorated discount"
+msgstr "Eşit olarak dağıtılmış indirimi etkinleştir"
+
+#: lib/components/Payment/PaymentComponent.php:1021
+msgid "Show items with a payment plan first"
+msgstr "Önce ödeme planı olan öğeleri göster"
+
+#: lib/components/Payment/PaymentComponent.php:1030
+msgid "Payment plan sort order"
+msgstr "Ödeme planı sıralaması"
+
+#: lib/components/Payment/PaymentComponent.php:1060
+msgid "Claim Rejected"
+msgstr "Talep Reddedildi"
+
+#: lib/components/WooCommerce/WooCommerceComponent.php:224
+msgid "Plan Features"
+msgstr "Plan Özellikleri"
+
+#: lib/components/WooCommerce/WooCommerceComponent.php:877
+msgid "Skip cart/checkout pages for free payment plans"
+msgstr "Ücretsiz ödeme planları için sepet/ödeme sayfalarını atla"
+
+#: lib/components/WooCommerce/WooCommerceComponent.php:886
+msgid ""
+"Expire payment plans when WooCommerce Memberships membership becomes inactive"
+msgstr ""
+"WooCommerce Üyelikleri üyeliği etkin olmadığında ödeme planlarının süresi "
+"dolsun"
+
+#: lib/components/WooCommerce/WooCommerceComponent.php:930
+msgid "Purchase type"
+msgstr "Satın alma türü"
+
+#: lib/components/WooCommerce/WooCommerceComponent.php:932
+msgid "Purchase item"
+msgstr "Satın alma öğesi"
+
+#: lib/components/WooCommerce/WooCommerceComponent.php:953
+msgid "WooCommerce \"My account\" Page Integration"
+msgstr "WooCommerce \"Hesabım\" Sayfa Entegrasyonu"
+
+#: lib/components/WooCommerce/WooCommerceComponent.php:960
+msgid "Show dashboard panels"
+msgstr "Pano panellerini göster"
+
+#: lib/components/WooCommerce/WooCommerceComponent.php:964
+msgid ""
+"Check this option to show dashboard panels on the WooCommerce \"My account\" "
+"page."
+msgstr ""
+"WooCommerce \"Hesabım\" sayfasında pano panellerini göstermek için bu "
+"seçeneği işaretleyin."
+
+#: lib/components/WooCommerce/WooCommerceComponent.php:967
+msgid "Redirect dashboard access"
+msgstr "Pano erişimini yeniden yönlendirme"
+
+#: lib/components/WooCommerce/WooCommerceComponent.php:971
+msgid ""
+"Check this option to redirect dashboard access to the WooCommerce \"My "
+"account\" page."
+msgstr ""
+"Pano erişimini WooCommerce \"Hesabım\" sayfasına yönlendirmek için bu "
+"seçeneği işaretleyin."
+
+#: lib/components/WooCommerce/WooCommerceComponent.php:1259
+msgid "(Subscription plan)"
+msgstr "(Abonelik planı)"
+
+#: lib/components/Payment/Controller/AddEntity.php:67
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: lib/components/Payment/Controller/AddEntity.php:155,
+#: lib/components/Payment/Controller/ClaimEntity.php:105,
+#: lib/components/Payment/Controller/OrderAddon.php:34,
+#: lib/components/Payment/Controller/SubmitPost.php:44
+msgid "Add to cart"
+msgstr "Sepete Ekle"
+
+#: lib/components/Payment/Controller/DashboardOrders.php:29,
+#: lib/components/Payment/Controller/DashboardSubscriptions.php:30
+msgid "ID"
+msgstr "ID"
+
+#: lib/components/Payment/Controller/DashboardOrders.php:30,
+#: lib/components/Payment/FieldWidget/OrdersFieldWidget.php:48
+msgid "Date"
+msgstr "Tarih"
+
+#: lib/components/Payment/Controller/DashboardOrders.php:31,
+#: lib/components/Payment/Controller/DashboardSubscriptions.php:31,
+#: lib/components/Payment/FieldWidget/OrdersFieldWidget.php:50
+msgid "Name"
+msgstr "Ad"
+
+#: lib/components/Payment/Controller/DashboardOrders.php:32,
+#: lib/components/Payment/Controller/DashboardSubscriptions.php:33,
+#: lib/components/Payment/FieldWidget/OrdersFieldWidget.php:51
+msgid "Total"
+msgstr "Toplam"
+
+#: lib/components/Payment/Controller/DashboardOrders.php:33,
+#: lib/components/Payment/Controller/DashboardSubscriptions.php:34,
+#: lib/components/Payment/FieldWidget/OrdersFieldWidget.php:52
+msgid "Status"
+msgstr "Durum"
+
+#: lib/components/Payment/Controller/DashboardOrders.php:76
+msgid "Order #%s"
+msgstr "Sipariş #%s"
+
+#: lib/components/Payment/Controller/DashboardSubscriptions.php:32
+msgid "Next Payment"
+msgstr "Sonraki ödeme"
+
+#: lib/components/Payment/Controller/DashboardSubscriptions.php:84
+msgid "Subscription #%s"
+msgstr "Abonelik #%s"
+
+#: lib/components/Payment/Controller/OrderAddon.php:14,
+#: lib/components/Payment/Controller/SubmitPost.php:20
+msgid "There are currently one or more pending orders for the item selected."
+msgstr "Şu anda seçilen ürün için bekleyen bir veya daha fazla sipariş vardır."
+
+#: lib/components/Payment/Controller/PricingTable.php:70
+msgctxt "payment plan price"
+msgid "Free"
+msgstr "Ücretsiz"
+
+#: lib/components/Payment/Controller/PricingTable.php:101
+msgid "Choose Plan"
+msgstr "Paket Seçiniz"
+
+#: lib/components/Payment/CSVExporter/PaymentCSVExporter.php:14,
+#: lib/components/Payment/CSVImporter/PaymentCSVImporter.php:14,
+#: lib/components/Payment/FieldType/PlanFieldType.php:204,
+#: lib/components/Payment/FieldWidget/PlanFieldWidget.php:55,
+#: lib/components/Payment/FieldWidget/PlanFieldWidget.php:88
+msgid "Expiration Date"
+msgstr "Son kullanma tarihi"
+
+#: lib/components/Payment/CSVExporter/PaymentCSVExporter.php:15,
+#: lib/components/Payment/CSVImporter/PaymentCSVImporter.php:15
+msgid "Plan ID"
+msgstr "Plan ID"
+
+#: lib/components/Payment/CSVExporter/PaymentCSVExporter.php:16,
+#: lib/components/Payment/CSVImporter/PaymentCSVImporter.php:16
+msgid "Additional Features"
+msgstr "Ek Özellikler"
+
+#: lib/components/Payment/DashboardPanel/PaymentsDashboardPanel.php:19
+msgid "Payments"
+msgstr "Ödemeler"
+
+#: lib/components/Payment/DashboardPanel/PaymentsDashboardPanel.php:37
+msgid "Subscriptions"
+msgstr "Abonelikler"
+
+#: lib/components/Payment/DisplayButton/PostDisplayButton.php:34
+msgid "Renew item button"
+msgstr "Öğeyi yenileme düğmesi"
+
+#: lib/components/Payment/DisplayButton/PostDisplayButton.php:43
+msgid "Upgrade/downgrade item button"
+msgstr "Öğeyi yükseltme/düşürme düğmesi"
+
+#: lib/components/Payment/DisplayButton/PostDisplayButton.php:52
+msgid "Order add-on button"
+msgstr "Siparişe Eklenti düğmesi"
+
+#: lib/components/Payment/DisplayLabel/PlanDisplayLabel.php:12
+msgid "Payment plan label"
+msgstr "Ödeme planı etiketi"
+
+#: lib/components/Payment/Feature/AbstractFeature.php:128
+msgid "Max number of %s allowed"
+msgstr "İzin verilen maksimum %s"
+
+#: lib/components/Payment/Feature/AbstractFeature.php:133
+msgid "Additional number of %s allowed"
+msgstr "İzin verilen ek %s"
+
+#: lib/components/Payment/Feature/AmpFeature.php:12
+msgid "AMP (Accelarated Mobile Pages) Settings"
+msgstr "AMP (Accelarated Mobil Sayfalar) Ayarları"
+
+#: lib/components/Payment/Feature/AmpFeature.php:36
+msgid "Enable AMP"
+msgstr "AMP'yi etkinleştir"
+
+#: lib/components/Payment/Feature/AmpFeature.php:51
+msgid "AMP enabled"
+msgstr "AMP etkin"
+
+#: lib/components/Payment/Feature/FeaturedEntityFeature.php:12
+msgid "Featured Content Settings"
+msgstr "Öne Çıkan İçerik Ayarları"
+
+#: lib/components/Payment/Feature/FeaturedEntityFeature.php:36
+msgid "Display as featured"
+msgstr "Özellikleriyle görüntüle"
+
+#: lib/components/Payment/Feature/FeaturedEntityFeature.php:45
+msgid "Priority"
+msgstr "Öncelik"
+
+#: lib/components/Payment/Feature/FeaturedEntityFeature.php:128
+msgid "Featured %d day"
+msgid_plural "Featured %d days"
+msgstr[0] "Öne çıkarılmış %d gün"
+msgstr[1] "Öne çıkarılmış %d gün"
+
+#: lib/components/Payment/Feature/FeaturedEntityFeature.php:129
+msgctxt "pricing table"
+msgid "Featured"
+msgstr "Öne çıkan"
+
+#: lib/components/Payment/Feature/FeaturedEntityFeature.php:146,
+#: lib/components/Payment/Feature/PlanFeature.php:28
+msgid "Duration in days"
+msgstr "Geçerlilik Süresi"
+
+#: lib/components/Payment/Feature/FeaturedEntityFeature.php:147
+msgid "Enter the number of days content will be marked as featured."
+msgstr "Kaç gün öne çıkarılmış olarak kalsın."
+
+#: lib/components/Payment/Feature/FeaturedEntityFeature.php:151,
+#: lib/components/Payment/Feature/PlanFeature.php:39
+msgid "day(s)"
+msgstr "gün(ler)"
+
+#: lib/components/Payment/Feature/FieldsFeature.php:11
+msgid "Field Settings"
+msgstr "Alan Ayarları"
+
+#: lib/components/Payment/Feature/FieldsFeature.php:59
+msgid "Allowed fields"
+msgstr "İzin verilen alanlar"
+
+#: lib/components/Payment/Feature/FieldsFeature.php:60
+msgid "All fields"
+msgstr "Tüm alanlar"
+
+#: lib/components/Payment/Feature/PlanFeature.php:13
+msgid "Plan Duration Settings"
+msgstr "Plan Süresi Ayarları"
+
+#: lib/components/Payment/Feature/PlanFeature.php:29,
+#: lib/components/Payment/Feature/PlanFeature.php:123,
+#: lib/components/Payment/Feature/TaxonomyTermsFeature.php:44,
+#: lib/components/Payment/Feature/TaxonomyTermsFeature.php:177
+msgid "Unlimited"
+msgstr "Sınırsız"
+
+#: lib/components/Payment/Feature/PlanFeature.php:117,
+#: lib/components/Payment/Feature/PlanFeature.php:122
+msgid "Duration: %s"
+msgstr "Süre: %s"
+
+#: lib/components/Payment/Feature/PlanFeature.php:118
+msgid "%s Day"
+msgid_plural "%s Days"
+msgstr[0] "%s Günü"
+msgstr[1] "%s Gün"
+
+#: lib/components/Payment/Feature/TaxonomyTermsFeature.php:12
+msgid "Taxonomy Term Settings"
+msgstr "Taksonomi Terim Ayarları"
+
+#: lib/components/Payment/FieldRenderer/PlanFieldRenderer.php:27
+msgid "Show payment plan label"
+msgstr "Ödeme planı etiketini göster"
+
+#: lib/components/Payment/FieldRenderer/PlanFieldRenderer.php:32
+msgid "Show payment plan expiration date"
+msgstr "Ödeme planının son kullanma tarihini göster"
+
+#: lib/components/Payment/FieldRenderer/PlanFieldRenderer.php:37
+msgid "Show \"Deactivated\" label"
+msgstr "\"Devre dışı bırakılmış\" etiketini göster"
+
+#: lib/components/Payment/FieldRenderer/PlanFieldRenderer.php:55,
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:24
+msgid "Deactivated"
+msgstr "Devredışı"
+
+#: lib/components/Payment/FieldType/PlanFieldType.php:18,
+#: lib/components/Payment/FieldWidget/PlanFieldWidget.php:14
+msgid "Payment Plan"
+msgstr "Ödeme Planı"
+
+#: lib/components/Payment/FieldType/PlanFieldType.php:175
+msgid ""
+"Enter payment plan IDs separated with commas. Enter 1 only to query items "
+"with a payment plan, 0 only to query items without any payment plan, -1 only "
+"to query expired items, -2 only to query deactivated items, or -3 only to "
+"query expiring items."
+msgstr ""
+"Ödeme planları IDlerini virgülle ayrılmış olarak girin. Sadece ödeme planı "
+"olan maddeler için 1, ödeme planı olmayanlar için 0, zamanı bitmiş maddeler "
+"için -1, deaktive edilmiş olanlara -2 ya da zamanı dolmak üzere olanlar için "
+"-3 girin."
+
+#: lib/components/Payment/FieldType/PlanFieldType.php:222
+msgid "Show all expired"
+msgstr "Süresi dolmuş tümünü göster"
+
+#: lib/components/Payment/FieldType/PlanFieldType.php:223
+msgid "Show all deactivated"
+msgstr "Devre dışı bırakılan tümünü göster"
+
+#: lib/components/Payment/FieldType/PlanFieldType.php:224
+msgid "Show all expiring"
+msgstr "Süresi dolan tüm göster"
+
+#: lib/components/Payment/FieldWidget/OrdersFieldWidget.php:47
+msgid "Order ID"
+msgstr "Sipariş ID"
+
+#: lib/components/Payment/FieldWidget/OrdersFieldWidget.php:49
+msgid "Action"
+msgstr "Aksiyon"
+
+#: lib/components/Payment/FieldWidget/PlanFieldWidget.php:43,
+#: lib/components/Payment/FieldWidget/PlanFieldWidget.php:93,
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:19
+msgid "Expired"
+msgstr "Süresi Doldu"
+
+#: lib/components/Payment/Helper/CalculateFeesHelper.php:24
+msgid "Re-activation fee"
+msgstr "Yeniden etkinleştirme ücreti"
+
+#: lib/components/Payment/Helper/CalculateFeesHelper.php:42
+msgid "Switch plan fee"
+msgstr "Plan değiştirme ücreti"
+
+#: lib/components/Payment/Helper/CalculateFeesHelper.php:50
+msgid "Prorated discount"
+msgstr "Eşit indirim"
+
+#: lib/components/Payment/Helper/FeaturesHelper.php:323
+msgid "Feature applied."
+msgstr "Özellik uygulanır."
+
+#: lib/components/Payment/Helper/FeaturesHelper.php:325
+msgid "Feature re-applied."
+msgstr "Özellik yeniden uygulanır."
+
+#: lib/components/Payment/Helper/FeaturesHelper.php:330
+msgid "Failed applying feature."
+msgstr "Özelliği uygularken hata oluştu."
+
+#: lib/components/Payment/Helper/FeaturesHelper.php:367
+msgid "Feature unapplied."
+msgstr "Özellik geri alındı."
+
+#: lib/components/Payment/Helper/FeaturesHelper.php:370
+msgid "Failed unapplying feature."
+msgstr "Özellik geri alınırken hata oluştu."
+
+#: lib/components/Payment/Helper/PlansHelper.php:109
+msgid "Current plan"
+msgstr "Geçerli plan"
+
+#: lib/components/Payment/Helper/PlansHelper.php:133
+msgid "There are currently no payment plans available."
+msgstr "Şu anda kullanılabilir bir ödeme planı bulunmamaktadır."
+
+#: lib/components/Payment/Helper/PlansHelper.php:176
+msgid "Select Plan"
+msgstr "Plan seç"
+
+#: lib/components/Payment/Helper/UtilHelper.php:15
+msgid "Renewal"
+msgstr "Yenileme"
+
+#: lib/components/Payment/Helper/UtilHelper.php:19
+msgid "Resubscribe"
+msgstr "Yeniden abone ol"
+
+#: lib/components/Payment/Helper/UtilHelper.php:21
+msgid "Claim"
+msgstr "Talep"
+
+#: lib/components/Payment/Helper/UtilHelper.php:23
+msgid "Re-activation"
+msgstr "Yeniden etkinleştirme"
+
+#: lib/components/Payment/Helper/UtilHelper.php:23
+msgid "Initial Post"
+msgstr "İlk Gönderi"
+
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:14
+msgid "Expiring"
+msgstr "Süresi dolan"
+
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:40
+msgid "Your %s is about to expire"
+msgstr "%s süresi dolmak üzere"
+
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:46
+msgid "Your %s has expired"
+msgstr "%s süresi doldu"
+
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:52
+msgid "Your %s has been deactivated"
+msgstr "%s devre dışı bırakıldı"
+
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:65,
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:80,
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:101
+msgid "Dear %s,"
+msgstr "Sayın %s,"
+
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:67
+msgid "The following %1$s posted on our site will expire in %2$s day(s)."
+msgstr "Sitemizde yayınlanan aşağıdaki %1$s , %2$s gün içinde sona erecektir."
+
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:73,
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:88
+msgid "You can renew the %1$s from the dashboard page on our site."
+msgstr "Sitemizdeki pano sayfasından %1$s yenileyebilirsiniz."
+
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:82
+msgid "The following %1$s posted on our site has expired on %2$s."
+msgstr "Sitemizde yayınlanan aşağıdaki %1$s %2$s tarihinde süresi dolmuştur."
+
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:91
+msgid ""
+"If you do not renew your %1$s in %2$s days, it will be deactavated and "
+"hidden from public view."
+msgstr ""
+"%1$s ‘ı %2$s gün içinde yenilemezseniz, devre dışı kalır ve genel görünümden "
+"gizlenir."
+
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:103
+msgid "The following %1$s posted on our site has been deactivated."
+msgstr "Sitemizde yayınlanan aşağıdaki %1$s devre dışı bırakılmıştır."
+
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:108
+msgid "You can reactivate the %1$s from the dashboard page on our site."
+msgstr "Sitemizdeki pano sayfasından %1$s yeniden etkinleştirebilirsiniz."
+
+#: lib/components/WooCommerce/Helper/ProductTypesHelper.php:23
+msgid "(Base plan)"
+msgstr "(Temel plan)"
+
+#: lib/components/WooCommerce/Helper/ProductTypesHelper.php:24
+msgid "(Add-on plan)"
+msgstr "(Eklenti planı)"

@@ -1,0 +1,301 @@
+.drts-view-entities-slider_carousel .drts-display {
+    height: 100%;
+}
+
+/* Slider */
+.drts-slider-carousel .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+    margin: 0;
+}
+
+.drts-slider-carousel .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.drts-slider-carousel .slick-list:focus {
+    outline: none;
+}
+
+.drts-slider-carousel .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.drts-slider-carousel .slick-slider .slick-track,
+.drts-slider-carousel .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.drts-slider-carousel .slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+  /* Commented out which is causing photos to always show in the center */
+  /*margin-left: auto;
+    margin-right: auto;*/
+}
+
+.drts-slider-carousel .slick-track:before,
+.drts-slider-carousel .slick-track:after {
+    display: table;
+    content: '';
+}
+
+.drts-slider-carousel .slick-track:after {
+    clear: both;
+}
+
+.drts-slider-carousel .slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.drts-slider-carousel .slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    outline: none;
+}
+
+.drts-slider-carousel [dir='rtl'] .slick-slide {
+    float: right;
+}
+
+.drts-slider-carousel .slick-slide img {
+    display: block;
+}
+
+.drts-slider-carousel .slick-slide.slick-loading img {
+    display: none;
+}
+
+.drts-slider-carousel .slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.drts-slider-carousel .slick-initialized .slick-slide {
+    display: block;
+}
+
+.drts-slider-carousel .slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.drts-slider-carousel .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.drts-slider-carousel .slick-arrow.slick-hidden {
+    display: none;
+}
+
+/* Slider */
+.drts-slider-carousel .slick-loading .slick-list {
+    background: #fff url("../vendor/images/slick/ajax-loader.gif") center center no-repeat;
+}
+
+/* Arrows */
+.drts-slider-carousel .slick-prev,
+.drts-slider-carousel .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 40px;
+    height: 25%;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.drts-slider-carousel .slick-prev:hover,
+.drts-slider-carousel .slick-prev:focus,
+.drts-slider-carousel .slick-next:hover,
+.drts-slider-carousel .slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+
+.drts-slider-carousel .slick-prev:hover:before,
+.drts-slider-carousel .slick-prev:focus:before,
+.drts-slider-carousel .slick-next:hover:before,
+.drts-slider-carousel .slick-next:focus:before {
+    opacity: 1;
+}
+
+.drts-slider-carousel .slick-prev.slick-disabled:before,
+.drts-slider-carousel .slick-next.slick-disabled:before {
+    opacity: .25;
+}
+
+.drts-slider-carousel .slick-prev:before,
+.drts-slider-carousel .slick-next:before {
+    font-family: "Font Awesome 6 Solid - drts";
+    font-size: 30px;
+    line-height: 1;
+    color: #333;
+    opacity: .75;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.drts-slider-carousel .slick-prev {
+    left: 0;
+}
+
+.drts-slider-carousel [dir='rtl'] .slick-prev {
+    right: 0;
+    left: auto;
+}
+
+.drts-slider-carousel .slick-prev:before {
+    content: '\f053';
+}
+
+.drts-slider-carousel [dir='rtl'] .slick-prev:before {
+    content: '\f054';
+}
+
+.drts-slider-carousel .slick-next {
+    right: 0;
+}
+
+.drts-slider-carousel [dir='rtl'] .slick-next {
+    right: auto;
+    left: 0;
+}
+
+.drts-slider-carousel .slick-next:before {
+    content: '\f054';
+}
+
+.drts-slider-carousel [dir='rtl'] .slick-next:before {
+    content: '\f053';
+}
+
+/* Dots */
+.drts-slider-carousel .slick-dotted.slick-slider {
+    margin-bottom: 30px;
+}
+
+.drts-slider-carousel .slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none !important;
+    text-align: center;
+}
+
+.drts-slider-carousel .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px !important;
+    padding: 0 !important;
+    cursor: pointer;
+}
+
+.drts-slider-carousel .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.drts-slider-carousel .slick-dots li button:hover,
+.drts-slider-carousel .slick-dots li button:focus {
+    outline: none;
+}
+
+.drts-slider-carousel .slick-dots li button:hover:before,
+.drts-slider-carousel .slick-dots li button:focus:before {
+    opacity: 1;
+}
+
+.drts-slider-carousel .slick-dots li button:before {
+    font-family: "Font Awesome 6 Solid - drts";
+    font-size: 5px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '\f111';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.drts-slider-carousel .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: black;
+}
+
+/* Custom rules */
+.drts-slider-carousel {
+    margin: 0 auto;
+    position: relative;
+    opacity: 0;
+}
+
+.drts-slider-carousel-with-arrows {
+    padding: 0 40px;
+}
+
+.drts-slider-carousel-item {
+    margin: 0 5px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 480px) {
+    .drts-slider-carousel .slick-dots li button,
+  .drts-slider-carousel .slick-dots li button:before {
+        width: 15px;
+    }
+}

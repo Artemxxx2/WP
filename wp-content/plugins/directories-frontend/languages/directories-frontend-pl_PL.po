@@ -1,0 +1,612 @@
+# Copyright (C) 2019 unnamed project
+# This file is distributed under the same license as the unnamed project package.
+msgid ""
+msgstr ""
+"Project-Id-Version: unnamed project\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: webMB <web.mb93@gmail.com>\n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: assets/templates/frontendsubmit_login_register_form.html.php:12,
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:82
+msgid "Login"
+msgstr "Zaloguj się"
+
+#: assets/templates/frontendsubmit_login_register_form.html.php:20
+msgid "or"
+msgstr "lub"
+
+#: assets/templates/frontendsubmit_login_register_form.html.php:26,
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:118
+msgid "Register"
+msgstr "Rejestracja"
+
+#: assets/templates/frontendsubmit_login_register_form.html.php:32,
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:172
+msgid "Continue as guest"
+msgstr "Kontynuuj jako gość"
+
+#: lib/components/Dashboard/DashboardComponent.php:33
+msgid "Frontend Dashboard"
+msgstr "Interfejs Frontend"
+
+#: lib/components/Dashboard/DashboardComponent.php:34,
+#: lib/components/Dashboard/DashboardComponent.php:334
+msgid "Dashboard"
+msgstr "Interfejs"
+
+#: lib/components/Dashboard/DashboardComponent.php:246,
+#: lib/components/Dashboard/Controller/DeletePost.php:15,
+#: lib/components/Dashboard/DisplayButton/PostDisplayButton.php:71
+msgid "Delete"
+msgstr "Usuń"
+
+#: lib/components/Dashboard/DashboardComponent.php:248,
+#: lib/components/Dashboard/DisplayButton/PostDisplayButton.php:73
+msgid "Submit for review"
+msgstr "Prześlij do recenzji"
+
+#: lib/components/Dashboard/DashboardComponent.php:273
+msgid "Logout"
+msgstr "Wyloguj"
+
+#: lib/components/Dashboard/DashboardComponent.php:369
+msgid "Dashboard Settings"
+msgstr "Ustawienia interfejsu"
+
+#: lib/components/Dashboard/DashboardComponent.php:371
+msgid "Dashboard panels"
+msgstr "Panele interfejsu"
+
+#: lib/components/Dashboard/DashboardComponent.php:388
+msgid "Enable accordion effect"
+msgstr "Włącz efekt akordeonu"
+
+#: lib/components/Dashboard/DashboardComponent.php:395
+msgid "Show logout button"
+msgstr "Pokaż przycisk wylogowania"
+
+#: lib/components/Dashboard/DashboardComponent.php:401
+msgid "Show add item button"
+msgstr "Pokaż przycisk dodania ogłoszenia"
+
+#: lib/components/Dashboard/DashboardComponent.php:412
+msgid "Include other user's posts"
+msgstr "Uwzględnij posty innych użytkowników"
+
+#: lib/components/Dashboard/DashboardComponent.php:423
+msgid "Enable public dashboard"
+msgstr "Włącz publiczny interfejs"
+
+#: lib/components/FrontendSubmit/FrontendSubmitComponent.php:171,
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:93
+msgid "Lost your password?"
+msgstr "Zapomniałeś hasła?"
+
+#: lib/components/FrontendSubmit/FrontendSubmitComponent.php:173,
+#: lib/components/FrontendSubmit/Controller/ResetPassword.php:12
+msgid "Reset Password"
+msgstr "Zresetuj hasło"
+
+#: lib/components/FrontendSubmit/FrontendSubmitComponent.php:212
+msgid "Login/Registration"
+msgstr "Logowanie/Rejestracja"
+
+#: lib/components/FrontendSubmit/FrontendSubmitComponent.php:213
+msgid "Login or Register"
+msgstr "Zaloguj się lub zarejestruj"
+
+#: lib/components/FrontendSubmit/FrontendSubmitComponent.php:341
+msgid "Frontend Submit"
+msgstr "Potwierdzenia Frontend"
+
+#: lib/components/FrontendSubmit/FrontendSubmitComponent.php:361
+msgid "Enable frontend submit"
+msgstr "Włącz przesyłanie interfejsu frontend"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:65
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:82
+msgid "reCAPTCHA API Settings"
+msgstr "Ustawienia API reCAPTCHA"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:85
+msgid "reCAPTCHA API version"
+msgstr "Wersja API reCAPTCHA"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:87
+msgid "reCAPTCHA v2 (Checkbox)"
+msgstr "reCAPTCHA v2 (Checkbox)"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:88
+msgid "reCAPTCHA v3"
+msgstr "reCAPTCHA v3"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:94,
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:119
+msgid "reCAPTCHA API site key"
+msgstr "reCAPTCHA API site key"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:101,
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:126
+msgid "reCAPTCHA API secret key"
+msgstr "Tajny klucz API reCAPTCHA"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:108
+msgid "reCAPTCHA score threshold"
+msgstr "Próg wyniku reCAPTCHA"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:134
+msgid "reCAPTCHA size"
+msgstr "Rozmiar reCAPTCHA"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:136
+msgid "Normal"
+msgstr "Normalny"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:137
+msgid "Compact"
+msgstr "Kompaktowy"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:145
+msgid "reCAPTCHA type"
+msgstr "Typ reCAPTCHA"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:147
+msgid "Image"
+msgstr "Obraz"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:148
+msgid "Audio"
+msgstr "Audio"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:156
+msgid "reCAPTCHA theme"
+msgstr "Motyw reCAPTCHA"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:158
+msgid "Light"
+msgstr "Jasny"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:159
+msgid "Dark"
+msgstr "Ciemny"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:173,
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:185,
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:197
+msgid "Add reCAPTCHA field"
+msgstr "Dodaj pole reCAPTCHA"
+
+#: lib/components/Dashboard/Controller/DeletePost.php:31
+msgid "Are you sure you want to delete this post?"
+msgstr "Czy na pewno chcesz usunąć ten post?"
+
+#: lib/components/Dashboard/Controller/DeletePost.php:44
+msgid "Your item has been deleted successfully."
+msgstr "Twój przedmiot został pomyślnie usunięty."
+
+#: lib/components/Dashboard/Controller/EditPost.php:17
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#: lib/components/Dashboard/Controller/EditPost.php:69
+msgid "Your item has been updated successfully."
+msgstr "Twój przedmiot został pomyślnie zaktualizowany."
+
+#: lib/components/Dashboard/Controller/Panel.php:20
+msgid "No dashboard panels found."
+msgstr "Nie znaleziono paneli interfejsu."
+
+#: lib/components/Dashboard/Controller/SubmitPost.php:28
+msgid "Press the button below to submit for review."
+msgstr "Naciśnij przycisk poniżej, aby zatwierdzić do recenzji."
+
+#: lib/components/Dashboard/Controller/SubmitPost.php:69
+msgid ""
+"Your item has been submitted successfully. We will review your submission "
+"and publish it when it is approved."
+msgstr ""
+"Twój przedmiot został przesłany pomyślnie. Sprawdzimy Twoje zgłoszenie i "
+"opublikujemy je po zatwierdzeniu."
+
+#: lib/components/Dashboard/Controller/SubmitPost.php:71
+msgid "Your item has been submitted and published successfully."
+msgstr "Twój element został przesłany i opublikowany pomyślnie."
+
+#: lib/components/Dashboard/DisplayButton/PostDisplayButton.php:36
+msgid "Edit post button"
+msgstr "Przycisk edycji postu"
+
+#: lib/components/Dashboard/DisplayButton/PostDisplayButton.php:45
+msgid "Delete post button"
+msgstr "Przycisk usunięcia postu"
+
+#: lib/components/Dashboard/DisplayButton/PostDisplayButton.php:54
+msgid "Submit post button"
+msgstr "Przycisk przesłania postu"
+
+#: lib/components/Dashboard/DisplayButton/PostDisplayButton.php:69
+msgid "Edit"
+msgstr "Edytuj"
+
+#: lib/components/Dashboard/ViewMode/DashboardViewMode.php:26
+msgctxt "display name"
+msgid "Dashboard Row"
+msgstr "Wiersz interfejsu"
+
+#: lib/components/Dashboard/WordPress/AbstractProfile.php:88
+msgid "%s Profile Page Integration"
+msgstr "%s Integracja strony profilu"
+
+#: lib/components/Dashboard/WordPress/AbstractProfile.php:90
+msgid "Show dashboard panels"
+msgstr "Pokaż panele interfejsu"
+
+#: lib/components/Dashboard/WordPress/AbstractProfile.php:95
+msgid "Check this option to show dashboard panels on the %s profile page."
+msgstr ""
+"Zaznacz tę opcję, aby wyświetlić panele interfejsu na stronie profilu %s."
+
+#: lib/components/Dashboard/WordPress/AbstractProfile.php:100
+msgid "Redirect dashboard access"
+msgstr "Przekieruj dostęp do interfejsu"
+
+#: lib/components/Dashboard/WordPress/AbstractProfile.php:105
+msgid "Check this option to redirect dashboard access to the %s profile page."
+msgstr ""
+"Zaznacz tę opcję, aby przekierować dostęp do interfejsu na stronę profilu %s."
+
+#: lib/components/FrontendSubmit/Controller/AbstractAddEntity.php:36
+msgid "You have already reached the maximum number of %1$s allowed."
+msgstr "Osiągnąłeś już maksymalną dozwoloną liczbę %1$s."
+
+#: lib/components/FrontendSubmit/Controller/AbstractAddEntity.php:151
+msgid "Your item has been submitted successfully."
+msgstr "Twój przedmiot został przesłany pomyślnie."
+
+#: lib/components/FrontendSubmit/Controller/AbstractAddEntity.php:160
+msgid ""
+"We will review your submission and publish it on this site when it is approved."
+msgstr ""
+"Sprawdzimy Twoje zgłoszenie i opublikujemy je na tej stronie po "
+"zatwierdzeniu."
+
+#: lib/components/FrontendSubmit/Controller/AddEntity.php:22
+msgid "There is no submittable content."
+msgstr "Brak treści do przesłania."
+
+#: lib/components/FrontendSubmit/Controller/AddEntity.php:63
+msgid "Select content type"
+msgstr "Wybierz typ zawartości"
+
+#: lib/components/FrontendSubmit/Controller/AddEntity.php:88
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:102
+msgid "Login to continue"
+msgstr "Zaloguj się, aby kontynuować"
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:143
+msgid "Register an account"
+msgstr "Zarejestruj konto"
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:187
+msgid "Your Name"
+msgstr "Twoje imię"
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:196,
+#: lib/components/FrontendSubmit/CSVExporter/GuestCSVExporter.php:14,
+#: lib/components/FrontendSubmit/CSVImporter/GuestCSVImporter.php:14,
+#: lib/components/FrontendSubmit/FieldType/GuestFieldType.php:102,
+#: lib/components/FrontendSubmit/FieldWidget/GuestFieldWidget.php:35
+msgid "E-mail Address"
+msgstr "Adres e-mail"
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:207,
+#: lib/components/FrontendSubmit/CSVExporter/GuestCSVExporter.php:15,
+#: lib/components/FrontendSubmit/CSVImporter/GuestCSVImporter.php:15,
+#: lib/components/FrontendSubmit/FieldType/GuestFieldType.php:103,
+#: lib/components/FrontendSubmit/FieldWidget/GuestFieldWidget.php:42
+msgid "Website URL"
+msgstr "Adres URL witryny"
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:237
+msgid "I have read and agree to the %s"
+msgstr "Przeczytałem i zgadzam się z %s"
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:249,
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:300
+msgid "You must agree to continue."
+msgstr "Musisz potwierdzić, aby kontynuować."
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:256,
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:280
+msgid "User with user ID %d does not exist."
+msgstr "Użytkownik o identyfikatorze %d nie istnieje."
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:309
+msgid "Your name is required."
+msgstr "Twoje imię jest wymagane."
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:326
+msgid "Website URL is required."
+msgstr "Adres URL witryny jest wymagany."
+
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:13
+msgid "Get New Password"
+msgstr "Uzyskaj nowe hasło"
+
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:21
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+"Zapomniałeś hasła? Wprowadź swoją nazwę użytkownika lub adres e-mail. "
+"Otrzymasz link do utworzenia nowego hasła na pocztę e-mail."
+
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:26
+msgid "Username or E-mail Address"
+msgstr "Nazwa użytkownika lub adres e-mail"
+
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:35,
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:47
+msgid "Invalid username or e-mail address."
+msgstr "Niepoprawna nazwa użytkownika lub adresu e-mail."
+
+#. translators: Password reset email subject. %s: Site name
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:64
+msgid "[%s] Password reset"
+msgstr "[%s] Resetowanie hasła"
+
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:65
+msgid "Someone has requested a password reset for the following account:"
+msgstr "Ktoś poprosił o zresetowanie hasła dla tego konta:"
+
+#. translators: %s: site name
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:67
+msgid "Site Name: %s"
+msgstr "Nazwa strony: %s"
+
+#. translators: %s: user login
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:69
+msgid "Username: %s"
+msgstr "Nazwa użytkownika: %s"
+
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:70
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+"Jeśli to był błąd, po prostu zignoruj tą wiadomość e-mail i nic się nie "
+"stanie."
+
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:71
+msgid "To reset your password, visit the following address:"
+msgstr "Aby zresetować hasło, odwiedź następujący adres:"
+
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:78
+msgid "Password reset email has been sent."
+msgstr "E-mail z informacją o resetowaniu hasła został wysłany."
+
+#: lib/components/FrontendSubmit/Controller/ResetPassword.php:20
+msgid "Enter your new password below."
+msgstr "Wpisz swoje nowe hasło poniżej."
+
+#: lib/components/FrontendSubmit/Controller/ResetPassword.php:25
+msgid "New Password"
+msgstr "Nowe hasło"
+
+#: lib/components/FrontendSubmit/Controller/ResetPassword.php:30
+msgid "Confirm New Password"
+msgstr "Potwierdź nowe hasło"
+
+#: lib/components/FrontendSubmit/Controller/ResetPassword.php:47
+msgid "Passwords do not match."
+msgstr "Hasła nie pasują do siebie."
+
+#: lib/components/FrontendSubmit/Controller/ResetPassword.php:57
+msgid "Your password has been reset successfully."
+msgstr "Twoje hasło zostało pomyślnie zresetowane."
+
+#: lib/components/FrontendSubmit/CSVExporter/GuestCSVExporter.php:13,
+#: lib/components/FrontendSubmit/CSVImporter/GuestCSVImporter.php:13
+msgid "Name"
+msgstr "Imię"
+
+#: lib/components/FrontendSubmit/CSVExporter/GuestCSVExporter.php:16,
+#: lib/components/FrontendSubmit/CSVImporter/GuestCSVImporter.php:16
+msgid "GUID"
+msgstr "GUID"
+
+#: lib/components/FrontendSubmit/DisplayButton/AddEntityDisplayButton.php:27
+msgid "Add %s button"
+msgstr "Dodaj przycisk %s"
+
+#: lib/components/FrontendSubmit/FieldType/GuestFieldType.php:17,
+#: lib/components/FrontendSubmit/FieldWidget/GuestFieldWidget.php:12
+msgid "Guest Author"
+msgstr "Autor gość"
+
+#: lib/components/FrontendSubmit/FieldType/GuestFieldType.php:101,
+#: lib/components/FrontendSubmit/FieldWidget/GuestFieldWidget.php:29
+msgid "Guest Name"
+msgstr "Imię gościa"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:15
+msgid "Guest Post Settings"
+msgstr "Ustawienia postów dla gości"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:19
+msgid "Collect guest name"
+msgstr "Zbieraj imię gościa"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:26
+msgid "Require guest name"
+msgstr "Wymagaj nazwy gościa"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:38
+msgid "Collect e-mail address"
+msgstr "Zbieraj adres e-mail"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:45
+msgid "Require e-mail address"
+msgstr "Wymagaj adresu e-mail"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:57
+msgid "Do not allow e-mail address used by registered users"
+msgstr ""
+"Nie zezwalaj na adres e-mail używany przez zarejestrowanych użytkowników"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:69
+msgid "Collect website URL"
+msgstr "Zbieraj adres URL witryny"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:76
+msgid "Require website URL"
+msgstr "Wymagaj adresu URL witryny"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:90
+msgid "Check MX record of e-mail address"
+msgstr "Sprawdź rekord MX adresu e-mail"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:103,
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:140
+msgid "Add a privacy policy consent checkbox"
+msgstr "Dodaj pole wyboru zgody na politykę prywatności"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:111
+msgid "User Login Settings"
+msgstr "Ustawienia logowania użytkownika"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:115
+msgid "Show user login form"
+msgstr "Pokaż formularz logowania użytkownika"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:129
+msgid "User Registration Settings"
+msgstr "Ustawienia rejestracji użytkownika"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:133
+msgid "Show user registration form"
+msgstr "Pokaż formularz rejestracyjny użytkownika"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:171
+msgid "%s (per %s)"
+msgstr "%s (na %s)"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:180
+msgid "Submission Restriction Settings"
+msgstr "Ustawienia ograniczeń dla zgłoszeń"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:184
+msgid "Restriction type"
+msgstr "Rodzaj ograniczenia"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:185
+msgid "— Select —"
+msgstr "— Wybierz —"
+
+#: lib/components/FrontendSubmit/Restrictor/AbstractRestrictor.php:49
+msgid "Max number of submissions allowed"
+msgstr "Maksymalna dozwolona liczba zgłoszeń"
+
+#: lib/components/FrontendSubmit/Restrictor/AbstractRestrictor.php:54
+msgid "Other Settings"
+msgstr "Inne ustawienia"
+
+#: lib/components/FrontendSubmit/Restrictor/AbstractRestrictor.php:59
+msgid "Exclude items in trash"
+msgstr "Wyklucz elementy z kosza"
+
+#: lib/components/FrontendSubmit/Restrictor/DefaultRestrictor.php:11
+msgid "Default"
+msgstr "Domyślny"
+
+#: lib/components/FrontendSubmit/Restrictor/DefaultRestrictor.php:28
+msgid "Unlimited"
+msgstr "Nieograniczony"
+
+#: lib/components/reCAPTCHA/DisplayElement/CaptchaDisplayElement.php:14
+msgid "Show a CAPTCHA field with reCAPTCHA API"
+msgstr "Pokaż pole CAPTCHA z API reCAPTCHA"
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:21
+msgid ""
+"reCAPTCHA site/secret keys must be obtained from Google and configured under "
+"Directories -> Settings -> reCAPTCHA."
+msgstr ""
+"Klucz strony/tajny reCAPTCHA należy uzyskać od Google i skonfigurować w "
+"Directories -> Ustawienia -> reCAPTCHA."
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:138
+msgid "Please fill out this field."
+msgstr "Proszę wypełnić to pole."
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:140
+msgid "Failed validating reCAPTCHA value."
+msgstr "Nieudane sprawdzenie poprawności wartości reCAPTCHA."
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:167
+msgid "Invalid reCAPTCHA secret key."
+msgstr "Nieprawidłowy tajny klucz reCAPTCHA."
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:171
+msgid "Invalid reCAPTCHA value."
+msgstr "Nieprawidłowa wartość reCAPTCHA."
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:182
+msgid "Failed obtaining valid reCAPTCHA verify response."
+msgstr "Nie udało się uzyskać prawidłowej odpowiedzi weryfikacyjnej reCAPTCHA."
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:187
+msgid "Unknown error."
+msgstr "Nieznany błąd."
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:192
+msgid "Invalid or missing secret parameter."
+msgstr "Nieprawidłowy lub brakujący tajny parametr."
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:196
+msgid "Invalid or missing response parameter"
+msgstr "Nieprawidłowy lub brakujący parametr odpowiedzi"
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:199
+msgid "Invalid or malformed request."
+msgstr "Nieprawidłowe lub źle sformułowane żądanie."
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:213
+msgid "Invalid action."
+msgstr "Nieprawidłowa akcja."
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:221
+msgid "Request denied."
+msgstr "Zapytanie odrzucone."
+
+msgid "Confirm Password"
+msgstr "Potwierdź hasło"
+
+msgid "Username"
+msgstr "Nazwa użytkownika"
+
+msgid "Password"
+msgstr "Hasło"
+
+msgid "Remember Me"
+msgstr "Zapamiętaj mnie"

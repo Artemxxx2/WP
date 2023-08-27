@@ -1,0 +1,32 @@
+.woocommerce_options_panel .drts-form {
+    font-size: 12px;
+}
+
+.woocommerce_options_panel .drts-form > .drts-form-field > label {
+    font-weight: bold;
+    font-size: 13px !important;
+    display: block;
+    margin: 5px 0 15px;
+}
+
+.woocommerce_options_panel .drts-form-field label {
+    float: none;
+    margin: 0;
+    width: auto;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.woocommerce_options_panel .drts-form > .drts-form-field {
+    border-bottom: 1px solid #eee;
+    padding: 5px 10px;
+    margin: 0 !important;
+}
+
+.woocommerce_options_panel .drts-form > .drts-form-field:last-child {
+    border-bottom: 0;
+}
+
+#woocommerce-product-data ul.wc-tabs li.drts_plan_features a::before {
+    content: "\f108";
+}

@@ -1,0 +1,872 @@
+# Copyright (C) 2019 unnamed project
+# This file is distributed under the same license as the unnamed project package.
+msgid ""
+msgstr ""
+"Project-Id-Version: unnamed project\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-03 07:53+0000\n"
+"PO-Revision-Date: 2020-07-05 08:26+0000\n"
+"Last-Translator: Martin Sauter\n"
+"Language-Team: Deutsch (Schweiz)\n"
+"Language: de_CH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:"
+"1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: directories-frontend.php:24
+msgid ""
+"Make sure to bulk update all Directories plugins at once. See %s for more "
+"details."
+msgstr ""
+"Stellen Sie sicher, dass Sie alle Directories Plug-ins gleichzeitig "
+"aktualisieren. Weitere Informationen unter %s."
+
+#: assets/templates/frontendsubmit_login_register_form.html.php:12,
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:102
+msgid "Login"
+msgstr "Anmelden"
+
+#: assets/templates/frontendsubmit_login_register_form.html.php:20
+msgid "or"
+msgstr "oder"
+
+#: assets/templates/frontendsubmit_login_register_form.html.php:26,
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:171
+msgid "Register"
+msgstr "Registrieren"
+
+#: assets/templates/frontendsubmit_login_register_form.html.php:32,
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:240
+msgid "Continue as guest"
+msgstr "Als Gast fortfahren"
+
+#: lib/components/Dashboard/DashboardComponent.php:44
+msgid "Frontend Dashboard"
+msgstr "Frontend Dashboard"
+
+#: lib/components/Dashboard/DashboardComponent.php:45,
+#: lib/components/Dashboard/DashboardComponent.php:370
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: lib/components/Dashboard/DashboardComponent.php:301
+msgid "Logout"
+msgstr "Ausloggen"
+
+#: lib/components/Dashboard/DashboardComponent.php:387
+msgid "Dashboard Panel Settings (%s)"
+msgstr "Dashboard-Einstellungen (%s)"
+
+#: lib/components/Dashboard/DashboardComponent.php:416
+msgid "Dashboard Settings"
+msgstr "Dashboard"
+
+#: lib/components/Dashboard/DashboardComponent.php:418
+msgid "Dashboard panels"
+msgstr "Dashboard-Panels"
+
+#: lib/components/Dashboard/DashboardComponent.php:436
+msgid "Enable accordion effect"
+msgstr "Akkordeon-Effekt aktivieren"
+
+#: lib/components/Dashboard/DashboardComponent.php:443
+msgid "Show logout button"
+msgstr "Button «Abmelden» anzeigen"
+
+#: lib/components/Dashboard/DashboardComponent.php:455
+msgid "Enable public dashboard"
+msgstr "Öffentliches Dashboard aktivieren"
+
+#: lib/components/FrontendSubmit/FrontendSubmitComponent.php:208,
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:114
+msgid "Lost your password?"
+msgstr "Passwort vergessen?"
+
+#: lib/components/FrontendSubmit/FrontendSubmitComponent.php:210,
+#: lib/components/FrontendSubmit/Controller/ResetPassword.php:12
+msgid "Reset Password"
+msgstr "Passwort zurücksetzen"
+
+#: lib/components/FrontendSubmit/FrontendSubmitComponent.php:290
+msgid "Login/Registration"
+msgstr "Login / Registrierung"
+
+#: lib/components/FrontendSubmit/FrontendSubmitComponent.php:291
+msgid "Login or Register"
+msgstr "Anmelden oder Registrieren"
+
+#: lib/components/FrontendSubmit/FrontendSubmitComponent.php:427
+msgid "Frontend Submit"
+msgstr "Frontened-Eingabe"
+
+#: lib/components/FrontendSubmit/FrontendSubmitComponent.php:446
+msgid "Enable frontend submit"
+msgstr "Frontend-Bearbeitung aktivieren"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:77
+msgid "reCAPTCHA API Settings"
+msgstr "reCAPTCHA API"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:80
+msgid "reCAPTCHA API version"
+msgstr "reCAPTCHA API Version"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:82
+msgid "reCAPTCHA v2 (Checkbox)"
+msgstr "reCAPTCHA v2 (Kontrollkästchen)"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:83
+msgid "reCAPTCHA v3"
+msgstr "reCAPTCHA v3"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:89,
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:114
+msgid "reCAPTCHA API site key"
+msgstr "reCAPTCHA API Site Key"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:96,
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:121
+msgid "reCAPTCHA API secret key"
+msgstr "reCAPTCHA API Secret Key"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:103
+msgid "reCAPTCHA score threshold"
+msgstr "reCAPTCHA Score Threshold"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:129
+msgid "reCAPTCHA size"
+msgstr "reCAPTCHA Grösse"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:131
+msgid "Normal"
+msgstr "Normal"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:132
+msgid "Compact"
+msgstr "Kompakt"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:140
+msgid "reCAPTCHA type"
+msgstr "reCAPTCHA Typ"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:142
+msgid "Image"
+msgstr "Bild"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:143
+msgid "Audio"
+msgstr "Audio"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:151
+msgid "reCAPTCHA theme"
+msgstr "reCAPTCHA Theme"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:153
+msgid "Light"
+msgstr "Hell"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:154
+msgid "Dark"
+msgstr "Dunkel"
+
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:172,
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:184,
+#: lib/components/reCAPTCHA/reCAPTCHAComponent.php:196
+msgid "Add reCAPTCHA field"
+msgstr "reCAPTCHA-Feld hinzufügen"
+
+#: lib/components/Dashboard/Controller/ChangePassword.php:12
+msgid "Change password"
+msgstr "Passwort ändern"
+
+#: lib/components/Dashboard/Controller/ChangePassword.php:19,
+#: lib/components/Dashboard/Controller/DeleteAccount.php:36
+msgid "Current password"
+msgstr "Aktuelles Passwort"
+
+#: lib/components/Dashboard/Controller/ChangePassword.php:25
+msgid "New password"
+msgstr "Neues Passwort"
+
+#: lib/components/Dashboard/Controller/ChangePassword.php:31
+msgid "Confirm new password"
+msgstr "Neues Passwort bestätigen"
+
+#: lib/components/Dashboard/Controller/ChangePassword.php:41
+msgid "New passwords do not match."
+msgstr "Die neuen Passwörter stimmen nicht überein."
+
+#: lib/components/Dashboard/Controller/ChangePassword.php:46,
+#: lib/components/Dashboard/Controller/DeleteAccount.php:47
+msgid "Your current password is incorrect."
+msgstr "Ihr aktuelles Passwort ist nicht korrekt."
+
+#: lib/components/Dashboard/Controller/ChangePassword.php:52
+msgid "Your password changed successfully."
+msgstr "Ihr Passwort wurde geändert."
+
+#: lib/components/Dashboard/Controller/DeleteAccount.php:17
+msgid "Your account may not be deleted."
+msgstr "Ihr Konto kann nicht gelöscht werden."
+
+#: lib/components/Dashboard/Controller/DeleteAccount.php:24
+msgid "Delete account"
+msgstr "Konto löschen"
+
+#: lib/components/Dashboard/Controller/DeleteAccount.php:32
+msgid "Are you sure you want to permanently delete your account?"
+msgstr "Möchten Sie Ihr Konto wirklich endgültig löschen?"
+
+#: lib/components/Dashboard/Controller/DeleteAccount.php:37
+msgid "Please enter your current password to confirm."
+msgstr "Bitte geben Sie zur Bestätigung Ihr aktuelles Passwort ein."
+
+#: lib/components/Dashboard/Controller/DeleteAccount.php:52
+msgid "Your account could not be deleted."
+msgstr "Ihr Konto konnte nicht gelöscht werden."
+
+#: lib/components/Dashboard/Controller/DeletePost.php:15,
+#: lib/components/Dashboard/DisplayButton/PostDisplayButton.php:70
+msgid "Delete"
+msgstr "Löschen"
+
+#: lib/components/Dashboard/Controller/DeletePost.php:31
+msgid "Are you sure you want to delete this post?"
+msgstr "Möchten Sie diesen Beitrag wirklich löschen?"
+
+#: lib/components/Dashboard/Controller/DeletePost.php:44
+msgid "Your item has been deleted successfully."
+msgstr "Ihr Objekt wurde gelöscht."
+
+#: lib/components/Dashboard/Controller/EditPost.php:17
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: lib/components/Dashboard/Controller/EditPost.php:69
+msgid "Your item has been updated successfully."
+msgstr "Ihr Eintrag wurde aktualisiert."
+
+#: lib/components/Dashboard/Controller/Panel.php:26
+msgid "No dashboard panels found."
+msgstr "Keine Dashboard-Bereiche gefunden."
+
+#: lib/components/Dashboard/Controller/SubmitPost.php:22
+msgid "Press the button below to submit for review."
+msgstr ""
+"Klicken Sie auf den folgenden Button, um den Beitrag zur Überprüfung "
+"einzureichen."
+
+#: lib/components/Dashboard/Controller/SubmitPost.php:75
+msgid ""
+"Your item has been submitted successfully. We will review your submission "
+"and publish it when it is approved."
+msgstr ""
+"Ihr Eintrag wurde übermittelt. Wir werden ihn prüfen und veröffentlichen, "
+"sobald er genehmigt wurde."
+
+#: lib/components/Dashboard/Controller/SubmitPost.php:77
+msgid "Your item has been submitted and published successfully."
+msgstr "Ihr Objekt wurde übermittelt und veröffentlicht."
+
+#: lib/components/Dashboard/DisplayButton/PostDisplayButton.php:36
+msgid "Edit post button"
+msgstr "Beitrag bearbeiten"
+
+#: lib/components/Dashboard/DisplayButton/PostDisplayButton.php:45
+msgid "Delete post button"
+msgstr "Beitrag löschen"
+
+#: lib/components/Dashboard/DisplayButton/PostDisplayButton.php:54
+msgid "Submit post button"
+msgstr "Button «Beitrag publizieren»"
+
+#: lib/components/Dashboard/DisplayButton/PostDisplayButton.php:68
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: lib/components/Dashboard/DisplayButton/PostDisplayButton.php:72
+msgid "Submit for review"
+msgstr "Zur Überprüfung einreichen"
+
+#: lib/components/Dashboard/Panel/AccountPanel.php:18
+msgid "Account"
+msgstr "Konto"
+
+#: lib/components/Dashboard/Panel/AccountPanel.php:47
+msgctxt "directories-frontend"
+msgid "Change password"
+msgstr "Passwort ändern"
+
+#: lib/components/Dashboard/Panel/AccountPanel.php:52
+msgctxt "directories-frontend"
+msgid "Delete account"
+msgstr "Konto löschen"
+
+#: lib/components/Dashboard/Panel/AccountPanel.php:69
+msgid "Select pages"
+msgstr "Seiten auswählen"
+
+#: lib/components/Dashboard/Panel/PostsPanel.php:250
+msgid "Show filter form"
+msgstr "Filterformular anzeigen"
+
+#: lib/components/Dashboard/Panel/PostsPanel.php:258
+msgid "Show filter form in modal window"
+msgstr "Filterformular in modalem Fenster anzeigen"
+
+#: lib/components/Dashboard/Panel/PostsPanel.php:272
+msgid "Select filter group"
+msgstr "Filtergruppe auswählen"
+
+#: lib/components/Dashboard/Panel/PostsPanel.php:294
+msgid "Show \"%s\" button"
+msgstr "Button «%s» zeigen"
+
+#: lib/components/Dashboard/Panel/PostsPanel.php:301
+msgid "Show \"%s\" button with label"
+msgstr "Button «%s» mit Beschriftung anzeigen"
+
+#: lib/components/Dashboard/Panel/PostsPanel.php:313
+msgid "Include other user's posts"
+msgstr "Beiträge anderer Benutzer einschließen"
+
+#: lib/components/Dashboard/ViewMode/DashboardViewMode.php:26
+msgctxt "display name"
+msgid "Dashboard Row"
+msgstr "Dashboard-Zeile"
+
+#: lib/components/Dashboard/WordPress/AbstractProfile.php:94
+msgid "%s Profile Page Integration"
+msgstr "Integration von %s Profilseiten"
+
+#: lib/components/Dashboard/WordPress/AbstractProfile.php:97
+msgid "Show dashboard panels"
+msgstr "Dashboard-Panels anzeigen"
+
+#: lib/components/Dashboard/WordPress/AbstractProfile.php:102
+msgid "Check this option to show dashboard panels on the %s profile page."
+msgstr ""
+"Aktivieren Sie diese Option, um Dashboard-Bereiche auf der Profilseite von "
+"%s anzuzeigen."
+
+#: lib/components/Dashboard/WordPress/AbstractProfile.php:107
+msgid "Redirect dashboard access"
+msgstr "Dashboard-Zugriff umleiten"
+
+#: lib/components/Dashboard/WordPress/AbstractProfile.php:112
+msgid "Check this option to redirect dashboard access to the %s profile page."
+msgstr ""
+"Aktivieren Sie diese Option, um den Dashboard-Zugriff auf die Profilseite "
+"von %s umzuleiten."
+
+#: lib/components/FrontendSubmit/Controller/AbstractAddEntity.php:36
+msgid "You have already reached the maximum number of %1$s allowed."
+msgstr "Sie haben bereits die maximal zulässige Anzahl von %1$s erreicht."
+
+#: lib/components/FrontendSubmit/Controller/AbstractAddEntity.php:149
+msgid "Your item has been submitted successfully."
+msgstr "Ihr Eintrag wurde übermittelt."
+
+#: lib/components/FrontendSubmit/Controller/AbstractAddEntity.php:158
+msgid ""
+"We will review your submission and publish it on this site when it is approved."
+msgstr ""
+"Wir werden Ihren Beitrag prüfen und auf dieser Site veröffentlichen, sobald "
+"er genehmigt wurde."
+
+#: lib/components/FrontendSubmit/Controller/AddEntity.php:26
+msgid "There is no submittable content."
+msgstr "Es ist kein einreichbarer Inhalt vorhanden."
+
+#: lib/components/FrontendSubmit/Controller/AddEntity.php:67
+msgid "Select content type"
+msgstr "Wählen Sie den Inhaltstyp"
+
+#: lib/components/FrontendSubmit/Controller/AddEntity.php:92
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:80,
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:139
+msgid "Username"
+msgstr "Benutzername"
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:86,
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:153
+msgid "Password"
+msgstr "Passwort"
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:92
+msgid "Remember Me"
+msgstr "Anmeldung merken"
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:126
+msgid "Login to continue"
+msgstr "Loggen Sie sich ein, um fortzufahren"
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:146,
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:266,
+#: lib/components/FrontendSubmit/CSVExporter/GuestCSVExporter.php:14,
+#: lib/components/FrontendSubmit/CSVImporter/GuestCSVImporter.php:14,
+#: lib/components/FrontendSubmit/FieldType/GuestFieldType.php:102,
+#: lib/components/FrontendSubmit/FieldWidget/GuestFieldWidget.php:35
+msgid "E-mail Address"
+msgstr "E-Mail-Adresse"
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:160
+msgid "Confirm Password"
+msgstr "Passwort bestätigen"
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:192,
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:295
+msgid "You must agree to continue."
+msgstr "Sie müssen zustimmen, um fortzufahren."
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:202
+msgid "Register an account"
+msgstr "Ein Konto registrieren"
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:211
+msgid "User registration is currently not allowed."
+msgstr "Die Registrierung neuer Benutzer ist derzeit nicht möglich."
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:256
+msgid "Your Name"
+msgstr "Dein Name"
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:278,
+#: lib/components/FrontendSubmit/CSVExporter/GuestCSVExporter.php:15,
+#: lib/components/FrontendSubmit/CSVImporter/GuestCSVImporter.php:15,
+#: lib/components/FrontendSubmit/FieldType/GuestFieldType.php:103,
+#: lib/components/FrontendSubmit/FieldWidget/GuestFieldWidget.php:42
+msgid "Website URL"
+msgstr "Webseiten-URL"
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:311
+msgid "I have read and agree to the %s"
+msgstr "Ich habe die %s gelesen und bin damit einverstanden"
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:319,
+#: lib/components/FrontendSubmit/Controller/ResetPassword.php:47
+msgid "Passwords do not match."
+msgstr "Passwörter stimmen nicht überein."
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:331,
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:383
+msgid "User with user ID %d does not exist."
+msgstr "Benutzer mit Benutzer-ID %d existiert nicht."
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:344
+msgid "Your account has been created successfully."
+msgstr "Ihr Konto wurde erstellt."
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:348,
+#: lib/components/FrontendSubmit/Controller/ResendVerifyAccountKey.php:18
+msgid "Please check your email address to verify your account."
+msgstr "Bitte überprüfen Sie Ihr E-Mail-Postfach, um Ihr Konto zu bestätigen."
+
+#: lib/components/FrontendSubmit/Controller/LoginOrRegister.php:396
+msgid ""
+"Your account requires verification. Please check your email address to "
+"verify your account or click <a href=\"%s\">here</a> to resend a "
+"verification e-mail."
+msgstr ""
+"Ihr Konto muss bestätigt werden. Bitte überprüfen Sie Ihr E-Mail-Postfach, "
+"um Ihr Konto zu bestätigen, oder <a href=\"%s\">klicken Sie hier</a>, um das "
+"Bestätigungs-Mail nochmals zu senden."
+
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:13
+msgid "Get New Password"
+msgstr "Neues Passwort erhalten"
+
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:21
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+"Passwort vergessen? Bitte geben Sie Ihren Benutzernamen oder Ihre E-Mail-"
+"Adresse ein. Sie erhalten einen Link zum Erstellen eines neuen Passworts per "
+"E-Mail."
+
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:26
+msgid "Username or E-mail Address"
+msgstr "Benutzername oder E-Mail-Adresse"
+
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:35,
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:47
+msgid "Invalid username or e-mail address."
+msgstr "Ungültiger Benutzername oder E-Mail."
+
+#. translators: Password reset email subject. %s: Site name
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:64
+msgid "[%s] Password reset"
+msgstr "[%s] Passwort zurückgesetzt"
+
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:65
+msgid "Someone has requested a password reset for the following account:"
+msgstr ""
+"Jemand hat ein Zurücksetzen des Kennworts für das folgende Konto angefordert:"
+
+#. translators: %s: site name
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:67
+msgid "Site Name: %s"
+msgstr "Seitenname: %s"
+
+#. translators: %s: user login
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:69
+msgid "Username: %s"
+msgstr "Benutzername: %s"
+
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:70,
+#: lib/components/FrontendSubmit/Helper/VerifyAccountHelper.php:140
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+"Wenn dies ein Fehler war, ignorieren Sie einfach diese E-Mail und nichts "
+"wird passieren."
+
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:71
+msgid "To reset your password, visit the following address:"
+msgstr "Besuchen Sie die folgende Adresse, um Ihr Passwort zurückzusetzen:"
+
+#: lib/components/FrontendSubmit/Controller/LostPassword.php:78
+msgid "Password reset email has been sent."
+msgstr "E-Mail zum Zurücksetzen des Passworts wurde gesendet."
+
+#: lib/components/FrontendSubmit/Controller/ResetPassword.php:20
+msgid "Enter your new password below."
+msgstr "Geben Sie Ihr neues Passwort ein."
+
+#: lib/components/FrontendSubmit/Controller/ResetPassword.php:25
+msgid "New Password"
+msgstr "Neues Passwort"
+
+#: lib/components/FrontendSubmit/Controller/ResetPassword.php:30
+msgid "Confirm New Password"
+msgstr "Neues Passwort bestätigen"
+
+#: lib/components/FrontendSubmit/Controller/ResetPassword.php:57
+msgid "Your password has been reset successfully."
+msgstr "Ihr Passwort wurde zurückgesetzt."
+
+#: lib/components/FrontendSubmit/Controller/VerifyAccount.php:43,
+#: lib/components/FrontendSubmit/Controller/Admin/VerifyAccount.php:25
+msgid "Account verified successfully."
+msgstr "Ihr Konto wurde bestätigt."
+
+#: lib/components/FrontendSubmit/CSVExporter/GuestCSVExporter.php:13,
+#: lib/components/FrontendSubmit/CSVImporter/GuestCSVImporter.php:13
+msgid "Name"
+msgstr "Name"
+
+#: lib/components/FrontendSubmit/CSVExporter/GuestCSVExporter.php:16,
+#: lib/components/FrontendSubmit/CSVImporter/GuestCSVImporter.php:16
+msgid "GUID"
+msgstr "GUID"
+
+#: lib/components/FrontendSubmit/DisplayButton/AddEntityDisplayButton.php:27
+msgid "Add %s button"
+msgstr "Button «%s» hinzufügen"
+
+#: lib/components/FrontendSubmit/FieldType/GuestFieldType.php:17,
+#: lib/components/FrontendSubmit/FieldWidget/GuestFieldWidget.php:12
+msgid "Guest Author"
+msgstr "Gastautor"
+
+#: lib/components/FrontendSubmit/FieldType/GuestFieldType.php:101,
+#: lib/components/FrontendSubmit/FieldWidget/GuestFieldWidget.php:29
+msgid "Guest Name"
+msgstr "Gastname"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:15
+msgid "Guest Post Settings"
+msgstr "Gastbeiträge"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:19
+msgid "Collect guest name"
+msgstr "Name des Gastes speichern"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:26
+msgid "Require guest name"
+msgstr "Name des Gastes erforderlich"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:38
+msgid "Collect e-mail address"
+msgstr "E-Mail-Adresse speichern"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:45
+msgid "Require e-mail address"
+msgstr "E-Mail-Adresse erforderlich"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:57
+msgid "Do not allow e-mail address used by registered users"
+msgstr "E-Mail-Adresse von registrierten Benutzern nicht zulassen"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:69
+msgid "Collect website URL"
+msgstr "URL der Website speichern"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:76
+msgid "Require website URL"
+msgstr "URL der Website erforderlich"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:90
+msgid "Check MX record of e-mail address"
+msgstr "MX Record der E-Mail-Adresse überprüfen"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:103,
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:141
+msgid "Add a privacy policy consent checkbox"
+msgstr "Checkbox für Einwilligung zur Datenschutzerklärung hinzufügen"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:111
+msgid "User Login Settings"
+msgstr "Benutzeranmeldung"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:115
+msgid "Show user login form"
+msgstr "Anmeldeformular anzeigen"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:130
+msgid "User Registration Settings"
+msgstr "Benutzerregistrierung"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:134
+msgid "Show user registration form"
+msgstr "Registrierungsformular anzeigen"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:153
+msgid "Enable e-mail verification"
+msgstr "E-Mail-Bestätigung aktivieren"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:164
+msgid "Email verification settings"
+msgstr "Bestätigung per E-Mail"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:175
+msgid "Customize verification e-mail"
+msgstr "Bestätigungs-Mail anpassen"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:181
+msgid "Email subject"
+msgstr "E-Mail Betreff"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:184,
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:200
+msgid "Available tags: %s"
+msgstr "Verfügbare Schlagwörter: %s"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:215
+msgid "Blacklist or whitelist email domains"
+msgstr "E-Mail Domains auf die Blacklist oder Whitelist setzen"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:222
+msgid "Blacklist"
+msgstr "Blacklist"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:223
+msgid "Whitelist"
+msgstr "Whitelist"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:235
+msgid ""
+"Enter one domain per line. You can also use \"*\" and \"?\" wildcard "
+"characters."
+msgstr ""
+"1 Domain pro Zeile eingeben. Sie können auch «*» und «?» als Wildcards "
+"benutzen."
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:248
+msgid "Delete unverified users after X days"
+msgstr "Nicht bestätigte Benutzer nach x Tagen löschen"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:259
+msgid "day(s)"
+msgstr "Tag(e)"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:289
+msgid "%s (per %s)"
+msgstr "%s (per %s)"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:298
+msgid "Submission Restriction Settings"
+msgstr "Einträge einschränken"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:302
+msgid "Restriction type"
+msgstr "Einschränkungstyp"
+
+#: lib/components/FrontendSubmit/Helper/SettingsFormHelper.php:303
+msgid "— Select —"
+msgstr "— Wählen —"
+
+#: lib/components/FrontendSubmit/Helper/VerifyAccountHelper.php:23
+msgid ""
+"Your account verification key has expired. Click <a href=\"%s\">here</a> to "
+"resend a verification e-mail."
+msgstr ""
+"Der Schlüssel für die Kontobestätigung ist abgelaufen. Bitte <a href=\"%s\">"
+"klicken Sie hier</a>, um ein neues Bestätigungs-Mail zu senden."
+
+#. translators: Verify account email subject. %s: Site name
+#: lib/components/FrontendSubmit/Helper/VerifyAccountHelper.php:136
+msgid "[%s] Verify your account"
+msgstr "[%s] Konto bestätigen"
+
+#: lib/components/FrontendSubmit/Helper/VerifyAccountHelper.php:137
+msgid "Hello %s,"
+msgstr "Hallo %s"
+
+#: lib/components/FrontendSubmit/Helper/VerifyAccountHelper.php:138
+msgid "Please click the following link to verify your account:"
+msgstr "Bitte klicken Sie den folgenden Link, um Ihr Konto zu bestätigen."
+
+#: lib/components/FrontendSubmit/Helper/VerifyAccountHelper.php:210
+msgid "Deleted unverified user account: %s"
+msgstr "Nicht bestätigtes Benutzerkonto löschen: %s"
+
+#: lib/components/FrontendSubmit/Helper/VerifyAccountHelper.php:224
+msgid "Verify account"
+msgstr "Konto bestätigen"
+
+#: lib/components/FrontendSubmit/Helper/VerifyAccountHelper.php:225
+msgid "Unverify account"
+msgstr "Konto als nicht bestätigt markieren"
+
+#: lib/components/FrontendSubmit/Helper/VerifyAccountHelper.php:226,
+#: lib/components/FrontendSubmit/Controller/Admin/UnverifyAccount.php:28
+msgid "Send verification e-mail"
+msgstr "Bestätigungs-Mail senden"
+
+#: lib/components/FrontendSubmit/Helper/VerifyAccountHelper.php:236
+msgid "Status"
+msgstr "Status"
+
+#: lib/components/FrontendSubmit/Helper/VerifyAccountHelper.php:247,
+#: lib/components/FrontendSubmit/Controller/Admin/ResendVerifyAccountKey.php:25,
+#: lib/components/FrontendSubmit/Controller/Admin/UnverifyAccount.php:80
+msgid "Account unverified since %s, verification e-mail last sent at %s"
+msgstr ""
+"Konto nicht bestätigt seit %s, Bestätigungs-Mail letztmals verschickt am %s"
+
+#: lib/components/FrontendSubmit/Helper/VerifyAccountHelper.php:254
+msgid "Account verified on %s"
+msgstr "Konto bestätigt am %s"
+
+#: lib/components/FrontendSubmit/Helper/VerifyAccountHelper.php:286
+msgid "Verified/Unverified"
+msgstr "Bestätigt/Unbestätigt"
+
+#: lib/components/FrontendSubmit/Helper/VerifyAccountHelper.php:287
+msgid "Show all verified"
+msgstr "Alle bestätigten anzeigen"
+
+#: lib/components/FrontendSubmit/Helper/VerifyAccountHelper.php:288
+msgid "Show all unverified"
+msgstr "Alle nicht bestätigten anzeigen"
+
+#: lib/components/FrontendSubmit/Restrictor/AbstractRestrictor.php:49
+msgid "Max number of submissions allowed"
+msgstr "Maximale Anzahl von erlaubten Einsendungen"
+
+#: lib/components/FrontendSubmit/Restrictor/AbstractRestrictor.php:54
+msgid "Other Settings"
+msgstr "Andere Einstellungen"
+
+#: lib/components/FrontendSubmit/Restrictor/AbstractRestrictor.php:59
+msgid "Exclude items in trash"
+msgstr "Objekte aus dem Papierkorb ausschließen"
+
+#: lib/components/FrontendSubmit/Restrictor/DefaultRestrictor.php:11
+msgid "Default"
+msgstr "Standard"
+
+#: lib/components/FrontendSubmit/Restrictor/DefaultRestrictor.php:28
+msgid "Unlimited"
+msgstr "Unbegrenzt"
+
+#: lib/components/reCAPTCHA/DisplayElement/CaptchaDisplayElement.php:14
+msgid "Show a CAPTCHA field with reCAPTCHA API"
+msgstr "Zeigen Sie ein CAPTCHA-Feld mit der reCAPTCHA-API an"
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:21
+msgid ""
+"reCAPTCHA site/secret keys must be obtained from Google and configured under "
+"Directories -> Settings -> reCAPTCHA."
+msgstr ""
+"reCAPTCHA-Site / geheime Schlüssel müssen von Google bezogen und unter "
+"Verzeichnisse -> Einstellungen -> reCAPTCHA konfiguriert werden."
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:138
+msgid "Please fill out this field."
+msgstr "Bitte füllen Sie dieses Feld aus."
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:140
+msgid "Failed validating reCAPTCHA value."
+msgstr "Überprüfung des reCAPTCHA-Werts ist fehlgeschlagen."
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:167
+msgid "Invalid reCAPTCHA secret key."
+msgstr "Ungültiger reCAPTCHA Secret Key."
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:171
+msgid "Invalid reCAPTCHA value."
+msgstr "Ungültiger reCAPTCHA-Wert."
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:182
+msgid "Failed obtaining valid reCAPTCHA verify response."
+msgstr "Keine gültige Antwort auf die reCAPTCHA-Überprüfung erhalten."
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:187
+msgid "Unknown error."
+msgstr "Unbekannter Fehler"
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:192
+msgid "Invalid or missing secret parameter."
+msgstr "Ungültiger oder fehlender geheimer Parameter."
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:196
+msgid "Invalid or missing response parameter"
+msgstr "Ungültiger oder fehlender Antwortparameter"
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:199
+msgid "Invalid or malformed request."
+msgstr "Ungültige oder fehlerhafte Anfrage."
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:213
+msgid "Invalid action."
+msgstr "Ungültige Aktion."
+
+#: lib/components/reCAPTCHA/Helper/CaptchaHelper.php:221
+msgid "Request denied."
+msgstr "Anfrage abgelehnt."
+
+#: lib/components/FrontendSubmit/Controller/Admin/ResendVerifyAccountKey.php:20,
+#: lib/components/FrontendSubmit/Controller/Admin/UnverifyAccount.php:70
+msgid "Verification email sent successfully."
+msgstr "Bestätigungs-Mail verschickt."
+
+#: lib/components/FrontendSubmit/Controller/Admin/UnverifyAccount.php:44
+msgid "%s (expires at %s)"
+msgstr "%s (gültig bis %s)"
+
+#: lib/components/FrontendSubmit/Controller/Admin/UnverifyAccount.php:46
+msgid "%s (expired)"
+msgstr "%s (abgelaufen)"
+
+#: lib/components/FrontendSubmit/Controller/Admin/UnverifyAccount.php:51
+msgid "Verification email was last sent at %s."
+msgstr "Bestätigungs-Mail wurde letztmals am %s verschickt."
+
+#: lib/components/FrontendSubmit/Controller/Admin/UnverifyAccount.php:62
+msgid "Account unverified."
+msgstr "Nicht bestätigtes Konto."

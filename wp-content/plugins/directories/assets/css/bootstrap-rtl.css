@@ -1,0 +1,61 @@
+.drts .drts-bs-btn-group > .drts-bs-btn:not(:first-of-type),
+.drts .drts-bs-btn-group > .drts-bs-btn-group:not(:first-of-type) > .drts-bs-btn {
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.drts .drts-bs-btn-group > .drts-bs-btn:not(:last-of-type):not(.drts-bs-dropdown-toggle),
+.drts .drts-bs-btn-group > .drts-bs-btn-group:not(:last-of-type) > .drts-bs-btn {
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.drts .drts-bs-btn-group > .drts-bs-btn:not(:first-of-type):not(:last-of-type),
+.drts .drts-bs-btn-group > .drts-bs-btn-group:not(:first-of-type):not(:last-of-type) > .drts-bs-btn {
+    border-radius: 0;
+}
+
+.drts-bs-navbar-nav > .drts-bs-nav-item:last-child {
+    margin-left: 0 !important;
+}
+
+.drts .drts-bs-dropdown-toggle::after {
+    margin-left: 0;
+    margin-right: 0.255em;
+}
+
+.drts .drts-bs-input-group > .drts-bs-input-group-prepend > .drts-bs-btn,
+.drts .drts-bs-input-group > .drts-bs-input-group-prepend > .drts-bs-input-group-text,
+.drts .drts-bs-input-group > .drts-bs-input-group-append:not(:last-of-type) > .drts-bs-btn,
+.drts .drts-bs-input-group > .drts-bs-input-group-append:not(:last-of-type) > .drts-bs-input-group-text,
+.drts .drts-bs-input-group > .drts-bs-input-group-append:last-of-type > .drts-bs-btn:not(:last-of-type):not(.drts-bs-dropdown-toggle),
+.drts .drts-bs-input-group > .drts-bs-input-group-append:last-of-type > .drts-bs-input-group-text:not(:last-of-type) {
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.drts .drts-bs-input-group > .drts-bs-input-group-append > .drts-bs-btn,
+.drts .drts-bs-input-group > .drts-bs-input-group-append > .drts-bs-input-group-text,
+.drts .drts-bs-input-group > .drts-bs-input-group-prepend:not(:first-of-type) > .drts-bs-btn,
+.drts .drts-bs-input-group > .drts-bs-input-group-prepend:not(:first-of-type) > .drts-bs-input-group-text,
+.drts .drts-bs-input-group > .drts-bs-input-group-prepend:first-of-type > .drts-bs-btn:not(:first-of-type),
+.drts .drts-bs-input-group > .drts-bs-input-group-prepend:first-of-type > .drts-bs-input-group-text:not(:first-of-type) {
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.drts .drts-bs-input-group > .drts-bs-form-control:not(:first-child),
+.drts .drts-bs-input-group > .drts-bs-custom-select:not(:first-child) {
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.drts .drts-bs-custom-control {
+    padding-left: auto;
+    padding-right: 1.5rem;
+}
+
+.drts .drts-bs-custom-control-label::before,
+.drts .drts-bs-custom-control-label::after {
+    left: auto;
+    right: -1.5rem;
+}
+
+.drts-bs-modal-header button.drts-bs-close {
+    margin: -1rem auto -1rem -1rem;
+}

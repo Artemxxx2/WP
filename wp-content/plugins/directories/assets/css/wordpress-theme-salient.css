@@ -1,0 +1,8 @@
+.drts i.fa-stack-1x, .drts i.fa-stack-2x {
+    position: absolute;
+}
+
+.drts-map-marker i[class*="fa-"] {
+    position: absolute;
+    top: 50%;
+}

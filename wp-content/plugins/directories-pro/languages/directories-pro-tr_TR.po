@@ -1,0 +1,1338 @@
+# Copyright (C) 2019 unnamed project
+# This file is distributed under the same license as the unnamed project package.
+msgid ""
+msgstr ""
+"Project-Id-Version: unnamed project\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.4\n"
+"Last-Translator: \n"
+"Language: tr_TR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: lib/components/Claiming/ClaimingComponent.php:99
+msgid "Enable claims"
+msgstr "Talepleri etkinleştirme"
+
+#: lib/components/Contact/ContactComponent.php:231,
+#: lib/components/Contact/DisplayElement/FormDisplayElement.php:14,
+#: lib/components/Contact/PaymentFeature/FormPaymentFeature.php:13,
+#: lib/components/Contact/PaymentFeature/FormPaymentFeature.php:66
+msgid "Contact Form"
+msgstr "İletişim Formu"
+
+#: lib/components/Contact/ContactComponent.php:236,
+#: lib/components/Contact/PaymentFeature/FormPaymentFeature.php:43
+msgid "Contact form recipients"
+msgstr "İletişim formu alıcıları"
+
+#: lib/components/Contact/ContactComponent.php:255
+msgid "Post Author"
+msgstr "Gönderi Yazarı"
+
+#: lib/components/Contact/ContactComponent.php:256
+msgid "Site E-mail"
+msgstr "Site E-postası"
+
+#: lib/components/Contact/ContactComponent.php:260,
+#: lib/components/DirectoryPro/DisplayLabel/OpenNowDisplayLabel.php:25
+msgid "Field - "
+msgstr "Alan - "
+
+#: lib/components/DirectoryPro/DirectoryProComponent.php:70,
+#: lib/components/DirectoryPro/DirectoryProComponent.php:181,
+#: lib/components/DirectoryPro/DirectoryProComponent.php:194,
+#: lib/components/DirectoryPro/Controller/Admin/ExportDirectory.php:25
+msgid "Export"
+msgstr "Dışa Aktar"
+
+#: lib/components/DirectoryPro/DirectoryProComponent.php:207
+msgid "Demo categories"
+msgstr "Demo kategorileri"
+
+#: lib/components/DirectoryPro/DirectoryProComponent.php:209
+msgid "Demo locations (USA states and cities)"
+msgstr "Demo yerleri (ABD eyaletleri ve şehirleri)"
+
+#: lib/components/DirectoryPro/DirectoryProComponent.php:211
+msgid "Demo tags"
+msgstr "Demo etiketleri"
+
+#: lib/components/DirectoryPro/WordPressHomePage.php:26
+msgid "Browse by %s"
+msgstr "%s ye göre göz atın"
+
+#: lib/components/DirectoryPro/WordPressHomePage.php:50
+msgid "Popular Locations"
+msgstr "Popüler yerler"
+
+#: lib/components/DirectoryPro/WordPressHomePage.php:75,
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_views.php:252
+msgid "Recent Listings"
+msgstr "Son Kayıtlar"
+
+#: lib/components/DirectoryPro/WordPressHomePage.php:137
+msgid "Recent Reviews"
+msgstr "Son İncelemeler"
+
+#: lib/components/Location/LocationComponent.php:60,
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:22,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:27,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:243,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:32
+msgid "Country"
+msgstr "Ülke"
+
+#: lib/components/Location/LocationComponent.php:61,
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:20,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:25,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:233,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:31
+msgid "State / Province / Region"
+msgstr "İl / İlçe"
+
+#: lib/components/Location/LocationComponent.php:62,
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:19,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:24,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:228,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:30
+msgid "City"
+msgstr "Şehir"
+
+#: lib/components/Location/LocationComponent.php:264
+msgid "Show map"
+msgstr "Haritayı Göster"
+
+#: lib/components/Location/LocationComponent.php:271,
+#: lib/components/Location/SearchField/AddressSearchField.php:48
+msgid "Map coordinates field"
+msgstr "Harita koordinatları alanı"
+
+#: lib/components/Location/LocationComponent.php:282
+msgid "Map position"
+msgstr "Harita konumu"
+
+#: lib/components/Location/LocationComponent.php:283
+msgid "Side"
+msgstr "Yan"
+
+#: lib/components/Location/LocationComponent.php:283
+msgid "Top"
+msgstr "Üst"
+
+#: lib/components/Location/LocationComponent.php:294
+msgid "Map width"
+msgstr "Harita genişliği"
+
+#: lib/components/Location/LocationComponent.php:295,
+#: lib/components/Location/LocationComponent.php:355
+msgid "The horizontal display ratio (12 being 100% wide) of the map"
+msgstr "Haritanın yatay görüntü oranı (12si %100 geniş olmak üzere )"
+
+#: lib/components/Location/LocationComponent.php:305,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:133
+msgid "Map height"
+msgstr "Harita yüksekliği"
+
+#: lib/components/Location/LocationComponent.php:318
+msgid "Scroll to item on marker click"
+msgstr "İşaretçi tıklaması üzerine öğeye kaydırma"
+
+#: lib/components/Location/LocationComponent.php:326
+msgid "Enable sticky map"
+msgstr "Yapışkan haritayı etkinleştirme"
+
+#: lib/components/Location/LocationComponent.php:337,
+#: lib/components/Location/LocationComponent.php:435,
+#: lib/components/Location/FormField/TextFormField.php:74,
+#: lib/components/Location/SearchField/AddressSearchField.php:60
+msgid "Auto"
+msgstr "Otomatik"
+
+#: lib/components/Location/LocationComponent.php:338
+msgid "Sticky map top offset"
+msgstr "Yapışkan harita üst ofset"
+
+#: lib/components/Location/LocationComponent.php:354
+msgid "Full screen map width"
+msgstr "Tam ekran harita genişliği"
+
+#: lib/components/Location/LocationComponent.php:367
+msgid "Enable map infobox"
+msgstr "Harita bilgi kutusunu etkinleştirme"
+
+#: lib/components/Location/LocationComponent.php:379
+msgid "Map infobox width"
+msgstr "Harita bilgi kutusu genişliği"
+
+#: lib/components/Location/LocationComponent.php:392
+msgid "Open infobox on item hover"
+msgstr "Öğe nin üzerinde bilgi kutusunu açma"
+
+#: lib/components/Location/LocationComponent.php:408
+msgid "Map marker icon"
+msgstr "Harita işaretleyici simgesi"
+
+#: lib/components/Location/LocationComponent.php:425
+msgid "Enable full screen mode"
+msgstr "Tam ekran modunu etkinleştirme"
+
+#: lib/components/Location/LocationComponent.php:436
+msgid "Full screen map top offset"
+msgstr "Tam ekran harita üst ofset"
+
+#: lib/components/Location/LocationComponent.php:474
+msgid "Enable locations"
+msgstr "Konumları etkinleştirme"
+
+#: lib/components/Location/LocationComponent.php:541,
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:3799,
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:18,
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:14,
+#: lib/components/Location/FieldType/AddressFieldType.php:23
+msgid "Location"
+msgstr "Konum"
+
+#: lib/components/Location/LocationComponent.php:723,
+#: lib/components/Location/LocationComponent.php:731,
+#: lib/components/Location/LocationComponent.php:739
+msgid "— None —"
+msgstr "— Yok —"
+
+#: lib/components/Location/LocationComponent.php:725
+msgid "Geocoding API"
+msgstr "Coğrafi kodlama sağlayıcısı"
+
+#: lib/components/Location/LocationComponent.php:733
+msgid "Time zone API"
+msgstr "Saat dilimi API'si"
+
+#: lib/components/Location/LocationComponent.php:741
+msgid "Address autocomplete service"
+msgstr "Adres otomatik tamamlama hizmeti"
+
+#: lib/components/Claiming/DisplayButton/ClaimEntityDisplayButton.php:13
+msgid "Claim listing button"
+msgstr "Talep listeleme düğmesi"
+
+#: lib/components/Claiming/DisplayLabel/ClaimedEntityDisplayLabel.php:12
+msgid "Claimed content label"
+msgstr "İddia edilen içerik etiketi"
+
+#: lib/components/Claiming/DisplayLabel/ClaimedEntityDisplayLabel.php:14
+msgctxt "claimed label"
+msgid "Claimed"
+msgstr "Onaylanan"
+
+#: lib/components/Claiming/DisplayLabel/StatusDisplayLabel.php:12
+msgid "Claim status label"
+msgstr "Talep durumu etiketi"
+
+#: lib/components/Claiming/DisplayLabel/StatusDisplayLabel.php:25,
+#: lib/components/Claiming/FieldType/StatusFieldType.php:62,
+#: lib/components/Claiming/FieldType/StatusFieldType.php:78,
+#: lib/components/Claiming/FieldWidget/StatusFieldWidget.php:51
+msgid "Approved"
+msgstr "Onaylandı"
+
+#: lib/components/Claiming/DisplayLabel/StatusDisplayLabel.php:29,
+#: lib/components/Claiming/FieldType/StatusFieldType.php:66,
+#: lib/components/Claiming/FieldType/StatusFieldType.php:79,
+#: lib/components/Claiming/FieldWidget/StatusFieldWidget.php:51
+msgid "Rejected"
+msgstr "Reddedildi"
+
+#: lib/components/Claiming/DisplayLabel/StatusDisplayLabel.php:33,
+#: lib/components/Claiming/FieldType/StatusFieldType.php:70,
+#: lib/components/Claiming/FieldType/StatusFieldType.php:80
+msgid "Pending"
+msgstr "Beklemede"
+
+#: lib/components/Claiming/EntityBundleType/ClaimEntityBundleType.php:17
+msgid "Claims"
+msgstr "Talepler"
+
+#: lib/components/Claiming/EntityBundleType/ClaimEntityBundleType.php:18
+msgid "Claim"
+msgstr "Talep"
+
+#: lib/components/Claiming/EntityBundleType/ClaimEntityBundleType.php:19
+msgid "Claim %s"
+msgstr "İstek %s"
+
+#: lib/components/Claiming/EntityBundleType/ClaimEntityBundleType.php:20
+msgid "All Claims"
+msgstr "Tüm Talepler"
+
+#: lib/components/Claiming/EntityBundleType/ClaimEntityBundleType.php:21
+msgid "%s claim"
+msgstr "%s talebi"
+
+#: lib/components/Claiming/EntityBundleType/ClaimEntityBundleType.php:22
+msgid "%s claims"
+msgstr "%s talepleri"
+
+#: lib/components/Claiming/EntityBundleType/ClaimEntityBundleType.php:26,
+#: lib/components/Claiming/EntityBundleType/claim_displays.php:23
+msgid "Message"
+msgstr "Mesaj"
+
+#: lib/components/Claiming/EntityBundleType/claim_displays.php:75
+msgid "Listing"
+msgstr "Listeleme"
+
+#: lib/components/Claiming/EntityBundleType/claim_displays.php:141,
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:1823
+msgid "Status"
+msgstr "Durum"
+
+#: lib/components/Claiming/EntityBundleType/claim_displays.php:226
+msgid "Date"
+msgstr "Tarih"
+
+#: lib/components/Claiming/EntityBundleType/claim_fields.php:12,
+#: lib/components/Claiming/FieldType/StatusFieldType.php:15,
+#: lib/components/Claiming/FieldWidget/StatusFieldWidget.php:13
+msgid "Claim Status"
+msgstr "Talep Durumu"
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:14
+msgid "Claim pending review"
+msgstr "İnceleme bekleyen talep"
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:19
+msgid "Claim approved"
+msgstr "Talep onaylandı"
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:24
+msgid "Claim rejected"
+msgstr "Reddedilen talep"
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:39
+msgid "A new claim has been submitted"
+msgstr "Yeni bir talep sunuldu"
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:41
+msgid "Your claim has been approved"
+msgstr "Talebiniz onaylandı"
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:43
+msgid "Your claim was rejected"
+msgstr "Talebiniz reddedildi"
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:52
+msgid "Dear Administrator,"
+msgstr "Sevgili Yönetici,"
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:54
+msgid "A new claim has been submitted for the following %1$s."
+msgstr "Aşağıdaki %1$s için yeni bir talep gönderildi."
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:59
+msgid "You can approve or reject the claim from the following page."
+msgstr "Talebi aşağıdaki sayfadan onaylayabilir veya reddedebilirsiniz."
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:64,
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:75
+msgid "Dear %s,"
+msgstr "Sayın %s,"
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:66
+msgid "Your claim submitted for the following %1$s has been approved."
+msgstr "Aşağıdaki %1$s için gönderilen talebiniz onaylandı."
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:77
+msgid "Your claim submitted for the following %1$s was rejected."
+msgstr "Aşağıdaki %1$s için gönderilen talebiniz reddedildi."
+
+#: lib/components/Contact/DisplayElement/FormDisplayElement.php:15
+msgid "Display a form to contact the content author"
+msgstr "İçerik yazarına başvurmak için bir form görüntüleme"
+
+#: lib/components/Contact/DisplayElement/FormDisplayElement.php:33
+msgid "Select form"
+msgstr "Form seç"
+
+#: lib/components/Contact/PaymentFeature/FormPaymentFeature.php:37
+msgid "Enable contact form"
+msgstr "İletişim formunu etkinleştirme"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:186
+msgid "Contact Information"
+msgstr "İletişim Bilgileri"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:374
+msgid "Detailed Information"
+msgstr "Detayli bilgi"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:923
+msgid "Reviews"
+msgstr "Yorumlar"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:1656,
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:47,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:64
+msgid "Title"
+msgstr "Başlık"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:3463
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:3510
+msgid "Business Info"
+msgstr "İş Bilgisi"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:3537,
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_fields.php:226
+msgid "Price Range"
+msgstr "Fiyat Aralığı"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:3619
+msgid "Others"
+msgstr "Diğerleri"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:3727,
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:3754,
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:17
+msgid "Locations"
+msgstr "Konumlar"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_fields.php:16
+msgid "Phone Number"
+msgstr "Telefon Numarası"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_fields.php:52
+msgid "Fax Number"
+msgstr "Faks Numarası"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_fields.php:88
+msgid "E-mail Address"
+msgstr "E-posta Adresi"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_fields.php:124
+msgid "Website URL"
+msgstr "Website URL"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_fields.php:162
+msgid "Social Accounts"
+msgstr "Sosyal Hesaplar"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_fields.php:192,
+#: lib/components/DirectoryPro/FieldRenderer/OpeningHoursFieldRenderer.php:12
+msgid "Opening Hours"
+msgstr "Açılış Saatleri"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_fields.php:255,
+#: lib/components/DirectoryPro/PaymentFeature/PhotosPaymentFeature.php:31,
+#: lib/components/DirectoryPro/PaymentFeature/PhotosPaymentFeature.php:117
+msgid "Photos"
+msgstr "Fotoğraflar"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_fields.php:287
+msgid "Date Established"
+msgstr "Kurulan Tarih"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_fields.php:316
+msgid "Videos"
+msgstr "Videolar"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_views.php:6,
+#: lib/components/Location/EntityBundleType/location_views.php:6
+msgid "Default"
+msgstr "Varsayılan"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_views.php:96
+msgid "Featured Listings"
+msgstr "Öne Çıkan İlanlar"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_views.php:176,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:15
+msgid "Map"
+msgstr "Harita"
+
+#: lib/components/DirectoryPro/DisplayLabel/OpenNowDisplayLabel.php:12
+msgid "Open now label"
+msgstr "Şimdi açık etiketi"
+
+#: lib/components/DirectoryPro/DisplayLabel/OpenNowDisplayLabel.php:32
+msgid "Select field"
+msgstr "Alanı seçin"
+
+#: lib/components/DirectoryPro/FieldRenderer/OpeningHoursFieldRenderer.php:16
+msgctxt "opening hours"
+msgid "Closed"
+msgstr "Kapalı"
+
+#: lib/components/DirectoryPro/FieldRenderer/OpeningHoursFieldRenderer.php:27
+msgid "Show days without any entry as closed"
+msgstr "Herhangi bir giriş olmadığında kapalı olarak gösterir"
+
+#: lib/components/DirectoryPro/DisplayLabel/OpenNowDisplayLabel.php:14
+#: lib/components/DirectoryPro/FieldRenderer/OpeningHoursFieldRenderer.php:32
+msgid "Label for closed days"
+msgstr "Kapalı günler için etiket"
+
+#: lib/components/DirectoryPro/FieldRenderer/OpeningHoursFieldRenderer.php:124
+msgid "Open Now"
+msgstr "Şimdi Açık"
+
+#: lib/components/DirectoryPro/FieldRenderer/ScreenshotFieldRenderer.php:12
+msgid "Screenshot"
+msgstr "Ekran görüntüsü"
+
+#: lib/components/DirectoryPro/FieldRenderer/ScreenshotFieldRenderer.php:28,
+#: lib/components/Location/FieldRenderer/AddressFieldRenderer.php:67,
+#: lib/components/Location/FieldRenderer/AddressFieldRenderer.php:150
+msgid "Open link in"
+msgstr "Bağlantıyı aç"
+
+#: lib/components/DirectoryPro/FieldRenderer/ScreenshotFieldRenderer.php:47
+msgid "URL"
+msgstr "URL"
+
+#: lib/components/DirectoryPro/PaymentFeature/PhotosPaymentFeature.php:13
+msgid "Photo Settings"
+msgstr "Fotoğraf ayarları"
+
+#: lib/components/DirectoryPro/PaymentFeature/PhotosPaymentFeature.php:32,
+#: lib/components/DirectoryPro/PaymentFeature/PhotosPaymentFeature.php:99,
+#: lib/components/Location/PaymentFeature/LocationsPaymentFeature.php:32,
+#: lib/components/Location/PaymentFeature/LocationsPaymentFeature.php:133,
+#: lib/components/Location/SearchField/AddressSearchField.php:99,
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:133
+msgid "Unlimited"
+msgstr "Sınırsız"
+
+#: lib/components/DirectoryPro/PaymentFeature/PhotosPaymentFeature.php:97,
+#: lib/components/DirectoryPro/PaymentFeature/PhotosPaymentFeature.php:99
+msgid "%s Photo"
+msgid_plural "%s Photos"
+msgstr[0] "%s Fotoğraf"
+msgstr[1] "%s Fotoğraflar"
+
+#: lib/components/DirectoryPro/SystemWidget/FiltersSystemWidget.php:14
+msgid "Filter Form"
+msgstr "Filtre Formu"
+
+#: lib/components/DirectoryPro/SystemWidget/FiltersSystemWidget.php:15
+msgid "Displays a filter form."
+msgstr "Filtre formu görüntüler."
+
+#: lib/components/DirectoryPro/SystemWidget/FiltersSystemWidget.php:32
+msgid "Select directory"
+msgstr "Klasör seçin"
+
+#: lib/components/DirectoryPro/SystemWidget/FiltersSystemWidget.php:38
+msgid "Auto submit filter form"
+msgstr "Otomatik gönderme filtresi formu"
+
+#: lib/components/Location/Api/AbstractGoogleMapsApi.php:50
+msgid "Google Maps API Settings (Server)"
+msgstr "Google Haritalar API Ayarları (Sunucu)"
+
+#: lib/components/Location/Api/AbstractGoogleMapsApi.php:61
+msgid "API key"
+msgstr "API Anahtarı"
+
+#: lib/components/Location/Api/AlgoliaAutocompleteApi.php:15,
+#: lib/components/Location/Api/AlgoliaAutocompleteApi.php:65
+msgid "Algolia Places Autocomplete"
+msgstr "Algolia Yerler Otomatik Tamamlama"
+
+#: lib/components/Location/Api/AlgoliaAutocompleteApi.php:74
+msgid "Application ID"
+msgstr "Uygulama Kimliği"
+
+#: lib/components/Location/Api/AlgoliaAutocompleteApi.php:78,
+#: lib/components/Location/Api/AlgoliaAutocompleteApi.php:92
+msgid "Visit the following page to sign up for Algolia Places: %s"
+msgstr "Algolia Places'a kaydolmak için aşağıdaki sayfayı ziyaret edin: %s"
+
+#: lib/components/Location/Api/AlgoliaAutocompleteApi.php:88
+msgid "API Key"
+msgstr "API Anahtarı"
+
+#: lib/components/Location/Api/AlgoliaAutocompleteApi.php:101,
+#: lib/components/Location/Api/GoogleMapsAutocompleteApi.php:68,
+#: lib/components/Location/Api/GoogleMapsGeocodingApi.php:56,
+#: lib/components/Location/Api/MapboxGeocodingApi.php:73
+msgid "Country code"
+msgstr "Ülke kodu"
+
+#: lib/components/Location/Api/AlgoliaAutocompleteApi.php:102,
+#: lib/components/Location/Api/GoogleMapsAutocompleteApi.php:69
+msgid ""
+"Enter two-letter ISO 3166-1 Alpha-2 compatible country codes separated by "
+"commas to restrict address suggestions to specific countries."
+msgstr ""
+"Belirli ülkelere adres önerilerini kısıtlamak için virgülle ayrılmış iki "
+"harfli ISO 3166-1 Alpha-2 uyumlu ülke kodları girin."
+
+#: lib/components/Location/Api/GeoNamesTimezoneApi.php:16
+msgid "GeoNames Web Service Timezone"
+msgstr "GeoNames Web Servis Saat Dilimi"
+
+#: lib/components/Location/Api/GeoNamesTimezoneApi.php:46
+msgid "GeoNames Web Service Settings"
+msgstr "Geonames Web Servis Ayarları"
+
+#: lib/components/Location/Api/GeoNamesTimezoneApi.php:55
+msgid "GeoNames user name"
+msgstr "GeoNames kullanıcı adı"
+
+#: lib/components/Location/Api/GeoNamesTimezoneApi.php:57
+msgid "Visit the following page to create a GeoNames user account: %s"
+msgstr ""
+"GeoNames kullanıcı hesabı oluşturmak için aşağıdaki sayfayı ziyaret edin: %s"
+
+#: lib/components/Location/Api/GoogleMapsAutocompleteApi.php:9,
+#: lib/components/Location/Api/GoogleMapsAutocompleteApi.php:47
+msgid "Google Maps Place Autocomplete"
+msgstr "Google Haritalar Yerler Otomatik Tamamlama"
+
+#: lib/components/Location/Api/GoogleMapsAutocompleteApi.php:58
+msgid "Autocomplete place type"
+msgstr "Otomatik tamamlama yer türü"
+
+#: lib/components/Location/Api/GoogleMapsAutocompleteApi.php:60
+msgid "Show results with a precise address"
+msgstr "Sonuçları kesin bir adresle göster"
+
+#: lib/components/Location/Api/GoogleMapsAutocompleteApi.php:61
+msgid "Show business results"
+msgstr "İşletme sonuçlarını göster"
+
+#: lib/components/Location/Api/GoogleMapsAutocompleteApi.php:62
+msgid "Show regions"
+msgstr "Bölgeleri göster"
+
+#: lib/components/Location/Api/GoogleMapsAutocompleteApi.php:63
+msgid "Show cities"
+msgstr "Şehirleri göster"
+
+#: lib/components/Location/Api/GoogleMapsGeocodingApi.php:9,
+#: lib/components/Location/Api/GoogleMapsGeocodingApi.php:47
+msgid "Google Maps Geocoding"
+msgstr "Google Haritalar Coğrafi Kodlama"
+
+#: lib/components/Location/Api/GoogleMapsGeocodingApi.php:57,
+#: lib/components/Location/Api/MapboxGeocodingApi.php:74
+msgid ""
+"Enter two-letter ISO 3166-1 Alpha-2 compatible country codes separated by "
+"commas to restrict geocoding results to specific countries."
+msgstr ""
+"Belirli ülkelere coğrafi kodlama sonuçlarını kısıtlamak için virgülle "
+"ayrılmış iki harfli ISO 3166-1 Alpha-2 uyumlu ülke kodları girin."
+
+#: lib/components/Location/Api/GoogleMapsTimezoneApi.php:9
+msgid "Google Maps Time Zone"
+msgstr "Google Haritalar Saat Dilimi"
+
+#: lib/components/Location/Api/MapboxGeocodingApi.php:16
+msgid "Mapbox Geocoding"
+msgstr "Mapbox Coğrafi Kodlama"
+
+#: lib/components/Location/Api/MapboxGeocodingApi.php:50
+msgid "Mapbox API Settings"
+msgstr "Mapbox API Ayarları"
+
+#: lib/components/Location/Api/MapboxGeocodingApi.php:60
+msgid "Access token"
+msgstr "Erişim belirteci"
+
+#: lib/components/Location/Api/MapboxGeocodingApi.php:64
+msgid ""
+"Visit the following page to create a Mapbox API account and an access token: "
+"%s"
+msgstr ""
+"Mapbox API hesabı ve erişim belirteci oluşturmak için aşağıdaki sayfayı "
+"ziyaret edin: %s"
+
+#: lib/components/Location/Api/NominatimGeocodingApi.php:16
+msgid "OpenStreetMap Nominatim"
+msgstr "OpenStreetMap Nominatim"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:16,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:21,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:213
+msgid "Full Address"
+msgstr "Tam Adres"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:17,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:22,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:218,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:27
+msgid "Address Line 1"
+msgstr "Adres satırı 1"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:18,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:23,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:223,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:28
+msgid "Address Line 2"
+msgstr "Adres Satırı 2"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:21,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:26,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:238,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:29
+msgid "Postal / Zip Code"
+msgstr "Post Kodu"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:23,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:28,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:196,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:249
+msgid "Latitude"
+msgstr "Enlem"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:24,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:29,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:203,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:256
+msgid "Longitude"
+msgstr "Boylam"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:25,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:30
+msgid "Zoom Level"
+msgstr "Zoom Seviyesi"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:26
+msgid "Location ID"
+msgstr "Konum kimliği"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:27,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:32,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:263,
+#: lib/components/Location/FormField/AddressFormField.php:93
+msgid "Timezone"
+msgstr "Saat dilimi"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:42,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:59
+msgid "Taxonomy term data type"
+msgstr "Taksonomi terimi veri türü"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:43,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:60
+msgid "Select the type of data used to specify terms."
+msgstr "Terimleri belirtmek için kullanılacak veri türünü seçin."
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:45,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:62
+msgid "ID"
+msgstr "ID"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:46,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:63
+msgid "Slug"
+msgstr "Slug"
+
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:31
+msgid "Location Taxonomy Term"
+msgstr "Konum Taksonomi Terimi"
+
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:48
+msgid "Geocode address"
+msgstr "Coğrafi kod adresi"
+
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:49
+msgid ""
+"Use the Google geocoding service to resolve the latitude/longitude "
+"coordinate from the address. This will populate all other address components "
+"of the field."
+msgstr ""
+"Adresteki enlem/boylam koordinatını çözmek için Google coğrafi kodlama "
+"hizmetini kullanın. Bu, alanın diğer tüm adres bileşenlerini dolduracaktır."
+
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:175
+msgid "WARNING! No geocoding provider selected in Settings -> Map."
+msgstr "Uyarı! Ayarlar -> Harita'da coğrafi kodlama sağlayıcısı seçilmedi."
+
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:185
+msgid "Search by address"
+msgstr "Adrese göre ara"
+
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:193
+msgid "Search by coordinates"
+msgstr "Koordinatlarla arama"
+
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:210
+msgid "Enter manually"
+msgstr "El ile girin"
+
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:19
+msgid "Add Location"
+msgstr "Konum ekle"
+
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:20
+msgid "All Locations"
+msgstr "Tüm Konumlar"
+
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:21
+msgid "Select Location"
+msgstr "Konum Seçin"
+
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:22
+msgid "%s location"
+msgstr "%s konumu"
+
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:23
+msgid "%s locations"
+msgstr "%s konumları"
+
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:24
+msgid "Location: %s"
+msgstr "Lokasyon %s"
+
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:31
+msgid "Parent Location"
+msgstr "Ana Konum"
+
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:55,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:86
+msgid "Location Hierarchy Settings"
+msgstr "Konum Hiyerarşisi Ayarları"
+
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:59
+msgid "Default location hierarchy"
+msgstr "Varsayılan konum hiyerarşisi"
+
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:71
+msgid "Enable custom location hierarchy"
+msgstr "Özel konum hiyerarşisini etkinleştirme"
+
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:87
+msgid "slug"
+msgstr "kısa adı"
+
+#: lib/components/Location/EntityBundleType/location_fields.php:12
+msgid "Photo"
+msgstr "Fotoğraf"
+
+#: lib/components/Location/EntityBundleType/location_views.php:51
+msgid "List"
+msgstr "Liste"
+
+#: lib/components/Location/FakerGenerator/LocationFakerGenerator.php:42
+msgid "Select manually"
+msgstr "El ile seçin"
+
+#: lib/components/Location/FakerGenerator/LocationFakerGenerator.php:43
+msgctxt "faker"
+msgid "Enter new location"
+msgstr "Yeni konum girin"
+
+#: lib/components/Location/FakerGenerator/LocationFakerGenerator.php:44
+msgid "Random"
+msgstr "Rastgele"
+
+#: lib/components/Location/FakerGenerator/LocationFakerGenerator.php:50
+msgid ""
+"Enter a location used to generate lat/lng coordinates, e.g. USA, California, "
+"Tokyo, etc."
+msgstr ""
+"Lat/lng koordinatları oluşturmak için kullanılan bir konuma girin, örneğin "
+"ABD, Kaliforniya, Tokyo, vb."
+
+#: lib/components/Location/FakerGenerator/LocationFakerGenerator.php:76
+msgctxt "faker"
+msgid "Max number of random %s to fetch from the database"
+msgstr "Veritabanından getirilen rasgele %s'lerin maksimum sayısı"
+
+#: lib/components/Location/FakerGenerator/LocationFakerGenerator.php:89
+msgctxt "faker"
+msgid "Reverse geocode lat/lng coordinates generated for each item"
+msgstr "Her madde için oluşturulan ters geocode lat/lng koordinatları"
+
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:42,
+#: lib/components/Location/SearchField/AddressSearchField.php:62
+msgid "Default search radius"
+msgstr "Varsayılan arama yarıçapı"
+
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:47
+msgid "Disable location input"
+msgstr "Konum girişini devre dışı bırak"
+
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:52,
+#: lib/components/Location/SearchField/AddressSearchField.php:69
+msgid "Disable search radius selection"
+msgstr "Arama yarıçapı seçimini devre dışı bırak"
+
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:58
+msgid "Placeholder text"
+msgstr "Yer tutucu metni"
+
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:65
+msgid "Add \"Search this area\" button to map"
+msgstr "Haritaya \"Bu alanı ara\" düğmesini ekleyin"
+
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:70
+msgid "Add \"Search my location\" button to map"
+msgstr "Haritaya \"Konumumu Ara\" düğmesini ekleyin"
+
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:75
+msgid "Click \"Search my location\" button automatically on page load"
+msgstr ""
+"Sayfa yüklendiğinde otomatik olarak \"Konumumu Ara\" düğmesine tıklayın"
+
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:88
+msgid ""
+"Delay in milliseconds before automatically clicking the \"Search my location"
+"\" button"
+msgstr ""
+"\"Konumumu ara\" düğmesini tıklatmadan önce milisaniye cinsinden gecikme"
+
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:115,
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:153
+msgid "Current Map View"
+msgstr "Geçerli Harita Görünümü"
+
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:118,
+#: lib/components/Location/FormField/AddressFormField.php:222,
+#: lib/components/Location/FormField/TextFormField.php:52
+msgid "Current location"
+msgstr "Mevcut yer"
+
+#: lib/components/Location/FieldRenderer/AddressFieldRenderer.php:37
+msgid "Customize address format"
+msgstr "Adres biçimini özelleştirme"
+
+#: lib/components/Location/FieldRenderer/AddressFieldRenderer.php:42,
+#: lib/components/Location/FieldRenderer/AddressFieldRenderer.php:138
+msgid "Address format"
+msgstr "Adres biçimi"
+
+#: lib/components/Location/FieldRenderer/AddressFieldRenderer.php:44,
+#: lib/components/Location/FieldRenderer/MapFieldRenderer.php:39
+msgid "Available tags: %s"
+msgstr "Kullanılabilir etiketler: %s"
+
+#: lib/components/Location/FieldRenderer/AddressFieldRenderer.php:63,
+#: lib/components/Location/FieldRenderer/AddressFieldRenderer.php:143
+msgid "Link to Google Maps"
+msgstr "Google Haritalar'a bağlantı"
+
+#: lib/components/Location/FieldRenderer/AddressFieldRenderer.php:118
+msgid "%s mi"
+msgstr "%s mil"
+
+#: lib/components/Location/FieldRenderer/AddressFieldRenderer.php:118
+msgid "%s km"
+msgstr "%s km"
+
+#: lib/components/Location/FieldRenderer/MapFieldRenderer.php:32
+msgid "Customize format of address on infobox"
+msgstr "Bilgi kutusundaki adres biçimini özelleştirme"
+
+#: lib/components/Location/FieldType/AddressFieldType.php:218
+msgid "Distance"
+msgstr "Mesafe"
+
+#: lib/components/Location/FieldType/AddressFieldType.php:218
+msgid "Distance from %s"
+msgstr "%s'den uzaklık"
+
+#: lib/components/Location/FieldType/AddressFieldType.php:377
+msgid ""
+"Enter an address (no commas) to query by address. Enter two values (address, "
+"radius) separated with a comma to specify a search radius. Enter three "
+"values (latitude, longitude, radius) separated with commas to query by "
+"coordinates. Enter \"_current_\" for the address of the current post if any."
+msgstr ""
+"Adrese göre sorgulamak için bir adres (virgül yok) girin. Arama yarıçapını "
+"belirtmek için virgülle ayrılmış iki değer (adres, yarıçap) girin. "
+"Koordinatlarla sorgulamak için virgülle ayrılmış üç değer (enlem, boylam, "
+"yarıçap) girin. Varsa geçerli gönderinin adresi için \"_current_\" girin."
+
+#: lib/components/Location/FieldType/AddressFieldType.php:475
+msgid "Enter taxonomy term IDs and/or slugs separated with commas."
+msgstr ""
+"Komonlarla ayrılmış taksonomi terimi dislerini ve/veya sümüklü böcekleri "
+"girin."
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:62,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:108
+msgid "Default country"
+msgstr "Varsayılan Ülke"
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:64,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:105,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:356,
+#: lib/components/Location/FormField/AddressFormField.php:129
+msgid "— Select —"
+msgstr "— Seçiniz —"
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:84
+msgid "%s: Already in use in %s."
+msgstr "%s: Zaten %s 'de kullanılmaktadır."
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:89
+msgid "Address fields"
+msgstr "Adres Alanları"
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:92
+msgid "Customize address fields"
+msgstr "Adres alanlarını özelleştirme"
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:134
+msgid "Enter the height of map in pixels."
+msgstr "Haritanın yüksekliğini piksel cinsinden girin."
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:142
+msgid "Default latitude"
+msgstr "Varsayılan enlem"
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:143
+msgid "Enter the latitude of the default map location in decimals."
+msgstr "Varsayılan harita konumunun enlemini ondalık olarak girin."
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:152
+msgid "Default longitude"
+msgstr "Varsayılan boylam"
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:153
+msgid "Enter the longitude of the default map location in decimals."
+msgstr "Varsayılan harita konumunun boylamını ondalık olarak girin."
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:163
+msgid "Default zoom level"
+msgstr "Varsayılan yakınlaştırma seviyesi"
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:170
+msgid "Allow empty location"
+msgstr "Boş konuma izin ver"
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:185
+msgid "Disable timezone selection field"
+msgstr "Saat dilimi seçim alanını gizle"
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:198
+msgid "Overwrite address fields on \"Find on map\" click"
+msgstr "\"Haritada Bul\" üzerine adres alanlarının üzerine tıklayın"
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:295
+msgid "This %1$s does not have a physical location."
+msgstr "Bu %1$s ‘ın fiziksel bir konumu yoktur."
+
+#: lib/components/Location/FormField/AddressFormField.php:68
+msgid "Enter address details manually"
+msgstr "Adres bilgilerinizi manuel girin"
+
+#: lib/components/Location/FormField/AddressFormField.php:176
+msgid "Enter geolocation info manually"
+msgstr "Coğrafi konum bilgilerini el ile girin"
+
+#: lib/components/Location/FormField/AddressFormField.php:217
+msgid "Find on map"
+msgstr "Harita üzerinde bul"
+
+#: lib/components/Location/FormField/AddressFormField.php:220
+msgid "Get from map"
+msgstr "Haritadan al"
+
+#: lib/components/Location/FormField/AddressFormField.php:235
+msgid "Please click on the map or fill out the following fields."
+msgstr "Lütfen haritaya tıklayın veya aşağıdaki alanları doldurun."
+
+#: lib/components/Location/FormField/AddressFormField.php:236
+msgid "Please select a valid location on map."
+msgstr "Lütfen geçerli bir konumu harita üzerinde seçin."
+
+#: lib/components/Location/FormField/TextFormField.php:79
+msgid "mi"
+msgstr "mi"
+
+#: lib/components/Location/FormField/TextFormField.php:80
+msgid "km"
+msgstr "km"
+
+#: lib/components/Location/FormField/TextFormField.php:81
+msgid "Radius: "
+msgstr "Yarı çapı: "
+
+#: lib/components/Location/MapApi/LeafletMapApi.php:11
+msgid "OpenStreetMap"
+msgstr "OpenStreetMap"
+
+#: lib/components/Location/MapApi/LeafletMapApi.php:42
+msgid "Use custom tile URL"
+msgstr "Özel döşeme URL'si kullan"
+
+#: lib/components/Location/MapApi/LeafletMapApi.php:61
+msgid "Add map attribution"
+msgstr "Harita atıf ekle"
+
+#: lib/components/Location/PaymentFeature/LocationsPaymentFeature.php:12
+msgid "Location Settings"
+msgstr "Konum Ayarları"
+
+#: lib/components/Location/SearchField/AddressSearchField.php:12
+msgid "Location Search"
+msgstr "Konum Arama"
+
+#: lib/components/Location/SearchField/AddressSearchField.php:30
+msgctxt "search form"
+msgid "Near..."
+msgstr "Yakın…"
+
+#: lib/components/Location/SearchField/AddressSearchField.php:65
+msgid ""
+"Select \"Auto\" to let the map API calculate the optimal search radius based "
+"on the location value entered in the field."
+msgstr ""
+"Harita API'sinin alana girilen konum değerini temel alan en iyi arama "
+"yarıçapını hesaplamasına izin vermek için \"Otomatik\" seçeneğini belirleyin."
+
+#: lib/components/Location/SearchField/AddressSearchField.php:75
+msgid "Enable search by user's current location"
+msgstr "Kullanıcının geçerli konumuna göre aramayı etkinleştirme"
+
+#: lib/components/Location/SearchField/AddressSearchField.php:82
+msgid "Auto-Suggest Settings"
+msgstr "Otomatik Önerme Ayarları"
+
+#: lib/components/Location/SearchField/AddressSearchField.php:87
+msgid "Auto-suggest terms"
+msgstr "Otomatik önerme terimleri"
+
+#: lib/components/Location/SearchField/AddressSearchField.php:98
+msgid "Depth of term hierarchy tree"
+msgstr "Terim hiyerarşi ağacı derinliği"
+
+#: lib/components/Location/SearchField/AddressSearchField.php:108
+msgid "Hide empty terms"
+msgstr "Boş Kategorileri Sakla"
+
+#: lib/components/Location/SearchField/AddressSearchField.php:114
+msgid "Hide post counts"
+msgstr "Gönderi sayılarını gizle"
+
+#: lib/components/Location/SearchField/AddressSearchField.php:120
+msgid "Include parent term paths in term title"
+msgstr "Başlıkta üst terim yollarını da dahil et"
+
+#: lib/components/Location/SystemTool/LoadGeoDataSystemTool.php:12
+msgid "Load geolocation data"
+msgstr "Coğrafi konum verilerini yükleyin"
+
+#: lib/components/Location/SystemTool/LoadGeoDataSystemTool.php:13
+msgid ""
+"This tool will load geolocation data (lat/lng/timezone) for the default "
+"location address field of each content item if currently empty."
+msgstr ""
+"Bu araç, şu anda boşsa, her içerik öğesinin varsayılan konum adresi alanı "
+"için coğrafi konum verilerini (boylam/dil/saat dilimi) yükler."
+
+#: lib/components/Location/SystemTool/LoadGeoDataSystemTool.php:117,
+#: lib/components/Location/SystemTool/LoadGeoDataSystemTool.php:133
+msgid "(no title)"
+msgstr "(başlık yok)"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:14
+msgid "Photo Slider"
+msgstr "Fotoğraf Kaydırıcısı"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:39,
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:255
+msgid "Image size"
+msgstr "Resim boyutu"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:45,
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:261,
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:136
+msgid "Show thumbnails"
+msgstr "Küçük Resimleri Göster"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:55,
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:267,
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:145
+msgid "Number of thumbnail columns"
+msgstr "Küçük resim sütunları sayısı"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:68,
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:274
+msgid "Slider effect"
+msgstr "Slayt Efekti"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:74,
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:278,
+#: lib/components/Slider/ViewMode/CarouselViewMode.php:63,
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:60
+msgid "Show slide indicators"
+msgstr "Slayt göstergelerini göster"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:79,
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:283,
+#: lib/components/Slider/ViewMode/CarouselViewMode.php:75,
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:78
+msgid "Autoplay slides"
+msgstr "Otomatik yürütme slaytları"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:84,
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:165
+msgid "Zoom on click image"
+msgstr "Görsele tıklayınca yakınlaştır"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:89,
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:288,
+#: lib/components/Slider/ViewMode/CarouselViewMode.php:69,
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:66
+msgid "Show prev/next arrows"
+msgstr "Önceki/sonraki oklarını göster"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:104
+msgid "Include videos"
+msgstr "Video ekleme"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:109,
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:298
+msgid "Video field"
+msgstr "Video etiketi"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:117
+msgid "Show videos first"
+msgstr "Önce videoları göster"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:123
+msgid "Embed videos in privacy mode"
+msgstr "Videoları gizlilik moduna gömme"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:129,
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:307
+msgid "Max number of videos"
+msgstr "Maksimum video sayısı"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:144
+msgid "Slide"
+msgstr "Slayt"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:145
+msgid "Fade"
+msgstr "Karartma"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:293
+msgid "Show videos"
+msgstr "Videoları göster"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:302
+msgid "Prepend videos"
+msgstr "Videoları başa getir"
+
+#: lib/components/Slider/ViewMode/CarouselViewMode.php:12
+msgctxt "view mode label"
+msgid "Carousel slider"
+msgstr "Carousel kaydırıcı"
+
+#: lib/components/Slider/ViewMode/CarouselViewMode.php:45,
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:51
+msgid "Number of columns"
+msgstr "Sütun sayısı"
+
+#: lib/components/Slider/ViewMode/CarouselViewMode.php:54
+msgid "Number of columns to scroll"
+msgstr "Kaydırılacak sütun sayısı"
+
+#: lib/components/Slider/ViewMode/CarouselViewMode.php:81,
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:84
+msgid "Autoplay speed in milliseconds"
+msgstr "Milisaniye cinsinden otomatik oynatma hızı"
+
+#: lib/components/Slider/ViewMode/CarouselViewMode.php:96,
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:105
+msgid "Fade in/out slides"
+msgstr "Slayt geçişlerinde karart"
+
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:12
+msgctxt "view mode label"
+msgid "Photo slider"
+msgstr "Fotoğraf kaydırıcısı"
+
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:72
+msgid "Show photo captions"
+msgstr "Fotoğraf açıklamalarını göster"
+
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:99
+msgid "Enable centered view"
+msgstr "Ortalanmış görünümü etkinleştir"
+
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:114
+msgid "Slider height"
+msgstr "Slider yüksekliği"
+
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:125
+msgid "Photo padding"
+msgstr "Fotoğraf dolgusu"
+
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:159
+msgid "Link to post"
+msgstr "Yazı bağlantısı"
+
+#: lib/components/DirectoryPro/Controller/Admin/AddDirectory.php:49
+msgid "JSON configuration file"
+msgstr "JSON yapılandırma dosyası"
+
+#: lib/components/DirectoryPro/Controller/Admin/AddDirectory.php:58
+msgid "Directory label"
+msgstr "Dizin etiketi"
+
+#: lib/components/DirectoryPro/Controller/Admin/AddDirectory.php:59
+msgid ""
+"Enter a new label for the directory to import. Leave the field blank to use "
+"the label defined in the JSON configuration file."
+msgstr ""
+"Dizin almak için yeni bir etiket girin. JSON yapılandırma dosyasında "
+"tanımlanan etiketi kullanmak için alanı boş bırakın."
+
+#: lib/components/DirectoryPro/Controller/Admin/AddDirectory.php:65
+msgid "Directory name"
+msgstr "Dizin adı"
+
+#: lib/components/DirectoryPro/Controller/Admin/AddDirectory.php:66
+msgid ""
+"Enter a new machine readable name for the directory to import. Leave the "
+"field blank to use the name defined in the JSON configuration file."
+msgstr ""
+"İçe aktarılabilmek için dizinin okunabilen yeni bir adı girin. JSON "
+"yapılandırma dosyasında tanımlanan adı kullanmak için alanı boş bırakın."
+
+#: lib/components/DirectoryPro/Controller/Admin/AddDirectory.php:103
+msgid "JSON configuration file was not uploaded."
+msgstr "JSON yapılandırma dosyası yüklenmedi."
+
+#: lib/components/DirectoryPro/Controller/Admin/AddDirectory.php:107
+msgid "Invalid JSON data"
+msgstr "Geçersiz JSON verileri"
+
+#: lib/components/DirectoryPro/Controller/Admin/ExportDirectory.php:33
+msgid "File name"
+msgstr "Dosya adı"
+
+#: lib/components/DirectoryPro/Controller/Admin/ExportDirectory.php:42
+msgid "Pretty-print JSON"
+msgstr "Güzel baskılı JSON"
+
+#: lib/components/DirectoryPro/Controller/Admin/ExportDirectory.php:59
+msgid "Exporting... %3$s"
+msgstr "Dışarı aktarılıyor… %3$s"
+
+#: lib/components/DirectoryPro/Controller/Admin/ExportDirectory.php:102
+msgid "Export failed."
+msgstr "Dışa aktarma başarısız oldu."
+
+#: lib/components/DirectoryPro/Controller/Admin/ExportDirectory.php:104
+msgid "Exported successfully."
+msgstr "Başarıyla dışa aktarıldı."

@@ -1,0 +1,633 @@
+# Copyright (C) 2020 unnamed project
+# This file is distributed under the same license as the unnamed project package.
+msgid ""
+msgstr ""
+"Project-Id-Version: unnamed project\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:"
+"1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-19 22:17+0000\n"
+"PO-Revision-Date: 2020-01-23 09:36+0000\n"
+"Last-Translator: Il Gran Capo <illatooscurodelsesso@gmail.com>\n"
+"Language-Team: Italiano\n"
+"Language: it-IT\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: lib/components/Payment/PaymentComponent.php:176, 
+#: lib/components/Payment/DisplayButton/PostDisplayButton.php:67
+msgid "Renew"
+msgstr "Rinnova"
+
+#: lib/components/Payment/PaymentComponent.php:180,
+#: lib/components/Payment/DisplayButton/PostDisplayButton.php:71, 
+#: lib/components/Payment/Helper/UtilHelper.php:17
+msgid "Order Add-on"
+msgstr "Ordine Add-On"
+
+#: lib/components/Payment/PaymentComponent.php:182
+msgid "Pricing Table"
+msgstr "Tabella dei prezzi"
+
+#: lib/components/Payment/PaymentComponent.php:346
+msgid "Enable payments"
+msgstr "Abilita pagamenti"
+
+#: lib/components/Payment/PaymentComponent.php:399, 
+#: lib/components/Payment/DashboardPanel/PaymentsDashboardPanel.php:30, 
+#: lib/components/Payment/FieldType/OrdersFieldType.php:11, 
+#: lib/components/Payment/FieldWidget/OrdersFieldWidget.php:12
+msgid "Orders"
+msgstr "Ordini"
+
+#: lib/components/Payment/PaymentComponent.php:465
+msgid "Found %d expiring item(s)."
+msgstr "Trovati %d articoli in scadenza."
+
+#: lib/components/Payment/PaymentComponent.php:471
+msgid "Found %d expired item(s)."
+msgstr "Trovati %d articoli scaduti."
+
+#: lib/components/Payment/PaymentComponent.php:477
+msgid "Found %d fully expired item(s)."
+msgstr "Trovati %d articoli completamente scaduti."
+
+#: lib/components/Payment/PaymentComponent.php:554, 
+#: lib/components/Payment/PaymentComponent.php:803
+msgid "Payment"
+msgstr "Pagamento"
+
+#: lib/components/Payment/PaymentComponent.php:558
+msgid "Default Feature Settings"
+msgstr "Impostazioni funzioni predefinite"
+
+#: lib/components/Payment/PaymentComponent.php:559
+msgid "Configure features applied to items without any payment plan."
+msgstr ""
+"Configura le funzionalità applicate agli articoli senza alcun piano di "
+"pagamento."
+
+#: lib/components/Payment/PaymentComponent.php:755
+msgid "Expiring item notification e-mail messages sent."
+msgstr "Messaggi e-mail di notifica oggetto in scadenza inviati."
+
+#: lib/components/Payment/PaymentComponent.php:767
+msgid "Expired item notification e-mail messages sent."
+msgstr "Messaggi e-mail di notifica oggetto scaduto inviati."
+
+#: lib/components/Payment/PaymentComponent.php:781
+msgid "Deactivated item notification e-mail messages sent."
+msgstr "Disattivato invio delle notifiche dell'email inviate"
+
+#: lib/components/Payment/PaymentComponent.php:846
+msgid "General Settings"
+msgstr "Impostazioni generali"
+
+#: lib/components/Payment/PaymentComponent.php:849
+msgid "Select payment component"
+msgstr "Seleziona il tooldi pagamento"
+
+#: lib/components/Payment/PaymentComponent.php:850, 
+#: lib/components/Payment/FieldWidget/PlanFieldWidget.php:84
+msgid "— Select —"
+msgstr "— Seleziona —"
+
+#: lib/components/Payment/PaymentComponent.php:860
+msgid "Action after payment plan expiration"
+msgstr "Azione dopo la scadenza del piano di pagamento"
+
+#: lib/components/Payment/PaymentComponent.php:862
+msgid "Deactivate"
+msgstr "Disattiva"
+
+#: lib/components/Payment/PaymentComponent.php:863
+msgid "Unassign payment plan and author"
+msgstr "Piano di pagamento e autore non assegnato"
+
+#: lib/components/Payment/PaymentComponent.php:864
+msgid "Unassign payment plan"
+msgstr "Piano di pagamento non assegnato"
+
+#: lib/components/Payment/PaymentComponent.php:865
+msgid "Trash"
+msgstr "Cestina"
+
+#: lib/components/Payment/PaymentComponent.php:866, 
+#: lib/components/Payment/FieldWidget/PlanFieldWidget.php:46
+msgid "None"
+msgstr "Nessuno"
+
+#: lib/components/Payment/PaymentComponent.php:875
+msgid "Add \"No payment plan\" option"
+msgstr "Aggiungi l'opzione \"Nessun piano di pagamento\""
+
+#: lib/components/Payment/PaymentComponent.php:881
+msgid "Label"
+msgstr "Etichetta"
+
+#: lib/components/Payment/PaymentComponent.php:883
+msgid "No payment plan (FREE)"
+msgstr "Nessun piano di pagamento (GRATUITO)"
+
+#: lib/components/Payment/PaymentComponent.php:892
+msgid "Description"
+msgstr "Descrizione"
+
+#: lib/components/Payment/PaymentComponent.php:907
+msgid "Display pricing table"
+msgstr "Mostra tabella prezzi"
+
+#: lib/components/Payment/PaymentComponent.php:915
+msgid "Plan Renewal Settings"
+msgstr "Configurazioni rinnovo del piano"
+
+#: lib/components/Payment/PaymentComponent.php:917
+msgid "Renewal period in days"
+msgstr "Periodo di rinnovo in giorni"
+
+#: lib/components/Payment/PaymentComponent.php:928
+msgid "Renewal grace period in days"
+msgstr "Rinnovo del periodo di tolleranza in giorni"
+
+#: lib/components/Payment/PaymentComponent.php:939
+msgctxt "currency symbol"
+msgid "Re-activation fee (%s)"
+msgstr "Commissione di riattivazione (%s)"
+
+#: lib/components/Payment/PaymentComponent.php:949
+msgid "Plan Upgrade/Downgrade Settings"
+msgstr "Configurazioni Upgrade/Downgrade del piano"
+
+#: lib/components/Payment/PaymentComponent.php:951
+msgctxt "currency symbol"
+msgid "Switch plan fee (%s)"
+msgstr "Cambia tariffa del piano (%s)"
+
+#: lib/components/Payment/PaymentComponent.php:959
+msgid "Enable prorated discount"
+msgstr "Abilita sconto proporzionale"
+
+#: lib/components/Payment/PaymentComponent.php:1021
+msgid "Show items with a payment plan first"
+msgstr "Mostra prima gli articoli con un piano di pagamento"
+
+#: lib/components/Payment/PaymentComponent.php:1030
+msgid "Payment plan sort order"
+msgstr "Ordinamento del piano di pagamento"
+
+#: lib/components/Payment/PaymentComponent.php:1060
+msgid "Claim Rejected"
+msgstr "Richiesta Gestione Rifiutata"
+
+#: lib/components/WooCommerce/WooCommerceComponent.php:225
+msgid "Plan Features"
+msgstr "Features del piano"
+
+#: lib/components/WooCommerce/WooCommerceComponent.php:896
+msgid "Skip cart/checkout pages for free payment plans"
+msgstr ""
+"Salta le pagine del carrello / checkout per i piani di pagamento gratuiti"
+
+#: lib/components/WooCommerce/WooCommerceComponent.php:905
+msgid ""
+"Expire payment plans when WooCommerce Memberships membership becomes inactive"
+msgstr ""
+"Scadono i piani di pagamento quando l'iscrizione agli abbonamenti "
+"WooCommerce diventa inattiva"
+
+#: lib/components/WooCommerce/WooCommerceComponent.php:949
+msgid "Purchase type"
+msgstr "Tipo di Acquisto"
+
+#: lib/components/WooCommerce/WooCommerceComponent.php:951
+msgid "Purchase item"
+msgstr "Acquisto dell'oggetto"
+
+#: lib/components/WooCommerce/WooCommerceComponent.php:972
+msgid "WooCommerce \"My account\" Page Integration"
+msgstr "Integrazione della pagina \"Il mio account\" di WooCommerce"
+
+#: lib/components/WooCommerce/WooCommerceComponent.php:979
+msgid "Show dashboard panels"
+msgstr "Mostra pannelli dashboard"
+
+#: lib/components/WooCommerce/WooCommerceComponent.php:983
+msgid ""
+"Check this option to show dashboard panels on the WooCommerce \"My account\" "
+"page."
+msgstr ""
+"Seleziona questa opzione per mostrare i pannelli del pannello nella pagina "
+"\"Il mio account\" di WooCommerce."
+
+#: lib/components/WooCommerce/WooCommerceComponent.php:986
+msgid "Redirect dashboard access"
+msgstr "Reindirizzare l'accesso alla dashboard"
+
+#: lib/components/WooCommerce/WooCommerceComponent.php:990
+msgid ""
+"Check this option to redirect dashboard access to the WooCommerce \"My "
+"account\" page."
+msgstr ""
+"Seleziona questa opzione per reindirizzare l'accesso alla dashboard alla "
+"pagina \"Il mio account\" di WooCommerce."
+
+#: lib/components/WooCommerce/WooCommerceComponent.php:1278
+msgid "(Subscription plan)"
+msgstr "(Piano di sottoscrizione)"
+
+#: lib/components/Payment/Controller/AddEntity.php:155,
+#: lib/components/Payment/Controller/ClaimEntity.php:105, 
+#: lib/components/Payment/Controller/OrderAddon.php:34, 
+#: lib/components/Payment/Controller/SubmitPost.php:44
+msgid "Add to cart"
+msgstr "Aggiungi al carrello"
+
+#: lib/components/Payment/Controller/DashboardOrders.php:30,
+#: lib/components/Payment/FieldWidget/OrdersFieldWidget.php:48
+msgid "Date"
+msgstr "Data"
+
+#: lib/components/Payment/Controller/DashboardOrders.php:31, 
+#: lib/components/Payment/Controller/DashboardSubscriptions.php:31, 
+#: lib/components/Payment/FieldWidget/OrdersFieldWidget.php:50
+msgid "Name"
+msgstr "Nome"
+
+#: lib/components/Payment/Controller/DashboardOrders.php:32, 
+#: lib/components/Payment/Controller/DashboardSubscriptions.php:33, 
+#: lib/components/Payment/FieldWidget/OrdersFieldWidget.php:51
+msgid "Total"
+msgstr "Totale"
+
+#: lib/components/Payment/Controller/DashboardOrders.php:33, 
+#: lib/components/Payment/Controller/DashboardSubscriptions.php:34, 
+#: lib/components/Payment/FieldWidget/OrdersFieldWidget.php:52
+msgid "Status"
+msgstr "Stato"
+
+#: lib/components/Payment/Controller/DashboardOrders.php:76
+msgid "Order #%s"
+msgstr "Ordina #%s"
+
+#: lib/components/Payment/Controller/DashboardSubscriptions.php:32
+msgid "Next Payment"
+msgstr "Prossimo pagamento"
+
+#: lib/components/Payment/Controller/DashboardSubscriptions.php:84
+msgid "Subscription #%s"
+msgstr "Piani di abbonamento #%s"
+
+#: lib/components/Payment/Controller/OrderAddon.php:14, 
+#: lib/components/Payment/Controller/SubmitPost.php:20
+msgid "There are currently one or more pending orders for the item selected."
+msgstr ""
+"Al momento sono presenti uno o più ordini in sospeso per l'articolo "
+"selezionato."
+
+#: lib/components/Payment/Controller/PricingTable.php:70
+msgctxt "payment plan price"
+msgid "Free"
+msgstr "Gratis"
+
+#: lib/components/Payment/Controller/PricingTable.php:101
+msgid "Choose Plan"
+msgstr "Scegli il piano"
+
+#: lib/components/Payment/CSVExporter/PaymentCSVExporter.php:14, 
+#: lib/components/Payment/CSVImporter/PaymentCSVImporter.php:14, 
+#: lib/components/Payment/FieldType/PlanFieldType.php:205, 
+#: lib/components/Payment/FieldWidget/PlanFieldWidget.php:55, 
+#: lib/components/Payment/FieldWidget/PlanFieldWidget.php:88
+msgid "Expiration Date"
+msgstr "Data di fine."
+
+#: lib/components/Payment/CSVExporter/PaymentCSVExporter.php:15, 
+#: lib/components/Payment/CSVImporter/PaymentCSVImporter.php:15
+msgid "Plan ID"
+msgstr "ID Piano"
+
+#: lib/components/Payment/CSVExporter/PaymentCSVExporter.php:16, 
+#: lib/components/Payment/CSVImporter/PaymentCSVImporter.php:16
+msgid "Additional Features"
+msgstr "Caratteristiche aggiuntive"
+
+#: lib/components/Payment/DashboardPanel/PaymentsDashboardPanel.php:19
+msgid "Payments"
+msgstr "Pagamenti"
+
+#: lib/components/Payment/DashboardPanel/PaymentsDashboardPanel.php:37
+msgid "Subscriptions"
+msgstr "Piani di abbonamento"
+
+#: lib/components/Payment/DisplayButton/PostDisplayButton.php:34
+msgid "Renew item button"
+msgstr "Pulstante Rinnova"
+
+#: lib/components/Payment/DisplayButton/PostDisplayButton.php:43
+msgid "Upgrade/downgrade item button"
+msgstr "Pulsante Upgrade/downgrade"
+
+#: lib/components/Payment/DisplayButton/PostDisplayButton.php:52
+msgid "Order add-on button"
+msgstr "Pulsante Ordina Add-On"
+
+#: lib/components/Payment/DisplayLabel/PlanDisplayLabel.php:12
+msgid "Payment plan label"
+msgstr "Etichetta del piano di pagamento"
+
+#: lib/components/Payment/Feature/AbstractFeature.php:154
+msgid "Max number of %s allowed"
+msgstr "Numero massimo di %s consentito"
+
+#: lib/components/Payment/Feature/AbstractFeature.php:159
+msgid "Additional number of %s allowed"
+msgstr "Numero aggiuntivo di %s consentito"
+
+#: lib/components/Payment/Feature/AmpFeature.php:12
+msgid "AMP (Accelarated Mobile Pages) Settings"
+msgstr "Configurazione AMP (Accelarated Mobile Pages)"
+
+#: lib/components/Payment/Feature/AmpFeature.php:36
+msgid "Enable AMP"
+msgstr "Abilita AMP"
+
+#: lib/components/Payment/Feature/AmpFeature.php:51
+msgid "AMP enabled"
+msgstr "AMP Abilitato"
+
+#: lib/components/Payment/Feature/FeaturedEntityFeature.php:12
+msgid "Featured Content Settings"
+msgstr "Impostazioni contenuti in primo piano"
+
+#: lib/components/Payment/Feature/FeaturedEntityFeature.php:36
+msgid "Display as featured"
+msgstr "Mostra come \"In Primo Piano\""
+
+#: lib/components/Payment/Feature/FeaturedEntityFeature.php:45
+msgid "Priority"
+msgstr "Priorità"
+
+#: lib/components/Payment/Feature/FeaturedEntityFeature.php:128
+msgid "Featured %d day"
+msgid_plural "Featured %d days"
+msgstr[0] "In primo piano %d giorno"
+msgstr[1] "In primo piano %d giorni"
+
+#: lib/components/Payment/Feature/FeaturedEntityFeature.php:129
+msgctxt "pricing table"
+msgid "Featured"
+msgstr "In Primo Piano"
+
+#: lib/components/Payment/Feature/FeaturedEntityFeature.php:146, 
+#: lib/components/Payment/Feature/PlanFeature.php:28
+msgid "Duration in days"
+msgstr "Durata in giorni"
+
+#: lib/components/Payment/Feature/FeaturedEntityFeature.php:147
+msgid "Enter the number of days content will be marked as featured."
+msgstr ""
+"Inserisci il numero di giorni in cui i contenuti saranno contrassegnati come "
+"in primo piano."
+
+#: lib/components/Payment/Feature/FeaturedEntityFeature.php:151, 
+#: lib/components/Payment/Feature/PlanFeature.php:39
+msgid "day(s)"
+msgstr "Giorno(i)"
+
+#: lib/components/Payment/Feature/FieldsFeature.php:11
+msgid "Field Settings"
+msgstr "Impostazioni campo"
+
+#: lib/components/Payment/Feature/FieldsFeature.php:59
+msgid "Allowed fields"
+msgstr "Campi consentiti"
+
+#: lib/components/Payment/Feature/FieldsFeature.php:60
+msgid "All fields"
+msgstr "Tutti i campi"
+
+#: lib/components/Payment/Feature/PlanFeature.php:13
+msgid "Plan Duration Settings"
+msgstr "Configurazioni durata del piano"
+
+#: lib/components/Payment/Feature/PlanFeature.php:29, 
+#: lib/components/Payment/Feature/PlanFeature.php:123, 
+#: lib/components/Payment/Feature/TaxonomyTermsFeature.php:44, 
+#: lib/components/Payment/Feature/TaxonomyTermsFeature.php:179
+msgid "Unlimited"
+msgstr "Illimitato"
+
+#: lib/components/Payment/Feature/PlanFeature.php:117, 
+#: lib/components/Payment/Feature/PlanFeature.php:122
+msgid "Duration: %s"
+msgstr "Durata: %s"
+
+#: lib/components/Payment/Feature/PlanFeature.php:118
+msgid "%s Day"
+msgid_plural "%s Days"
+msgstr[0] "%s Giorno"
+msgstr[1] "%s Giorni"
+
+#: lib/components/Payment/Feature/TaxonomyTermsFeature.php:12
+msgid "Taxonomy Term Settings"
+msgstr "Impostazioni dei termini di tassonomia"
+
+#: lib/components/Payment/FieldRenderer/PlanFieldRenderer.php:27
+msgid "Show payment plan label"
+msgstr "Mostra l'etichetta del piano di pagamento"
+
+#: lib/components/Payment/FieldRenderer/PlanFieldRenderer.php:32
+msgid "Show payment plan expiration date"
+msgstr "Mostra la data di scadenza del piano di pagamento"
+
+#: lib/components/Payment/FieldRenderer/PlanFieldRenderer.php:37
+msgid "Show \"Deactivated\" label"
+msgstr "Mostra l'etichetta \"Disattivato\""
+
+#: lib/components/Payment/FieldRenderer/PlanFieldRenderer.php:55, 
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:24
+msgid "Deactivated"
+msgstr "Disattivato"
+
+#: lib/components/Payment/FieldType/PlanFieldType.php:19, 
+#: lib/components/Payment/FieldWidget/PlanFieldWidget.php:14
+msgid "Payment Plan"
+msgstr "Piano di pagamento"
+
+#: lib/components/Payment/FieldType/PlanFieldType.php:176
+msgid ""
+"Enter payment plan IDs separated with commas. Enter 1 only to query items "
+"with a payment plan, 0 only to query items without any payment plan, -1 only "
+"to query expired items, -2 only to query deactivated items, or -3 only to "
+"query expiring items."
+msgstr ""
+"Inserisci gli ID del piano di pagamento separati da virgole. Immettere 1 "
+"solo per interrogare gli articoli con un piano di pagamento, 0 solo per "
+"interrogare gli articoli senza alcun piano di pagamento, -1 solo per "
+"interrogare gli articoli scaduti, -2 solo per interrogare gli articoli "
+"disattivati ​​o -3 solo per interrogare gli articoli in scadenza."
+
+#: lib/components/Payment/FieldType/PlanFieldType.php:223
+msgid "Show all expired"
+msgstr "Mostra tutti gli scaduti"
+
+#: lib/components/Payment/FieldType/PlanFieldType.php:224
+msgid "Show all deactivated"
+msgstr "Mostra tutti i disattivati"
+
+#: lib/components/Payment/FieldType/PlanFieldType.php:225
+msgid "Show all expiring"
+msgstr "Mostra tutti quelli in scadenza"
+
+#: lib/components/Payment/FieldType/PlanFieldType.php:274
+msgid "Exp. Date"
+msgstr "Data di fine."
+
+#: lib/components/Payment/FieldWidget/OrdersFieldWidget.php:47
+msgid "Order ID"
+msgstr "ID Ordine"
+
+#: lib/components/Payment/FieldWidget/OrdersFieldWidget.php:49
+msgid "Action"
+msgstr "Azione"
+
+#: lib/components/Payment/FieldWidget/PlanFieldWidget.php:43, 
+#: lib/components/Payment/FieldWidget/PlanFieldWidget.php:93, 
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:19
+msgid "Expired"
+msgstr "Terminato"
+
+#: lib/components/Payment/Helper/CalculateFeesHelper.php:24
+msgid "Re-activation fee"
+msgstr "Commissione di riattivazione"
+
+#: lib/components/Payment/Helper/CalculateFeesHelper.php:42
+msgid "Switch plan fee"
+msgstr "Cambia tariffa del piano"
+
+#: lib/components/Payment/Helper/CalculateFeesHelper.php:50
+msgid "Prorated discount"
+msgstr "Sconto proporzionale"
+
+#: lib/components/Payment/Helper/FeaturesHelper.php:323
+msgid "Feature applied."
+msgstr "Funzionalità applicata."
+
+#: lib/components/Payment/Helper/FeaturesHelper.php:325
+msgid "Feature re-applied."
+msgstr "Funzionalità riapplicata."
+
+#: lib/components/Payment/Helper/FeaturesHelper.php:330
+msgid "Failed applying feature."
+msgstr "Applicazione non riuscita."
+
+#: lib/components/Payment/Helper/FeaturesHelper.php:367
+msgid "Feature unapplied."
+msgstr "Funzionalità non applicata."
+
+#: lib/components/Payment/Helper/FeaturesHelper.php:370
+msgid "Failed unapplying feature."
+msgstr "Non sono riuscito a deselezionare la funzione."
+
+#: lib/components/Payment/Helper/PlansHelper.php:109
+msgid "Current plan"
+msgstr "Piano attuale"
+
+#: lib/components/Payment/Helper/PlansHelper.php:133
+msgid "There are currently no payment plans available."
+msgstr "Al momento non ci sono piani di pagamento disponibili."
+
+#: lib/components/Payment/Helper/PlansHelper.php:176
+msgid "Select Plan"
+msgstr "Seleziona il piano"
+
+#: lib/components/Payment/Helper/UtilHelper.php:15
+msgid "Renewal"
+msgstr "Rinnovo"
+
+#: lib/components/Payment/Helper/UtilHelper.php:19
+msgid "Resubscribe"
+msgstr "Riabbonarti"
+
+#: lib/components/Payment/Helper/UtilHelper.php:21
+msgid "Claim"
+msgstr "Richiesta Gestione"
+
+#: lib/components/Payment/Helper/UtilHelper.php:23
+msgid "Re-activation"
+msgstr "Ri-Attivazione"
+
+#: lib/components/Payment/Helper/UtilHelper.php:23
+msgid "Initial Post"
+msgstr "Post iniziale"
+
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:14
+msgid "Expiring"
+msgstr "In Scadenza"
+
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:40
+msgid "Your %s is about to expire"
+msgstr "Il tuo %s sta per scadere"
+
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:46
+msgid "Your %s has expired"
+msgstr "Il tuo %s è scaduto"
+
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:52
+msgid "Your %s has been deactivated"
+msgstr "Il tuo %s è stato disattivato"
+
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:65,
+#:  
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:80,
+#:  
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:101
+msgid "Dear %s,"
+msgstr "Caro %s,"
+
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:67
+msgid "The following %1$s posted on our site will expire in %2$s day(s)."
+msgstr "I seguenti %1$s pubblicati sul nostro sito scadranno tra %2$s giorni."
+
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:73,
+#:  
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:88
+msgid "You can renew the %1$s from the dashboard page on our site."
+msgstr "Puoi rinnovare %1$s dalla pagina del dashboard sul nostro sito."
+
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:82
+msgid "The following %1$s posted on our site has expired on %2$s."
+msgstr "I seguenti %1$s pubblicati sul nostro sito sono scaduti su %2$s."
+
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:91
+msgid ""
+"If you do not renew your %1$s in %2$s days, it will be deactavated and "
+"hidden from public view."
+msgstr ""
+"Se non rinnovi %1$s in %2$s giorni, sarà disattivato e nascosto alla vista "
+"del pubblico."
+
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:103
+msgid "The following %1$s posted on our site has been deactivated."
+msgstr "I seguenti %1$s pubblicati sul nostro sito sono stati disattivati."
+
+#: lib/components/Payment/WordPressNotification/PaymentWordPressNotification.php:108
+msgid "You can reactivate the %1$s from the dashboard page on our site."
+msgstr "Puoi riattivare %1$s dalla pagina del dashboard sul nostro sito."
+
+#: lib/components/WooCommerce/Helper/ProductTypesHelper.php:23
+msgid "(Base plan)"
+msgstr "(Piano di Base)"
+
+#: lib/components/WooCommerce/Helper/ProductTypesHelper.php:24
+msgid "(Add-on plan)"
+msgstr "(Piano Add-on)"

@@ -1,0 +1,130 @@
+.drts-dashboard {
+    display: flex;
+}
+
+.drts-dashboard-aside {
+    flex: 1;
+    margin: 0 1em 1em 0;
+}
+
+.drts-dashboard-main {
+    flex: 3;
+}
+
+@media (max-width: 768px) {
+    .drts-dashboard {
+        display: block;
+    }
+}
+
+.drts-dashboard-aside .card-header button {
+    width: 100%;
+    text-align: left;
+    position: relative;
+    padding: 0.75em 1.25em;
+    padding-right: calc(20px + 1.25em);
+    font-weight: 600;
+}
+
+.drts-dashboard-aside .card-header {
+    padding: 0;
+}
+
+.drts-dashboard-main td {
+    vertical-align: top !important;
+    text-align: left;
+}
+
+.drts-rtl .drts-dashboard-main td {
+    text-align: right;
+}
+
+.drts-dashboard-aside .card-header button:before {
+    content: '\f107';
+    position: absolute;
+    font-family: 'Font Awesome 6 Solid - drts';
+    right: 1.25em;
+    transform: rotate(0deg);
+    transition: all 0.5s;
+}
+
+.drts-dashboard-aside .card-header button.collapsed:before {
+    transform: rotate(180deg);
+}
+
+.drts-dashboard-orderhistory > .drts-form-field {
+    margin-bottom: 0 !important;
+}
+
+.drts-dashboard-panel-links button {
+    margin: 0;
+}
+
+.drts-frontendsubmit-login-register-form {
+    display: flex;
+}
+
+.drts-frontendsubmit-login-register-form-column {
+    flex: 2;
+    max-width: 600px;
+}
+
+.drts-frontendsubmit-login-register-form-separator {
+    flex: 1;
+    position: relative;
+    height: 200px;
+    min-width: 30px;
+}
+
+.drts-frontendsubmit-login-register-form-separator-line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: #ccc;
+    z-index: 1;
+}
+
+.drts-frontendsubmit-login-register-form-separator-word {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.drts-frontendsubmit-login-register-form-separator-word > * {
+    color: #ccc;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 3px;
+    font: bold 12px arial,sans-serif;
+    background: #fff;
+}
+
+.drts-frontendsubmit-register-form {
+    margin-bottom: 3em;
+}
+
+.drts-frontendsubmit-login-register-form .drts-form-field > label {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+@media (max-width: 768px) {
+    .drts-frontendsubmit-login-register-form {
+        display: block;
+    }
+
+    .drts-frontendsubmit-login-register-form-column {
+        margin-bottom: 3em;
+    }
+
+    .drts-frontendsubmit-login-register-form-separator {
+        display: none;
+    }
+}

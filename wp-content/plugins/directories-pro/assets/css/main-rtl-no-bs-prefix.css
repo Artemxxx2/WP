@@ -1,0 +1,9 @@
+.drts .drts-location-entities-with-map-side .drts-location-entities-container {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.drts .drts-location-entities-with-map-left .drts-location-entities-container {
+    padding-right: 10px;
+    padding-left: 0;
+}

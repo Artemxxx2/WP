@@ -1,0 +1,1452 @@
+# Copyright (C) 2018 unnamed project
+# This file is distributed under the same license as the unnamed project package.
+msgid ""
+msgstr ""
+"Project-Id-Version: unnamed project\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: lib/components/Claiming/ClaimingComponent.php:40
+msgid "Approved"
+msgstr "Aprobado"
+
+#: lib/components/Claiming/ClaimingComponent.php:41
+msgid "Rejected"
+msgstr "Rechazado"
+
+#: lib/components/Claiming/ClaimingComponent.php:115
+msgid "Enable claims"
+msgstr "Permitir reclamos"
+
+#: lib/components/Contact/ContactComponent.php:182,
+#: lib/components/Contact/DisplayElement/FormDisplayElement.php:14,
+#: lib/components/Contact/PaymentFeature/FormPaymentFeature.php:13,
+#: lib/components/Contact/PaymentFeature/FormPaymentFeature.php:66
+msgid "Contact Form"
+msgstr "Formulario de Contacto"
+
+#: lib/components/Contact/ContactComponent.php:186,
+#: lib/components/Contact/PaymentFeature/FormPaymentFeature.php:43
+msgid "Contact form recipients"
+msgstr "Receptores del formulario de contacto"
+
+#: lib/components/Contact/ContactComponent.php:206
+msgid "Site E-mail"
+msgstr "Email del sitio"
+
+#: lib/components/Contact/ContactComponent.php:209,
+#: lib/components/Notification/Event/PostPublishedEvent.php:51,
+#: lib/components/Notification/Event/PostPublishedEvent.php:55
+#, fuzzy
+#| msgid "Post Author"
+msgid "Author"
+msgstr "Autor"
+
+#: lib/components/Contact/ContactComponent.php:213,
+#: lib/components/DirectoryPro/DisplayLabel/OpenNowDisplayLabel.php:25
+msgid "Field - "
+msgstr "Campo - "
+
+#: lib/components/DirectoryPro/DirectoryProComponent.php:77,
+#: lib/components/DirectoryPro/DirectoryProComponent.php:214,
+#: lib/components/DirectoryPro/DirectoryProComponent.php:227,
+#: lib/components/DirectoryPro/Controller/Admin/ExportDirectory.php:25
+msgid "Export"
+msgstr "Exportar"
+
+#: lib/components/DirectoryPro/DirectoryProComponent.php:240
+msgid "Demo categories"
+msgstr "Categorías DEMO"
+
+#: lib/components/DirectoryPro/DirectoryProComponent.php:242
+msgid "Demo locations (USA states and cities)"
+msgstr "Demo locations (USA states and cities)"
+
+#: lib/components/DirectoryPro/DirectoryProComponent.php:244
+msgid "Demo tags"
+msgstr "Demo tags"
+
+#: lib/components/DirectoryPro/DirectoryProComponent.php:354
+#, fuzzy
+#| msgid "Enable custom location hierarchy"
+msgid "Enable custom taxonomies"
+msgstr "Enable custom location hierarchy"
+
+#: lib/components/DirectoryPro/DirectoryProComponent.php:431
+#, fuzzy
+#| msgid "Photo Settings"
+msgid "Taxonomy Settings"
+msgstr "Configuración de fotos"
+
+#: lib/components/DirectoryPro/WordPressHomePage.php:26
+msgid "Browse by %s"
+msgstr "Explorar por %s"
+
+#: lib/components/DirectoryPro/WordPressHomePage.php:50
+msgid "Popular Locations"
+msgstr "Ubicaciones más requeridas"
+
+#: lib/components/DirectoryPro/WordPressHomePage.php:75,
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_views.php:250
+msgid "Recent Listings"
+msgstr "Últimos listados"
+
+#: lib/components/DirectoryPro/WordPressHomePage.php:137
+msgid "Recent Reviews"
+msgstr "Últimas reseñas"
+
+#: lib/components/Location/LocationComponent.php:60,
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:22,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:28,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:282,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:30
+msgid "Country"
+msgstr "País"
+
+#: lib/components/Location/LocationComponent.php:61,
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:20,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:26,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:272,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:29
+msgid "State / Province / Region"
+msgstr "Estado / Provincia / Región "
+
+#: lib/components/Location/LocationComponent.php:62,
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:19,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:25,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:267,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:28
+msgid "City"
+msgstr "Ciudad "
+
+#: lib/components/Location/LocationComponent.php:260
+msgid "Show map"
+msgstr "Mostrar mapa"
+
+#: lib/components/Location/LocationComponent.php:267,
+#: lib/components/Location/SearchField/AddressSearchField.php:49
+msgid "Map coordinates field"
+msgstr "Campo de coordenadas "
+
+#: lib/components/Location/LocationComponent.php:278
+msgid "Map position"
+msgstr "Posición en el mapa"
+
+#: lib/components/Location/LocationComponent.php:282
+msgid "Top"
+msgstr "Arriba"
+
+#: lib/components/Location/LocationComponent.php:295
+msgid "Map width"
+msgstr "Ancho del mapa"
+
+#: lib/components/Location/LocationComponent.php:296,
+#: lib/components/Location/LocationComponent.php:363
+msgid "The horizontal display ratio (12 being 100% wide) of the map"
+msgstr "The horizontal display ratio (12 being 100% wide) of the map"
+
+#: lib/components/Location/LocationComponent.php:308,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:161
+msgid "Map height"
+msgstr "Alto del mapa"
+
+#: lib/components/Location/LocationComponent.php:321
+msgid "Scroll to item on marker click"
+msgstr "Scroll al ítem cuando se haga click en el marcador"
+
+#: lib/components/Location/LocationComponent.php:329
+msgid "Enable sticky map"
+msgstr "Permitir sticky map"
+
+#: lib/components/Location/LocationComponent.php:344,
+#: lib/components/Location/LocationComponent.php:443,
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:41,
+#: lib/components/Location/FormField/TextFormField.php:75,
+#: lib/components/Location/SearchField/AddressSearchField.php:61,
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:51
+msgid "Auto"
+msgstr "Auto"
+
+#: lib/components/Location/LocationComponent.php:345
+msgid "Sticky map top offset"
+msgstr "Sticky map top offset"
+
+#: lib/components/Location/LocationComponent.php:362
+msgid "Full screen map width"
+msgstr "Mapa de ancho de pantalla completa"
+
+#: lib/components/Location/LocationComponent.php:375
+msgid "Enable map infobox"
+msgstr "Permitir mapa infobox"
+
+#: lib/components/Location/LocationComponent.php:387
+msgid "Map infobox width"
+msgstr "Ancho de la info del mapa"
+
+#: lib/components/Location/LocationComponent.php:400
+msgid "Open infobox on item hover"
+msgstr "Abrir infobox cuando se pase el mouse por encima"
+
+#: lib/components/Location/LocationComponent.php:416
+msgid "Map marker icon"
+msgstr "Icono de marcador del mapa"
+
+#: lib/components/Location/LocationComponent.php:433
+msgid "Enable full screen mode"
+msgstr "Permitir modo pantalla completa"
+
+#: lib/components/Location/LocationComponent.php:444
+msgid "Full screen map top offset"
+msgstr "Full screen map top offset"
+
+#: lib/components/Location/LocationComponent.php:482
+msgid "Enable locations"
+msgstr "Permitir ubicaciones"
+
+#: lib/components/Location/LocationComponent.php:548,
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:4041,
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:18,
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:14,
+#: lib/components/Location/FieldType/AddressFieldType.php:24
+msgid "Location"
+msgstr "Ubicación "
+
+#: lib/components/Location/LocationComponent.php:732,
+#: lib/components/Location/LocationComponent.php:740,
+#: lib/components/Location/LocationComponent.php:748
+msgid "— None —"
+msgstr "— Nada —"
+
+#: lib/components/Location/LocationComponent.php:734
+msgid "Geocoding API"
+msgstr "Proveedor de Geolocalización"
+
+#: lib/components/Location/LocationComponent.php:742
+msgid "Time zone API"
+msgstr "API de zona horaria"
+
+#: lib/components/Location/LocationComponent.php:750
+msgid "Address autocomplete service"
+msgstr "Auto completado de dirección"
+
+#: lib/components/Notification/NotificationComponent.php:87
+#, fuzzy
+#| msgid "Locations"
+msgid "Notifications"
+msgstr "Ubicación"
+
+#: lib/components/Notification/NotificationComponent.php:89,
+#: lib/components/Notification/Controller/Admin/AddNotification.php:67
+#, fuzzy
+#| msgid "Add Location"
+msgid "Add Notification"
+msgstr "Agregar ubicación"
+
+#: lib/components/Notification/NotificationComponent.php:93,
+#: lib/components/Notification/Controller/Admin/DeleteNotification.php:13,
+#: lib/components/Notification/Controller/Admin/Notifications.php:106,
+#: lib/components/Notification/Controller/Admin/Notifications.php:108
+#, fuzzy
+#| msgid "Select Location"
+msgid "Delete Notification"
+msgstr "Seleccionar la ubicación"
+
+#: lib/components/Claiming/DisplayButton/ClaimEntityDisplayButton.php:12
+msgid "Claim listing button"
+msgstr "Boton de reclamos"
+
+#: lib/components/Claiming/DisplayLabel/ClaimedEntityDisplayLabel.php:12
+#, fuzzy
+#| msgid "Claim status label"
+msgid "Claimed content label"
+msgstr "Claim status label"
+
+#: lib/components/Claiming/DisplayLabel/ClaimedEntityDisplayLabel.php:14
+#, fuzzy
+#| msgid "Claim"
+msgctxt "claimed label"
+msgid "Claimed"
+msgstr "Reclamo"
+
+#: lib/components/Claiming/DisplayLabel/StatusDisplayLabel.php:12
+msgid "Claim status label"
+msgstr "Claim status label"
+
+#: lib/components/Claiming/DisplayLabel/StatusDisplayLabel.php:26,
+#: lib/components/Claiming/FieldType/StatusFieldType.php:65,
+#: lib/components/Claiming/FieldType/StatusFieldType.php:80,
+#: lib/components/Claiming/FieldWidget/StatusFieldWidget.php:26
+msgid "Pending"
+msgstr "Pendiente "
+
+#: lib/components/Claiming/EntityBundleType/ClaimEntityBundleType.php:17
+msgid "Claims"
+msgstr "Reclamos"
+
+#: lib/components/Claiming/EntityBundleType/ClaimEntityBundleType.php:18
+msgid "Claim"
+msgstr "Reclamo"
+
+#: lib/components/Claiming/EntityBundleType/ClaimEntityBundleType.php:19
+msgid "Claim %s"
+msgstr "Reclamar %s"
+
+#: lib/components/Claiming/EntityBundleType/ClaimEntityBundleType.php:20
+msgid "All Claims"
+msgstr "Todos los reclamos"
+
+#: lib/components/Claiming/EntityBundleType/ClaimEntityBundleType.php:21
+msgid "%s claim"
+msgstr "%s reclamo"
+
+#: lib/components/Claiming/EntityBundleType/ClaimEntityBundleType.php:22
+msgid "%s claims"
+msgstr "%s reclamos"
+
+#: lib/components/Claiming/EntityBundleType/ClaimEntityBundleType.php:26,
+#: lib/components/Claiming/EntityBundleType/claim_displays.php:23
+msgid "Message"
+msgstr "Mensaje"
+
+#: lib/components/Claiming/EntityBundleType/claim_displays.php:75
+msgid "Listing"
+msgstr "Listado"
+
+#: lib/components/Claiming/EntityBundleType/claim_displays.php:141,
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:2001,
+#: lib/components/Notification/Controller/Admin/Notifications.php:30
+msgid "Status"
+msgstr "Estado"
+
+#: lib/components/Claiming/EntityBundleType/claim_displays.php:226
+msgid "Date"
+msgstr "Fecha"
+
+#: lib/components/Claiming/EntityBundleType/claim_fields.php:12,
+#: lib/components/Claiming/FieldType/StatusFieldType.php:17,
+#: lib/components/Claiming/FieldWidget/StatusFieldWidget.php:13
+msgid "Claim Status"
+msgstr "Estado del reclamo"
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:14
+msgid "Claim pending review"
+msgstr "Reseña de reclamos pendientes"
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:19
+msgid "Claim approved"
+msgstr "Reclamo aprobado"
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:24
+msgid "Claim rejected"
+msgstr "Reclamo rechazado"
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:39
+msgid "A new claim has been submitted"
+msgstr "Un nuevo reclamo ha sido recibido"
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:41
+msgid "Your claim has been approved"
+msgstr "Tu reclamo ha sido aprobado"
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:43
+msgid "Your claim was rejected"
+msgstr "Tu reclamo fue rechazado"
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:52
+msgid "Dear Administrator,"
+msgstr "Estimado Administrador,"
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:54
+msgid "A new claim has been submitted for the following %1$s."
+msgstr "Un nuevo reclamo ha sido recibido por el siguiente entrada: %1$s."
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:59
+msgid "You can approve or reject the claim from the following page."
+msgstr "Puedes aprobar o rechazar el reclamo desde la siguiente página."
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:64,
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:75
+msgid "Dear %s,"
+msgstr "Hola %s,"
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:66
+msgid "Your claim submitted for the following %1$s has been approved."
+msgstr "Tu reclamo enviado por %1$s ha sido aprobado."
+
+#: lib/components/Claiming/WordPressNotification/ClaimWordPressNotification.php:77
+msgid "Your claim submitted for the following %1$s was rejected."
+msgstr "Tu reclamo por %1$s ha sido rechazado."
+
+#: lib/components/Contact/DisplayElement/FormDisplayElement.php:15
+msgid "Display a form to contact the content author"
+msgstr "Muestra una forma de contactar con el autor de la entrada"
+
+#: lib/components/Contact/DisplayElement/FormDisplayElement.php:34
+msgid "Select form"
+msgstr "Seleccionar formulario"
+
+#: lib/components/Contact/PaymentFeature/FormPaymentFeature.php:37
+msgid "Enable contact form"
+msgstr "Permitir formulario de contacto"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:171
+msgid "Contact Information"
+msgstr "Información de Contacto"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:361
+msgid "Detailed Information"
+msgstr "Información detallada"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:922
+msgid "Reviews"
+msgstr "Reseñas "
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:1827,
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:47,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:65
+msgid "Title"
+msgstr "Título"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:3738
+msgid "Categories"
+msgstr "Categorías "
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:3786
+msgid "Business Info"
+msgstr "Información del negocio"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:3813,
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_fields.php:209
+msgid "Price Range"
+msgstr "Rango de Precios"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:3897
+msgid "Others"
+msgstr "Otros"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:3968,
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_displays.php:3995,
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:17
+msgid "Locations"
+msgstr "Ubicación"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_fields.php:16
+msgid "Phone Number"
+msgstr "Número de teléfono"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_fields.php:49
+msgid "Fax Number"
+msgstr "Número de Fax"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_fields.php:82
+msgid "E-mail Address"
+msgstr "Dirección de email"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_fields.php:115
+msgid "Website URL"
+msgstr "URL de la web"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_fields.php:155
+msgid "Social Accounts"
+msgstr "Tus redes sociales"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_fields.php:179,
+#: lib/components/DirectoryPro/FieldRenderer/OpeningHoursFieldRenderer.php:12,
+#: lib/components/DirectoryPro/FieldType/OpeningHoursFieldType.php:12,
+#: lib/components/DirectoryPro/FieldWidget/OpeningHoursFieldWidget.php:14
+msgid "Opening Hours"
+msgstr "Horario de apertura"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_fields.php:235,
+#: lib/components/DirectoryPro/PaymentFeature/PhotosPaymentFeature.php:31,
+#: lib/components/DirectoryPro/PaymentFeature/PhotosPaymentFeature.php:117
+msgid "Photos"
+msgstr "Fotos "
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_fields.php:264
+msgid "Date Established"
+msgstr "Fecha de inicio de actividades"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_fields.php:290
+msgid "Videos"
+msgstr "Videos"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_views.php:6,
+#: lib/components/DirectoryPro/EntityBundleType/custom_taxonomy_views.php:6,
+#: lib/components/Location/Api/GoogleMapsAutocompleteApi.php:66,
+#: lib/components/Location/EntityBundleType/location_views.php:6
+msgid "Default"
+msgstr "Predeterminado"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_views.php:96
+#, fuzzy
+#| msgid "Recent Listings"
+msgid "Featured Listings"
+msgstr "Últimos listados"
+
+#: lib/components/DirectoryPro/DirectoryType/directory_listing_views.php:175
+msgid "Map"
+msgstr "Mapa "
+
+#: lib/components/DirectoryPro/DisplayLabel/OpenNowDisplayLabel.php:12
+msgid "Open now label"
+msgstr "Etiqueta \"Abierto ahora\""
+
+#: lib/components/DirectoryPro/DisplayLabel/OpenNowDisplayLabel.php:14
+#, fuzzy
+#| msgid "Open Now"
+msgctxt "featured label"
+msgid "Open Now"
+msgstr "Abierto Ahora"
+
+#: lib/components/DirectoryPro/DisplayLabel/OpenNowDisplayLabel.php:32
+msgid "Select field"
+msgstr "Seleccionar campo"
+
+#: lib/components/DirectoryPro/EntityBundleType/CustomTaxonomyEntityBundleType.php:34
+#, fuzzy
+#| msgid "All Claims"
+msgctxt "all terms"
+msgid "All %s"
+msgstr "Todos los reclamos"
+
+#: lib/components/DirectoryPro/EntityBundleType/CustomTaxonomyEntityBundleType.php:35
+#, fuzzy
+#| msgid "Select form"
+msgctxt "select term"
+msgid "Select %s"
+msgstr "Seleccionar formulario"
+
+#: lib/components/DirectoryPro/FieldRenderer/OpeningHoursFieldRenderer.php:16,
+#: lib/components/DirectoryPro/FieldWidget/OpeningHoursFieldWidget.php:37
+msgctxt "opening hours"
+msgid "Closed"
+msgstr "Cerrado [horario de apertura]"
+
+#: lib/components/DirectoryPro/FieldRenderer/OpeningHoursFieldRenderer.php:27
+msgid "Show days without any entry as closed"
+msgstr "Show days without any entry as closed"
+
+#: lib/components/DirectoryPro/FieldRenderer/OpeningHoursFieldRenderer.php:32
+msgid "Label for closed days"
+msgstr "Etiqueta  para días cerrados"
+
+#: lib/components/DirectoryPro/FieldRenderer/OpeningHoursFieldRenderer.php:94,
+#: lib/components/DirectoryPro/FieldWidget/OpeningHoursFieldWidget.php:38
+msgid "Appointment only"
+msgstr "Solo con cita previa"
+
+#: lib/components/DirectoryPro/FieldRenderer/OpeningHoursFieldRenderer.php:97
+msgid "All day"
+msgstr "Todo el día"
+
+#: lib/components/DirectoryPro/FieldRenderer/OpeningHoursFieldRenderer.php:144
+msgid "Open Now"
+msgstr "Abierto Ahora"
+
+#: lib/components/DirectoryPro/FieldRenderer/ScreenshotFieldRenderer.php:12
+msgid "Screenshot"
+msgstr "Screenshot"
+
+#: lib/components/DirectoryPro/FieldRenderer/ScreenshotFieldRenderer.php:28,
+#: lib/components/Location/FieldRenderer/AddressFieldRenderer.php:65,
+#: lib/components/Location/FieldRenderer/AddressFieldRenderer.php:147
+msgid "Open link in"
+msgstr "Abrir enlace en"
+
+#: lib/components/DirectoryPro/FieldRenderer/ScreenshotFieldRenderer.php:47
+msgid "URL"
+msgstr "URL"
+
+#: lib/components/DirectoryPro/PaymentFeature/PhotosPaymentFeature.php:13
+msgid "Photo Settings"
+msgstr "Configuración de fotos"
+
+#: lib/components/DirectoryPro/PaymentFeature/PhotosPaymentFeature.php:32,
+#: lib/components/DirectoryPro/PaymentFeature/PhotosPaymentFeature.php:99,
+#: lib/components/Location/PaymentFeature/LocationsPaymentFeature.php:32,
+#: lib/components/Location/PaymentFeature/LocationsPaymentFeature.php:147,
+#: lib/components/Location/SearchField/AddressSearchField.php:100,
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:155
+msgid "Unlimited"
+msgstr "Ilimitado"
+
+#: lib/components/DirectoryPro/PaymentFeature/PhotosPaymentFeature.php:97,
+#: lib/components/DirectoryPro/PaymentFeature/PhotosPaymentFeature.php:99
+msgid "%s Photo"
+msgid_plural "%s Photos"
+msgstr[0] "%s Foto"
+msgstr[1] "%s Fotos"
+
+#: lib/components/DirectoryPro/SystemWidget/FiltersSystemWidget.php:14
+msgid "Filter Form"
+msgstr "Filtrar formulario"
+
+#: lib/components/DirectoryPro/SystemWidget/FiltersSystemWidget.php:15
+msgid "Displays a filter form."
+msgstr "Mostrar formulario de filtrado."
+
+#: lib/components/DirectoryPro/SystemWidget/FiltersSystemWidget.php:41
+msgid "Select directory"
+msgstr "Seleccionar directorio"
+
+#: lib/components/Location/Api/AbstractGoogleMapsApi.php:52
+msgid "Google Maps API Settings (Server)"
+msgstr "Configuración de API de Google Maps (Servidor)"
+
+#: lib/components/Location/Api/AbstractGoogleMapsApi.php:63
+msgid "API key"
+msgstr "API key"
+
+#: lib/components/Location/Api/AlgoliaAutocompleteApi.php:15,
+#: lib/components/Location/Api/AlgoliaAutocompleteApi.php:65
+msgid "Algolia Places Autocomplete"
+msgstr "Algolia Places Autocomplete"
+
+#: lib/components/Location/Api/AlgoliaAutocompleteApi.php:74
+msgid "Application ID"
+msgstr "Application ID"
+
+#: lib/components/Location/Api/AlgoliaAutocompleteApi.php:78,
+#: lib/components/Location/Api/AlgoliaAutocompleteApi.php:92
+msgid "Visit the following page to sign up for Algolia Places: %s"
+msgstr "Visit the following page to sign up for Algolia Places: %s"
+
+#: lib/components/Location/Api/AlgoliaAutocompleteApi.php:88
+msgid "API Key"
+msgstr "API Key"
+
+#: lib/components/Location/Api/AlgoliaAutocompleteApi.php:101,
+#: lib/components/Location/Api/GoogleMapsAutocompleteApi.php:75,
+#: lib/components/Location/Api/GoogleMapsGeocodingApi.php:56,
+#: lib/components/Location/Api/MapboxGeocodingApi.php:73
+msgid "Country code"
+msgstr "Código de pais"
+
+#: lib/components/Location/Api/AlgoliaAutocompleteApi.php:102,
+#: lib/components/Location/Api/GoogleMapsAutocompleteApi.php:76
+msgid ""
+"Enter two-letter ISO 3166-1 Alpha-2 compatible country codes separated by "
+"commas to restrict address suggestions to specific countries."
+msgstr ""
+"Enter two-letter ISO 3166-1 Alpha-2 compatible country codes separated by "
+"commas to restrict address suggestions to specific countries."
+
+#: lib/components/Location/Api/GeoNamesTimezoneApi.php:16
+msgid "GeoNames Web Service Timezone"
+msgstr "GeoNames Web Service Timezone"
+
+#: lib/components/Location/Api/GeoNamesTimezoneApi.php:46
+msgid "GeoNames Web Service Settings"
+msgstr "GeoNames Web Service Settings"
+
+#: lib/components/Location/Api/GeoNamesTimezoneApi.php:55
+msgid "GeoNames user name"
+msgstr "GeoNames user name"
+
+#: lib/components/Location/Api/GeoNamesTimezoneApi.php:57
+msgid "Visit the following page to create a GeoNames user account: %s"
+msgstr "Visit the following page to create a GeoNames user account: %s"
+
+#: lib/components/Location/Api/GoogleMapsAutocompleteApi.php:9,
+#: lib/components/Location/Api/GoogleMapsAutocompleteApi.php:52
+msgid "Google Maps Place Autocomplete"
+msgstr "Google Maps Place Autocomplete"
+
+#: lib/components/Location/Api/GoogleMapsAutocompleteApi.php:63
+msgid "Autocomplete place type"
+msgstr "Autocomplete place type"
+
+#: lib/components/Location/Api/GoogleMapsAutocompleteApi.php:67
+msgid "Show results with a precise address"
+msgstr "Mostrar resultados con una dirección precisa"
+
+#: lib/components/Location/Api/GoogleMapsAutocompleteApi.php:68
+msgid "Show business results"
+msgstr "Show business results"
+
+#: lib/components/Location/Api/GoogleMapsAutocompleteApi.php:69
+msgid "Show regions"
+msgstr "Mostrar regiones"
+
+#: lib/components/Location/Api/GoogleMapsAutocompleteApi.php:70
+msgid "Show cities"
+msgstr "Mostrar ciudades"
+
+#: lib/components/Location/Api/GoogleMapsGeocodingApi.php:9,
+#: lib/components/Location/Api/GoogleMapsGeocodingApi.php:47
+msgid "Google Maps Geocoding"
+msgstr "Google Maps Geocoding"
+
+#: lib/components/Location/Api/GoogleMapsGeocodingApi.php:57,
+#: lib/components/Location/Api/MapboxGeocodingApi.php:74
+msgid ""
+"Enter two-letter ISO 3166-1 Alpha-2 compatible country codes separated by "
+"commas to restrict geocoding results to specific countries."
+msgstr ""
+"Enter two-letter ISO 3166-1 Alpha-2 compatible country codes separated by "
+"commas to restrict geocoding results to specific countries."
+
+#: lib/components/Location/Api/GoogleMapsTimezoneApi.php:11
+msgid "Google Maps Time Zone"
+msgstr "Google Maps Time Zone"
+
+#: lib/components/Location/Api/MapboxGeocodingApi.php:16
+msgid "Mapbox Geocoding"
+msgstr "Mapbox Geocoding"
+
+#: lib/components/Location/Api/MapboxGeocodingApi.php:50
+msgid "Mapbox API Settings"
+msgstr "Mapbox API Settings"
+
+#: lib/components/Location/Api/MapboxGeocodingApi.php:60
+msgid "Access token"
+msgstr "Token de acceso"
+
+#: lib/components/Location/Api/MapboxGeocodingApi.php:64
+msgid ""
+"Visit the following page to create a Mapbox API account and an access token: "
+"%s"
+msgstr ""
+"Visit the following page to create a Mapbox API account and an access token: "
+"%s"
+
+#: lib/components/Location/Api/NominatimGeocodingApi.php:16
+msgid "OpenStreetMap Nominatim"
+msgstr "OpenStreetMap Nominatim"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:16,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:22,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:252
+msgid "Full Address"
+msgstr "Dirección completa"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:17,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:23,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:257,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:25
+msgid "Address Line 1"
+msgstr "Dirección Línea 1"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:18,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:24,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:262,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:26
+msgid "Address Line 2"
+msgstr "Dirección Línea 2"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:21,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:27,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:277,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:27
+msgid "Postal / Zip Code"
+msgstr "Código Postal "
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:23,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:29,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:235,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:288
+msgid "Latitude"
+msgstr "Latitud"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:24,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:30,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:242,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:295
+msgid "Longitude"
+msgstr "Longitud"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:25,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:31
+msgid "Zoom Level"
+msgstr "Nivel de Zoom"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:26
+msgid "Location ID"
+msgstr "Ubicación ID"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:27,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:33,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:302,
+#: lib/components/Location/FormField/AddressFormField.php:94
+msgid "Timezone"
+msgstr "Timezone"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:42,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:60
+msgid "Taxonomy term data type"
+msgstr "Taxonomy term data type"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:43,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:61
+msgid "Select the type of data used to specify terms."
+msgstr "Select the type of data used to specify terms."
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:45,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:63
+msgid "ID"
+msgstr "ID"
+
+#: lib/components/Location/CSVExporter/LocationCSVExporter.php:46,
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:64
+msgid "Slug"
+msgstr "Slug "
+
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:32
+msgid "Location Taxonomy Term"
+msgstr "Location Taxonomy Term"
+
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:49
+msgid "Geocode address"
+msgstr "Geocode address"
+
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:50
+msgid ""
+"Use the Google geocoding service to resolve the latitude/longitude "
+"coordinate from the address. This will populate all other address components "
+"of the field."
+msgstr ""
+"Use the Google geocoding service to resolve the latitude/longitude "
+"coordinate from the address. This will populate all other address components "
+"of the field."
+
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:214
+msgid "WARNING! No geocoding provider selected in Settings -> Map."
+msgstr ""
+"ATENCIÓN! No hay proveedor de geolocalización en Configuración -> Mapa."
+
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:224
+msgid "Search by address"
+msgstr "Buscar por dirección"
+
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:232
+msgid "Search by coordinates"
+msgstr "Buscar por coordenadas"
+
+#: lib/components/Location/CSVImporter/LocationCSVImporter.php:249
+msgid "Enter manually"
+msgstr "Ingresar manualmente"
+
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:19
+msgid "Add Location"
+msgstr "Agregar ubicación"
+
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:20
+msgid "All Locations"
+msgstr "Todas las ubicación"
+
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:21
+msgid "Select Location"
+msgstr "Seleccionar la ubicación"
+
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:22
+msgid "%s location"
+msgstr "%s ubicación"
+
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:23
+msgid "%s locations"
+msgstr "%s ubicaciones"
+
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:24
+msgid "Location: %s"
+msgstr "Ubicación: %s"
+
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:31
+msgid "Parent Location"
+msgstr "Ubicación padre"
+
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:55,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:85
+msgid "Location Hierarchy Settings"
+msgstr "Location Hierarchy Settings"
+
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:59
+msgid "Default location hierarchy"
+msgstr "Default location hierarchy"
+
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:71
+msgid "Enable custom location hierarchy"
+msgstr "Enable custom location hierarchy"
+
+#: lib/components/Location/EntityBundleType/LocationEntityBundleType.php:87
+msgid "slug"
+msgstr "slug"
+
+#: lib/components/Location/EntityBundleType/location_fields.php:12
+msgid "Photo"
+msgstr "Foto"
+
+#: lib/components/Location/EntityBundleType/location_views.php:51
+#, fuzzy
+#| msgid "Listing"
+msgid "List"
+msgstr "Listado"
+
+#: lib/components/Location/FakerGenerator/LocationFakerGenerator.php:42
+msgid "Select manually"
+msgstr "Seleccionar manualmente"
+
+#: lib/components/Location/FakerGenerator/LocationFakerGenerator.php:43
+msgctxt "faker"
+msgid "Enter new location"
+msgstr "Ingresar nueva ubicación"
+
+#: lib/components/Location/FakerGenerator/LocationFakerGenerator.php:44
+msgid "Random"
+msgstr "Aleatorio"
+
+#: lib/components/Location/FakerGenerator/LocationFakerGenerator.php:50
+msgid ""
+"Enter a location used to generate lat/lng coordinates, e.g. USA, California, "
+"Tokyo, etc."
+msgstr ""
+"Ingresa una ubicación utilizada para generar coordenadas de latitud/"
+"longitud, ejemplo: España, Madrid, etc"
+
+#: lib/components/Location/FakerGenerator/LocationFakerGenerator.php:76
+msgctxt "faker"
+msgid "Max number of random %s to fetch from the database"
+msgstr "Max number of random %s to fetch from the database"
+
+#: lib/components/Location/FakerGenerator/LocationFakerGenerator.php:89
+msgctxt "faker"
+msgid "Reverse geocode lat/lng coordinates generated for each item"
+msgstr "Reverse geocode lat/lng coordinates generated for each item"
+
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:43,
+#: lib/components/Location/SearchField/AddressSearchField.php:63
+msgid "Default search radius"
+msgstr "Rango de búsqueda perdeterminado"
+
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:48
+msgid "Disable location input"
+msgstr "Disable location input"
+
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:53,
+#: lib/components/Location/SearchField/AddressSearchField.php:70
+msgid "Disable search radius selection"
+msgstr "Disable search radius selection"
+
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:59
+msgid "Placeholder text"
+msgstr "Placeholder text"
+
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:66
+msgid "Add \"Search this area\" button to map"
+msgstr "Agregar en el mapa un botón de \"Buscar esta área\""
+
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:71
+msgid "Add \"Search my location\" button to map"
+msgstr "Agregar en el mapa un botón de \"Buscar mi ubicación\""
+
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:76
+#, fuzzy
+#| msgid "Add \"Search my location\" button to map"
+msgid "Click \"Search my location\" button automatically on page load"
+msgstr "Agregar en el mapa un botón de \"Buscar mi ubicación\""
+
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:115,
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:152
+msgid "Current Map View"
+msgstr "Current Map View"
+
+#: lib/components/Location/FieldFilter/AddressFieldFilter.php:117,
+#: lib/components/Location/FormField/AddressFormField.php:227,
+#: lib/components/Location/FormField/TextFormField.php:52
+msgid "Current location"
+msgstr "Ubicación actual"
+
+#: lib/components/Location/FieldRenderer/AddressFieldRenderer.php:37
+msgid "Customize address format"
+msgstr "Formato de dirección personalizado"
+
+#: lib/components/Location/FieldRenderer/AddressFieldRenderer.php:42,
+#: lib/components/Location/FieldRenderer/AddressFieldRenderer.php:135,
+#: lib/components/Location/FieldType/AddressFieldType.php:154
+msgid "Address format"
+msgstr "Formato de dirección"
+
+#: lib/components/Location/FieldRenderer/AddressFieldRenderer.php:61,
+#: lib/components/Location/FieldRenderer/AddressFieldRenderer.php:140
+msgid "Link to Google Maps"
+msgstr "Enlace a Google Maps"
+
+#: lib/components/Location/FieldRenderer/AddressFieldRenderer.php:115
+msgid "%s mi"
+msgstr "%s mi"
+
+#: lib/components/Location/FieldRenderer/AddressFieldRenderer.php:115
+msgid "%s km"
+msgstr "%s km"
+
+#: lib/components/Location/FieldType/AddressFieldType.php:226
+msgid "Distance"
+msgstr "Distancia"
+
+#: lib/components/Location/FieldType/AddressFieldType.php:226
+#, fuzzy
+#| msgid "Distance"
+msgid "Distance from %s"
+msgstr "Distancia"
+
+#: lib/components/Location/FieldType/AddressFieldType.php:385
+msgid ""
+"Enter an address (no commas) to query by address. Enter two values (address, "
+"radius) separated with a comma to specify a search radius. Enter three "
+"values (latitude, longitude, radius) separated with commas to query by "
+"coordinates. Enter \"_current_\" for the address of the current post if any."
+msgstr ""
+"Ingresa una dirección (sin comas) para buscar por dirección. Ingresa 2 "
+"valores (dirección, radio), separados por una coma, para buscar por radio. "
+"Ingresa 3 valores (latitud, longitud, radio), separados con comas, para "
+"buscar por coordenadas. Ingresa \"_current_\" para ver la dirección del post "
+"en el que estás, si la tiene."
+
+#: lib/components/Location/FieldType/AddressFieldType.php:484
+msgid "Enter taxonomy term IDs and/or slugs separated with commas."
+msgstr "Enter taxonomy term IDs and/or slugs separated with commas."
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:61,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:107
+#, fuzzy
+#| msgid "Default longitude"
+msgid "Default country"
+msgstr "Longitud predeterminada"
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:63,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:104,
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:342,
+#: lib/components/Location/FormField/AddressFormField.php:130
+msgid "— Select —"
+msgstr "— Seleccionar —"
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:83
+msgid "%s: Already in use in %s."
+msgstr "%s: Ya está en uso en %s."
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:88
+#, fuzzy
+#| msgid "Address input fields"
+msgid "Address fields"
+msgstr "Address input fields"
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:91
+#, fuzzy
+#| msgid "Customize address format"
+msgid "Customize address fields"
+msgstr "Formato de dirección personalizado"
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:135
+#, fuzzy
+#| msgid "Video field"
+msgid "Required fields"
+msgstr "Campo de video"
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:144
+#, fuzzy
+#| msgid "Disable location input"
+msgid "Require location on map"
+msgstr "Disable location input"
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:162
+msgid "Enter the height of map in pixels."
+msgstr "Ingresa el alto del mapa en pixeles."
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:170
+msgid "Default latitude"
+msgstr "Latitud predeterminada"
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:171
+msgid "Enter the latitude of the default map location in decimals."
+msgstr "Ingresa la latitud en decimales de la ubicación predeterminada."
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:180
+msgid "Default longitude"
+msgstr "Longitud predeterminada"
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:181
+msgid "Enter the longitude of the default map location in decimals."
+msgstr "Ingresa la longitud en decimales de la ubicación predeterminada."
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:191
+msgid "Default zoom level"
+msgstr "Nivel de zoom predeterminado"
+
+#: lib/components/Location/FieldWidget/AddressFieldWidget.php:202
+msgid "Disable timezone selection field"
+msgstr "Ocultar campo de selección de zona horaria"
+
+#: lib/components/Location/FormField/AddressFormField.php:69
+msgid "Enter address details manually"
+msgstr "Ingresar la dirección de forma manual"
+
+#: lib/components/Location/FormField/AddressFormField.php:179
+msgid "Enter geolocation info manually"
+msgstr "Ingresa la información de geolocalización manualmente"
+
+#: lib/components/Location/FormField/AddressFormField.php:222
+msgid "Find on map"
+msgstr "Encontrar en el mapa"
+
+#: lib/components/Location/FormField/AddressFormField.php:225
+msgid "Get from map"
+msgstr "Obtener del mapa"
+
+#: lib/components/Location/FormField/AddressFormField.php:242
+msgid "Please click on the map or fill out the following fields."
+msgstr "Por favor haz click en el mapa o completa los siguientes campos."
+
+#: lib/components/Location/FormField/AddressFormField.php:243
+msgid "Please select a valid location on map."
+msgstr "Por favor selecciona una ubicación válida en el mapa."
+
+#: lib/components/Location/FormField/TextFormField.php:80
+msgid "mi"
+msgstr "millas"
+
+#: lib/components/Location/FormField/TextFormField.php:81
+msgid "km"
+msgstr "km"
+
+#: lib/components/Location/FormField/TextFormField.php:82
+msgid "Radius: "
+msgstr "Radio:"
+
+#: lib/components/Location/MapApi/LeafletMapApi.php:11
+msgid "OpenStreetMap"
+msgstr "OpenStreetMap"
+
+#: lib/components/Location/MapApi/LeafletMapApi.php:22
+#, fuzzy
+#| msgid "OpenStreetMap Nominatim"
+msgid "OpenStreetMap Foundation"
+msgstr "OpenStreetMap Nominatim"
+
+#: lib/components/Location/PaymentFeature/LocationsPaymentFeature.php:12
+msgid "Location Settings"
+msgstr "Location Settings"
+
+#: lib/components/Location/SearchField/AddressSearchField.php:13
+msgid "Location Search"
+msgstr "Location Search"
+
+#: lib/components/Location/SearchField/AddressSearchField.php:31
+msgctxt "search form"
+msgid "Near..."
+msgstr "Cerca..."
+
+#: lib/components/Location/SearchField/AddressSearchField.php:66
+msgid ""
+"Select \"Auto\" to let the map API calculate the optimal search radius based "
+"on the location value entered in the field."
+msgstr ""
+"Selecciona \"Auto\" para que la API del mapa calcule el radio óptimo basado "
+"en los valores geográficos ingresados en el campo."
+
+#: lib/components/Location/SearchField/AddressSearchField.php:76
+msgid "Enable search by user's current location"
+msgstr "Permite buscar por la ubicación actual del usuario"
+
+#: lib/components/Location/SearchField/AddressSearchField.php:83
+msgid "Auto-Suggest Settings"
+msgstr "Configurar auto-sugerencias"
+
+#: lib/components/Location/SearchField/AddressSearchField.php:88
+msgid "Auto-suggest terms"
+msgstr "Auto-suggest terms"
+
+#: lib/components/Location/SearchField/AddressSearchField.php:99
+msgid "Depth of term hierarchy tree"
+msgstr "Depth of term hierarchy tree"
+
+#: lib/components/Location/SearchField/AddressSearchField.php:109
+msgid "Hide empty terms"
+msgstr "Hide empty terms"
+
+#: lib/components/Location/SearchField/AddressSearchField.php:115
+msgid "Hide post counts"
+msgstr "Ocultar cantidad de posts"
+
+#: lib/components/Location/SearchField/AddressSearchField.php:121
+msgid "Include parent term paths in term title"
+msgstr "Include parent term paths in term title"
+
+#: lib/components/Location/SystemTool/LoadGeoDataSystemTool.php:12
+msgid "Load geolocation data"
+msgstr "Cargar información de geolocalización"
+
+#: lib/components/Location/SystemTool/LoadGeoDataSystemTool.php:13
+#, fuzzy
+#| msgid ""
+#| "This tool will load geolocation data (lat/lng/timezone) of each content "
+#| "item if currently empty."
+msgid ""
+"This tool will load geolocation data (lat/lng/timezone) for the default "
+"location address field of each content item if currently empty."
+msgstr ""
+"Esta herramienta cargará información de geolocalización (latitud/longitud/"
+"huso horario) de cada ítem si no ha sido cargado aún."
+
+#: lib/components/Notification/Event/PostPublishedEvent.php:13
+#, fuzzy
+#| msgid "Date Established"
+msgctxt "notification event"
+msgid "Post published"
+msgstr "Fecha de inicio de actividades"
+
+#: lib/components/Notification/Sender/EmailSender.php:9
+#, fuzzy
+#| msgid "Site E-mail"
+msgid "Email"
+msgstr "Email del sitio"
+
+#: lib/components/Notification/Sender/EmailSender.php:29
+#, fuzzy
+#| msgid "E-mail Address"
+msgid "E-mail message"
+msgstr "Dirección de email"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:14
+msgid "Photo Slider"
+msgstr "Photo Slider"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:41,
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:283
+msgid "Image size"
+msgstr "Tamaño de la imagen"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:48,
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:116
+msgid "Slider height"
+msgstr "Slider height"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:57,
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:289,
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:138
+msgid "Show thumbnails"
+msgstr "Mostrar miniaturas"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:67,
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:295,
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:147
+msgid "Number of thumbnail columns"
+msgstr "Número de columnas de miniaturas"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:80,
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:302
+msgid "Slider effect"
+msgstr "Slider effect"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:86,
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:306,
+#: lib/components/Slider/ViewMode/CarouselViewMode.php:80,
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:62
+msgid "Show slide indicators"
+msgstr "Show slide indicators"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:91,
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:311,
+#: lib/components/Slider/ViewMode/CarouselViewMode.php:92,
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:80
+msgid "Autoplay slides"
+msgstr "Autoplay slides"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:96,
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:161
+msgid "Link to post"
+msgstr "Link to post"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:101,
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:167
+msgid "Zoom on click image"
+msgstr "Zoom al clickar la imagen"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:111,
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:316,
+#: lib/components/Slider/ViewMode/CarouselViewMode.php:86,
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:68
+msgid "Show prev/next arrows"
+msgstr "Mostrar flechas de previo/siguiente"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:126
+msgid "Include videos"
+msgstr "Incluye videos"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:131,
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:326
+msgid "Video field"
+msgstr "Campo de video"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:139
+msgid "Show videos first"
+msgstr "Mostrar videos primero"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:151,
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:335
+msgid "Max number of videos"
+msgstr "Max número de videos"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:166
+msgid "Slide"
+msgstr "Diapositiva"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:167
+msgid "Fade"
+msgstr "Ocultar"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:321
+msgid "Show videos"
+msgstr "Mostrar videos"
+
+#: lib/components/Slider/FieldRenderer/PhotosFieldRenderer.php:330
+msgid "Prepend videos"
+msgstr "Prepend videos"
+
+#: lib/components/Slider/ViewMode/CarouselViewMode.php:57,
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:53
+msgid "Number of columns"
+msgstr "Número de columnas"
+
+#: lib/components/Slider/ViewMode/CarouselViewMode.php:66
+#, fuzzy
+#| msgid "Number of columns"
+msgid "Number of columns to scroll"
+msgstr "Número de columnas"
+
+#: lib/components/Slider/ViewMode/CarouselViewMode.php:98,
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:86
+msgid "Autoplay speed in milliseconds"
+msgstr "Autoplay speed in milliseconds"
+
+#: lib/components/Slider/ViewMode/CarouselViewMode.php:113,
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:101
+msgid "Enable centered view"
+msgstr "Enable centered view"
+
+#: lib/components/Slider/ViewMode/CarouselViewMode.php:119,
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:107
+msgid "Fade in/out slides"
+msgstr "Fade in/out slides"
+
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:12
+msgctxt "view mode label"
+msgid "Photo slider"
+msgstr "Photo slider"
+
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:74
+msgid "Show photo captions"
+msgstr "Show photo captions"
+
+#: lib/components/Slider/ViewMode/PhotosViewMode.php:127
+msgid "Photo padding"
+msgstr "Photo padding"
+
+#: lib/components/DirectoryPro/Controller/Admin/AddDirectory.php:49
+msgid "JSON configuration file"
+msgstr "JSON configuration file"
+
+#: lib/components/DirectoryPro/Controller/Admin/AddDirectory.php:58
+msgid "Directory label"
+msgstr "Etiqueta del Directorio"
+
+#: lib/components/DirectoryPro/Controller/Admin/AddDirectory.php:59
+msgid ""
+"Enter a new label for the directory to import. Leave the field blank to use "
+"the label defined in the JSON configuration file."
+msgstr ""
+"Enter a new label for the directory to import. Leave the field blank to use "
+"the label defined in the JSON configuration file."
+
+#: lib/components/DirectoryPro/Controller/Admin/AddDirectory.php:65
+msgid "Directory name"
+msgstr "Nombre del Directorio"
+
+#: lib/components/DirectoryPro/Controller/Admin/AddDirectory.php:66
+msgid ""
+"Enter a new machine readable name for the directory to import. Leave the "
+"field blank to use the name defined in the JSON configuration file."
+msgstr ""
+"Enter a new machine readable name for the directory to import. Leave the "
+"field blank to use the name defined in the JSON configuration file."
+
+#: lib/components/DirectoryPro/Controller/Admin/AddDirectory.php:103
+msgid "JSON configuration file was not uploaded."
+msgstr "JSON configuration file was not uploaded."
+
+#: lib/components/DirectoryPro/Controller/Admin/AddDirectory.php:107
+msgid "Invalid JSON data"
+msgstr "Invalid JSON data"
+
+#: lib/components/DirectoryPro/Controller/Admin/ExportDirectory.php:33
+msgid "File name"
+msgstr "Nombre del archivo"
+
+#: lib/components/DirectoryPro/Controller/Admin/ExportDirectory.php:42
+msgid "Pretty-print JSON"
+msgstr "Pretty-print JSON"
+
+#: lib/components/DirectoryPro/Controller/Admin/ExportDirectory.php:59
+msgid "Exporting... %3$s"
+msgstr "Exportando... %3$s"
+
+#: lib/components/DirectoryPro/Controller/Admin/ExportDirectory.php:102
+#, fuzzy
+#| msgid "Export faield."
+msgid "Export failed."
+msgstr "Falló la exportación."
+
+#: lib/components/DirectoryPro/Controller/Admin/ExportDirectory.php:104
+msgid "Exported successfully."
+msgstr "Exportado correctamente!"
+
+#: lib/components/Notification/Controller/Admin/AddNotification.php:41
+#, fuzzy
+#| msgid "Directory label"
+msgid "Notification label"
+msgstr "Etiqueta del Directorio"
+
+#: lib/components/Notification/Controller/Admin/AddNotification.php:98
+#, fuzzy
+#| msgid "Enable custom location hierarchy"
+msgid "Enable this notification method"
+msgstr "Enable custom location hierarchy"
+
+#: lib/components/Notification/Controller/Admin/Notifications.php:95,
+#: lib/components/Notification/Controller/Admin/Notifications.php:97
+#, fuzzy
+#| msgid "Add Location"
+msgid "Edit Notification"
+msgstr "Agregar ubicación"
+
+#~ msgid "Customize format of address on infobox"
+#~ msgstr "Personalizar formato de dirección en infobox"
+
+#~ msgid "Available tags: %s"
+#~ msgstr "Etiquetas disponibles: %s"
+
+#~ msgid "Side"
+#~ msgstr "Lado"
+
+#~ msgid "Auto submit filter form"
+#~ msgstr "Auto submit filter form"
+
+#~ msgid "Allow empty location"
+#~ msgstr "Permitir ubicación en blanco"
+
+#~ msgid "This %1$s does not have a physical location."
+#~ msgstr "Este %1$s no tiene una dirección física."

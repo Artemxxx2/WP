@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Font Awesome 6 Regular - drts';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../vendor/webfonts/fa-regular-400.woff2") format("woff2"), url("../vendor/webfonts/fa-regular-400.ttf") format("truetype");
+}
+
+.drts .far,
+.drts .fa-regular,
+.drts-far {
+    font-family: 'Font Awesome 6 Regular - drts' !important;
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block !important;
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Solid - drts';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../vendor/webfonts/fa-solid-900.woff2") format("woff2"), url("../vendor/webfonts/fa-solid-900.ttf") format("truetype");
+}
+
+.drts .fas,
+.drts .fa-solid,
+.drts-fas {
+    font-family: 'Font Awesome 6 Solid - drts' !important;
+    font-style: normal;
+    font-weight: 900;
+    display: inline-block !important;
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Brands - drts';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../vendor/webfonts/fa-brands-400.woff2") format("woff2"), url("../vendor/webfonts/fa-brands-400.ttf") format("truetype");
+}
+
+.drts .fab,
+.drts .fa-brands,
+.drts-fab {
+    font-family: 'Font Awesome 6 Brands - drts' !important;
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block !important;
+}
+
+/* For backward compat with Font Awesome 5 */
+@font-face {
+    font-family: "Font Awesome 5 Solid - drts";
+  font-display: block;
+  font-weight: 900;
+  src: url("../vendor/webfonts/fa-solid-900.woff2") format("woff2"), url("../vendor/webfonts/fa-solid-900.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Regular - drts";
+  font-display: block;
+  font-weight: 400;
+  src: url("../vendor/webfonts/fa-regular-400.woff2") format("woff2"), url("../vendor/webfonts/fa-regular-400.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Brands - drts";
+  font-display: block;
+  font-weight: 400;
+  src: url("../vendor/webfonts/fa-brands-400.woff2") format("woff2"), url("../vendor/webfonts/fa-brands-400.ttf") format("truetype");
+}

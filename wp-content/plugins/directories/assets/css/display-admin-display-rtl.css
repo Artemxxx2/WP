@@ -1,0 +1,44 @@
+.drts-display-element-handle {
+    padding: 15px 8px 15px 15px;
+}
+
+.drts-display-element-handle i {
+    margin-right: auto;
+    margin-left: 0.2em;
+}
+
+.drts-display-elements .drts-display-element {
+    margin: 0 0px 10px 10px;
+    text-align: right;
+}
+
+.drts-display-elements .drts-bs-row {
+    margin-left: -10px;
+    margin-right: 0;
+}
+
+.drts-display-elements .drts-bs-row > div {
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.drts-display-elements .drts-display-element-label i {
+    right: auto;
+    left: -5px;
+}
+
+.drts-display-element-icon {
+    right: auto;
+    left: 0;
+    padding: 3px 8px 3px 10px;
+}
+
+.drts-display-element-name-columns > .drts-display-element-wrapper > .drts-display-element-name-column {
+    border-left-width: 1px;
+    border-right-width: 0;
+}
+
+.drts-display-element-name-columns > .drts-display-element-wrapper > .drts-display-element-name-column:first-child {
+    border-left-width: 0;
+    border-right-width: 1px;
+}

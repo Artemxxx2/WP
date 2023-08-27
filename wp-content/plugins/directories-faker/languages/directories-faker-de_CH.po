@@ -1,0 +1,278 @@
+# Copyright (C) 2019 unnamed project
+# This file is distributed under the same license as the unnamed project package.
+msgid ""
+msgstr ""
+"Project-Id-Version: unnamed project\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-03 07:41+0000\n"
+"PO-Revision-Date: 2020-07-04 05:26+0000\n"
+"Last-Translator: Martin Sauter\n"
+"Language-Team: Deutsch (Schweiz)\n"
+"Language: de_CH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:"
+"1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: directories-faker.php:24
+msgid ""
+"Make sure to bulk update all Directories plugins at once. See %s for more "
+"details."
+msgstr ""
+"Stellen Sie sicher, dass Sie alle Directories Plug-ins gleichzeitig "
+"aktualisieren. Weitere Informationen unter %s."
+
+#: lib/components/Faker/FakerComponent.php:44
+msgctxt "generate content"
+msgid "Generate"
+msgstr "Generieren"
+
+#: lib/components/Faker/Generator/AbstractGenerator.php:53
+msgid "Date range"
+msgstr "Datumsbereich"
+
+#: lib/components/Faker/Generator/AbstractGenerator.php:54
+msgid "Select the range of possible dates for the field."
+msgstr "Wählen Sie den Bereich möglicher Daten für das Feld aus."
+
+#: lib/components/Faker/Generator/AbstractGenerator.php:76
+msgid "Max number of items to be assigned"
+msgstr "Maximale Anzahl der zuzuweisenden Elemente"
+
+#: lib/components/Faker/Generator/AbstractGenerator.php:92
+msgid "Probability of generating value for this field"
+msgstr "Wahrscheinlichkeit, ein Wert für dieses Feld zu generieren"
+
+#: lib/components/Faker/Generator/CompanyNameGenerator.php:11
+msgid "Company Name Generator"
+msgstr "Firmennamen-Generator"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:116,
+#: lib/components/Faker/Generator/FieldGenerator.php:137,
+#: lib/components/Faker/Generator/WPGenerator.php:102
+msgid "Text length range"
+msgstr "Textlängenbereich"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:132
+msgid "Last active date range"
+msgstr "Letzter aktiver Datumsbereich"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:133
+msgid "Last edited date range"
+msgstr "Zuletzt geänderter Datumsbereich"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:139
+msgid "View count range"
+msgstr "Zählbereich anzeigen"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:142
+msgid "Select the range of possible number of view counts for the field."
+msgstr ""
+"Wählen Sie den Bereich der möglichen Anzahl von Bewertungszählern für das "
+"Feld aus."
+
+#: lib/components/Faker/Generator/EntityGenerator.php:152
+msgid "No author"
+msgstr "Kein Autor"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:153,
+#: lib/components/Faker/Generator/FieldGenerator.php:206
+msgid "Administrators"
+msgstr "Administratoren"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:154,
+#: lib/components/Faker/Generator/FieldGenerator.php:207
+msgid "Specific users"
+msgstr "Bestimmte Benutzer"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:155,
+#: lib/components/Faker/Generator/FieldGenerator.php:208
+msgid "Newest users"
+msgstr "Neueste Benutzer"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:172,
+#: lib/components/Faker/Generator/FieldGenerator.php:225
+msgid "Max number of users"
+msgstr "Maximale Anzahl von Benutzern"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:191,
+#: lib/components/Faker/Generator/EntityGenerator.php:259,
+#: lib/components/Faker/Generator/EntityGenerator.php:311,
+#: lib/components/Faker/Generator/WPGenerator.php:117
+msgid "Select manually"
+msgstr "Manuell auswählen"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:192,
+#: lib/components/Faker/Generator/EntityGenerator.php:260,
+#: lib/components/Faker/Generator/EntityGenerator.php:312,
+#: lib/components/Faker/Generator/WPGenerator.php:118
+msgid "Random"
+msgstr "Zufällig"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:220,
+#: lib/components/Faker/Generator/EntityGenerator.php:288,
+#: lib/components/Faker/Generator/EntityGenerator.php:340,
+#: lib/components/Faker/Generator/WPGenerator.php:146
+msgid "Max number of random %s to fetch from the database"
+msgstr ""
+"Maximale Anzahl zufälliger %s, die aus der Datenbank abgerufen werden sollen"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:237
+msgid "Prioirty"
+msgstr "Priorität"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:241
+msgid "Featured date"
+msgstr "Empfohlenes Datum"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:244,
+#: lib/components/Faker/Generator/PaymentGenerator.php:44
+msgid "Duration"
+msgstr "Dauer"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:248,
+#: lib/components/Faker/Generator/PaymentGenerator.php:48
+msgid "Select the range of possible durations for the field."
+msgstr "Wählen Sie den Bereich der möglichen Dauer für das Feld aus."
+
+#: lib/components/Faker/Generator/FieldGenerator.php:152,
+#: lib/components/Faker/Generator/UIFacesPhotoGenerator.php:47
+msgid "Gender"
+msgstr "Geschlecht"
+
+#: lib/components/Faker/Generator/FieldGenerator.php:154,
+#: lib/components/Faker/Generator/UIFacesPhotoGenerator.php:49
+msgid "Any"
+msgstr "Beliebig"
+
+#: lib/components/Faker/Generator/FieldGenerator.php:155,
+#: lib/components/Faker/Generator/UIFacesPhotoGenerator.php:50
+msgid "Male"
+msgstr "Männlich"
+
+#: lib/components/Faker/Generator/FieldGenerator.php:156,
+#: lib/components/Faker/Generator/UIFacesPhotoGenerator.php:51
+msgid "Female"
+msgstr "Weiblich"
+
+#: lib/components/Faker/Generator/FieldGenerator.php:178
+msgid "Number range"
+msgstr "Nummernbereich"
+
+#: lib/components/Faker/Generator/FieldGenerator.php:193
+msgid "YouTube videos"
+msgstr "Youtube Videos"
+
+#: lib/components/Faker/Generator/FieldGenerator.php:196
+msgid "Enter YouTube video IDs separated with commas."
+msgstr "Geben Sie durch Kommas getrennte YouTube-Video-IDs ein."
+
+#: lib/components/Faker/Generator/FieldGenerator.php:204
+msgid "— Select —"
+msgstr "— Wählen —"
+
+#: lib/components/Faker/Generator/PaymentGenerator.php:38
+msgid "Payment Plans"
+msgstr "Zahlungspläne"
+
+#: lib/components/Faker/Generator/PicsumPhotoGenerator.php:12
+msgid "Picsum Photo Generator"
+msgstr "Picsum Foto Generator"
+
+#: lib/components/Faker/Generator/PicsumPhotoGenerator.php:13
+msgid "Download random photos from https://picsum.photos/."
+msgstr "Laden Sie zufällige Fotos von https://picsum.photos/ herunter."
+
+#: lib/components/Faker/Generator/SocialGenerator.php:46
+msgid "Enter dummy data for this social media account."
+msgstr "Geben Sie Dummy-Daten für dieses Social Media-Konto ein."
+
+#: lib/components/Faker/Generator/UIFacesPhotoGenerator.php:13
+msgid "User Face Photo Generator"
+msgstr "Generator für Benutzerfotos"
+
+#: lib/components/Faker/Generator/UIFacesPhotoGenerator.php:14
+msgid "Generate user face photos using UI Faces API (https://uifaces.co/)."
+msgstr "Benutzerfotos generieren via UI Faces API (https://uifaces.co/)."
+
+#: lib/components/Faker/Generator/UIFacesPhotoGenerator.php:28
+msgid "UI Faces API key"
+msgstr "UI Faces API Key"
+
+#: lib/components/Faker/Generator/UIFacesPhotoGenerator.php:30
+msgid "Get API key from %s."
+msgstr "API Key von %s erhalten."
+
+#: lib/components/Faker/Generator/VotingGenerator.php:43
+msgid "Vote count range"
+msgstr "Stimmenzahlbereich"
+
+#: lib/components/Faker/Generator/WPGenerator.php:24
+msgid "Select images/files from WordPress media manager."
+msgstr "Wählen Sie Bilder / Dateien aus dem WordPress Media Manager."
+
+#: lib/components/Faker/Generator/WPGenerator.php:65
+msgid "Select files to attach"
+msgstr "Wählen Sie die anzuhängenden Dateien aus"
+
+#: lib/components/Faker/Controller/Admin/Generate.php:48
+msgid "Select the fields to generate for %s."
+msgstr "Wählen Sie die Felder aus, die für %s generiert werden sollen."
+
+#: lib/components/Faker/Controller/Admin/Generate.php:54
+msgid "Field name"
+msgstr "Feldname"
+
+#: lib/components/Faker/Controller/Admin/Generate.php:73
+msgid "Custom field"
+msgstr "Benutzerdefiniertes Feld"
+
+#: lib/components/Faker/Controller/Admin/Generate.php:103
+msgid "Field generator"
+msgstr "Feldgenerator"
+
+#: lib/components/Faker/Controller/Admin/Generate.php:113
+msgid "Default"
+msgstr "Standard"
+
+#: lib/components/Faker/Controller/Admin/Generate.php:151
+msgid "Please configure additional options for each field."
+msgstr "Bitte konfigurieren Sie zusätzliche Optionen für jedes Feld."
+
+#: lib/components/Faker/Controller/Admin/Generate.php:159,
+#: lib/components/Faker/Controller/Admin/Generate.php:248
+msgid "Generating..."
+msgstr "Generieren ..."
+
+#: lib/components/Faker/Controller/Admin/Generate.php:160
+msgid "Generate Now"
+msgstr "Jetzt generieren"
+
+#: lib/components/Faker/Controller/Admin/Generate.php:165
+msgid "Number of item to generate"
+msgstr "Nummer des zu generierenden Elements"
+
+#: lib/components/Faker/Controller/Admin/Generate.php:174
+msgid "Number of records to process per request"
+msgstr "Anzahl der Datensätze, die pro Anforderung verarbeitet werden sollen"
+
+#: lib/components/Faker/Controller/Admin/Generate.php:175
+msgid "Adjust this setting if you are experiencing timeout errors."
+msgstr "Passen Sie diese Einstellung an, wenn Timeout-Fehler auftreten."
+
+#: lib/components/Faker/Controller/Admin/Generate.php:281
+msgid "Item #%d could not be generated: %s"
+msgstr "Artikel #%d konnte nicht generiert werden: %s"
+
+#: lib/components/Faker/Controller/Admin/Generate.php:289
+msgid "%d item(s) generated successfully."
+msgstr "%d Artikel wurden erfolgreich generiert."

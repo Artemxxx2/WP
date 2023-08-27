@@ -1,0 +1,228 @@
+# Copyright (C) 2019 unnamed project
+# This file is distributed under the same license as the unnamed project package.
+msgid ""
+msgstr ""
+"Project-Id-Version: unnamed project\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.4\n"
+"Last-Translator: \n"
+"Language: tr_TR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: lib/components/Faker/FakerComponent.php:44
+msgctxt "generate content"
+msgid "Generate"
+msgstr "Oluştur"
+
+#: lib/components/Faker/Generator/AbstractGenerator.php:53
+msgid "Date range"
+msgstr "Tarih aralığı"
+
+#: lib/components/Faker/Generator/AbstractGenerator.php:54
+msgid "Select the range of possible dates for the field."
+msgstr "Alan için olası tarih aralığını seçin."
+
+#: lib/components/Faker/Generator/AbstractGenerator.php:76
+msgid "Max number of items to be assigned"
+msgstr "Atanacak en fazla öğe sayısı"
+
+#: lib/components/Faker/Generator/AbstractGenerator.php:92
+msgid "Probability of generating value for this field"
+msgstr "Bu alan için değer oluşturma olasılığı"
+
+#: lib/components/Faker/Generator/CompanyNameGenerator.php:11
+msgid "Company Name Generator"
+msgstr "Şirket Adı Jeneratör"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:116,
+#: lib/components/Faker/Generator/FieldGenerator.php:116,
+#: lib/components/Faker/Generator/WPGenerator.php:102
+msgid "Text length range"
+msgstr "Metin uzunluğu aralığı"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:132
+msgid "Last active date range"
+msgstr "Son etkin tarih aralığı"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:133
+msgid "Last edited date range"
+msgstr "Son düzenlenen tarih aralığı"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:139
+msgid "View count range"
+msgstr "Sayım aralığını görüntüleme"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:142
+msgid "Select the range of possible number of view counts for the field."
+msgstr "Alan için olası görüş sayısı aralığını seçin."
+
+#: lib/components/Faker/Generator/EntityGenerator.php:150,
+#: lib/components/Faker/Generator/FieldGenerator.php:169
+msgid "— Select —"
+msgstr "— Seçiniz —"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:152
+msgid "No author"
+msgstr "Yazar Yok"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:153,
+#: lib/components/Faker/Generator/FieldGenerator.php:171
+msgid "Administrators"
+msgstr "Yöneticiler"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:154,
+#: lib/components/Faker/Generator/FieldGenerator.php:172
+msgid "Specific users"
+msgstr "Belirli kullanıcılar"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:155,
+#: lib/components/Faker/Generator/FieldGenerator.php:173
+msgid "Newest users"
+msgstr "En yeni kullanıcılar"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:172,
+#: lib/components/Faker/Generator/FieldGenerator.php:190
+msgid "Max number of users"
+msgstr "Maksimum kullanıcı sayısı"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:191,
+#: lib/components/Faker/Generator/EntityGenerator.php:259,
+#: lib/components/Faker/Generator/EntityGenerator.php:311,
+#: lib/components/Faker/Generator/WPGenerator.php:117
+msgid "Select manually"
+msgstr "El ile seçin"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:192,
+#: lib/components/Faker/Generator/EntityGenerator.php:260,
+#: lib/components/Faker/Generator/EntityGenerator.php:312,
+#: lib/components/Faker/Generator/WPGenerator.php:118
+msgid "Random"
+msgstr "Rastgele"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:220,
+#: lib/components/Faker/Generator/EntityGenerator.php:288,
+#: lib/components/Faker/Generator/EntityGenerator.php:340,
+#: lib/components/Faker/Generator/WPGenerator.php:146
+msgid "Max number of random %s to fetch from the database"
+msgstr "Veritabanından getirilen rasgele %s'lerin maksimum sayısı"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:237
+msgid "Prioirty"
+msgstr "Prioirty"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:241
+msgid "Featured date"
+msgstr "Öne çıkan tarih"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:244,
+#: lib/components/Faker/Generator/PaymentGenerator.php:44
+msgid "Duration"
+msgstr "Süre"
+
+#: lib/components/Faker/Generator/EntityGenerator.php:248,
+#: lib/components/Faker/Generator/PaymentGenerator.php:48
+msgid "Select the range of possible durations for the field."
+msgstr "Alanın olası süreleri aralığını seçin."
+
+#: lib/components/Faker/Generator/FieldGenerator.php:143
+msgid "Number range"
+msgstr "Sayı aralığı"
+
+#: lib/components/Faker/Generator/FieldGenerator.php:158
+msgid "YouTube videos"
+msgstr "YouTube videoları"
+
+#: lib/components/Faker/Generator/FieldGenerator.php:161
+msgid "Enter YouTube video IDs separated with commas."
+msgstr "Virgülle ayrılmış YouTube video iyeliklerini girin."
+
+#: lib/components/Faker/Generator/PaymentGenerator.php:38
+msgid "Payment Plans"
+msgstr "Ödeme Planları"
+
+#: lib/components/Faker/Generator/SocialGenerator.php:46
+msgid "Enter dummy data for this social media account."
+msgstr "Bu sosyal medya hesabı için sahte verileri girin."
+
+#: lib/components/Faker/Generator/VotingGenerator.php:39
+msgid "Vote count range"
+msgstr "Oy sayısı aralığı"
+
+#: lib/components/Faker/Generator/WPGenerator.php:24
+msgid "Select images/files from WordPress media manager."
+msgstr "WordPress medya yöneticisinden resim/dosya seçin."
+
+#: lib/components/Faker/Generator/WPGenerator.php:65
+msgid "Select files to attach"
+msgstr "Ekecek dosyaları seçin"
+
+#: lib/components/Faker/Generator/PicsumPhotoGenerator.php:11
+msgid "Picsum Photo Generator"
+msgstr "Picsum Fotoğraf Jeneratörü"
+
+#: lib/components/Faker/Generator/PicsumPhotoGenerator.php:12
+msgid "Download random photos from https://picsum.photos/."
+msgstr "Https://picsum.photos/ rastgele fotoğrafları indirin."
+
+#: lib/components/Faker/Controller/Admin/Generate.php:45
+msgid "Select the fields to generate for %s."
+msgstr "%s için oluşturmak için alanları seçin."
+
+#: lib/components/Faker/Controller/Admin/Generate.php:51
+msgid "Field name"
+msgstr "Alan adı"
+
+#: lib/components/Faker/Controller/Admin/Generate.php:66
+msgid "Custom field"
+msgstr "Özel alan"
+
+#: lib/components/Faker/Controller/Admin/Generate.php:96
+msgid "Field generator"
+msgstr "Alan jeneratörü"
+
+#: lib/components/Faker/Controller/Admin/Generate.php:105
+msgid "Default"
+msgstr "Varsayılan"
+
+#: lib/components/Faker/Controller/Admin/Generate.php:143
+msgid "Please configure additional options for each field."
+msgstr "Lütfen her alan için ek ayarları yapılandırın."
+
+#: lib/components/Faker/Controller/Admin/Generate.php:151,
+#: lib/components/Faker/Controller/Admin/Generate.php:240
+msgid "Generating..."
+msgstr "Oluşturma..."
+
+#: lib/components/Faker/Controller/Admin/Generate.php:152
+msgid "Generate Now"
+msgstr "Şimdi Oluştur"
+
+#: lib/components/Faker/Controller/Admin/Generate.php:157
+msgid "Number of item to generate"
+msgstr "Üretecek madde sayısı"
+
+#: lib/components/Faker/Controller/Admin/Generate.php:166
+msgid "Number of records to process per request"
+msgstr "İstek başına işlenir kayıt sayısı"
+
+#: lib/components/Faker/Controller/Admin/Generate.php:167
+msgid "Adjust this setting if you are experiencing timeout errors."
+msgstr "Zaman ayarı hataları yaşıyorsanız bu ayarı ayarlayın."
+
+#: lib/components/Faker/Controller/Admin/Generate.php:272
+msgid "Item #%d could not be generated: %s"
+msgstr "Madde #%d oluşturulamadı: %s"
+
+#: lib/components/Faker/Controller/Admin/Generate.php:277
+msgid "%d item(s) generated successfully."
+msgstr "%d madde(ler) başarıyla oluşturuldu."

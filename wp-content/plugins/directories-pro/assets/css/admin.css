@@ -1,0 +1,23 @@
+.drts-form-type-location-address .drts-form-type-textfield {
+    position: relative;
+}
+
+.drts-form-type-location-address .drts-location-text-input[type=text] {
+    padding-right: 20px !important;
+}
+
+.drts-location-address-geolocate {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    padding: 5px;
+    transform: translateY(-50%);
+}
+
+.drts-location-no-geolocation .drts-location-address-geolocate {
+    display: none;
+}
+
+.drts-form-type-location-text .drts-form-type-slider {
+    margin-top: 10px !important;
+}

@@ -1,0 +1,227 @@
+# Copyright (C) 2020 unnamed project
+# This file is distributed under the same license as the unnamed project package.
+msgid ""
+msgstr ""
+"Project-Id-Version: unnamed project\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:"
+"1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-19 22:17+0000\n"
+"PO-Revision-Date: 2020-01-23 09:36+0000\n"
+"Last-Translator: Il Gran Capo <illatooscurodelsesso@gmail.com>\n"
+"Language-Team: Italiano\n"
+"Language: it-IT\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: lib/components/Review/ReviewComponent.php:39, 
+#: lib/components/Review/DisplayElement/RatingsDisplayElement.php:41
+msgid "Overall rating"
+msgstr "Valutazione complessiva"
+
+#: lib/components/Review/ReviewComponent.php:121
+msgid "Enable reviews"
+msgstr "Abilita recensioni"
+
+#: lib/components/Review/ReviewComponent.php:177, 
+#: lib/components/Review/FieldType/RatingFieldType.php:16, 
+#: lib/components/Review/FieldType/RatingFieldType.php:137
+msgid "Review Rating"
+msgstr "Valutazione della recensione"
+
+#: lib/components/Review/CSVExporter/ReviewCSVExporter.php:26, 
+#: lib/components/Review/CSVImporter/ReviewCSVImporter.php:26
+msgid "Rating criteria/value separator"
+msgstr "Criteri di valutazione / separatore di valore"
+
+#: lib/components/Review/CSVExporter/ReviewCSVExporter.php:27, 
+#: lib/components/Review/CSVImporter/ReviewCSVImporter.php:27
+msgid "Enter the character used to separate the rating criteria and value."
+msgstr ""
+"Immettere il carattere utilizzato per separare i criteri di valutazione e il "
+"valore."
+
+#: lib/components/Review/DisplayElement/RatingsDisplayElement.php:13
+msgid "Review Ratings"
+msgstr "Valutazione della recensione"
+
+#: lib/components/Review/DisplayElement/RatingsDisplayElement.php:14
+msgid "Shows aggregated review ratings"
+msgstr "Mostra recensioni con valutazioni aggregate"
+
+#: lib/components/Review/DisplayElement/RatingsDisplayElement.php:37, 
+#: lib/components/Review/FieldRenderer/RatingFieldRenderer.php:30, 
+#: lib/components/Review/FieldRenderer/RatingFieldRenderer.php:135
+msgid "Display format"
+msgstr "Formato di visualizzazione"
+
+#: lib/components/Review/DisplayElement/RatingsDisplayElement.php:42
+msgid "Rating bars (by rating criteria)"
+msgstr "Barre di valutazione (per criteri di valutazione)"
+
+#: lib/components/Review/DisplayElement/RatingsDisplayElement.php:43, 
+#: lib/components/Review/FieldRenderer/RatingsFieldRenderer.php:83
+msgid "Rating bars (by number of stars)"
+msgstr "Barre di valutazione (per numero di stelle)"
+
+#: lib/components/Review/DisplayElement/RatingsDisplayElement.php:47, 
+#: lib/components/Review/FieldRenderer/RatingsFieldRenderer.php:42, 
+#: lib/components/Review/FieldRenderer/RatingsFieldRenderer.php:125
+msgid "Show review count"
+msgstr "Mostra conteggio recensione"
+
+#: lib/components/Review/DisplayElement/RatingsDisplayElement.php:58
+msgid "Show review count with label"
+msgstr "Mostra recensione con etichetta conteggio"
+
+#: lib/components/Review/DisplayElement/RatingsDisplayElement.php:71
+msgid "Render labels inline"
+msgstr "Rendering etichette in linea"
+
+#: lib/components/Review/EntityBundleType/ReviewEntityBundleType.php:17
+msgid "Reviews"
+msgstr "Recensioni"
+
+#: lib/components/Review/EntityBundleType/ReviewEntityBundleType.php:18, 
+#: lib/components/Review/EntityBundleType/ReviewEntityBundleType.php:28
+msgid "Review"
+msgstr "Recensione"
+
+#: lib/components/Review/EntityBundleType/ReviewEntityBundleType.php:19
+msgid "Write a Review"
+msgstr "Scrivi una Recensione"
+
+#: lib/components/Review/EntityBundleType/ReviewEntityBundleType.php:20
+msgid "All Reviews"
+msgstr "Tutte le recensioni"
+
+#: lib/components/Review/EntityBundleType/ReviewEntityBundleType.php:21
+msgid "%s review"
+msgstr "%s recensione"
+
+#: lib/components/Review/EntityBundleType/ReviewEntityBundleType.php:22
+msgid "%s reviews"
+msgstr "%s recensioni"
+
+#: lib/components/Review/EntityBundleType/ReviewEntityBundleType.php:23
+msgid "Review: %s"
+msgstr "Recensione: %s"
+
+#: lib/components/Review/EntityBundleType/ReviewEntityBundleType.php:49
+msgid "Review Settings"
+msgstr "Configurazione recensioni"
+
+#: lib/components/Review/EntityBundleType/ReviewEntityBundleType.php:52
+msgid "Rating criteria"
+msgstr "Criteri di valutazione"
+
+#: lib/components/Review/EntityBundleType/ReviewEntityBundleType.php:65
+msgid "Rating criteria slugs must be 1-40 characters long."
+msgstr ""
+"Gli slug dei criteri di valutazione devono essere compresi tra 1 e 40 "
+"caratteri"
+
+#: lib/components/Review/EntityBundleType/review_displays.php:336
+msgid "Comments"
+msgstr "Commenti"
+
+#: lib/components/Review/EntityBundleType/review_displays.php:1080
+msgid "Title"
+msgstr "Titolo"
+
+#: lib/components/Review/EntityBundleType/review_displays.php:1290
+msgid "Listing"
+msgstr "Pubblicazione"
+
+#: lib/components/Review/EntityBundleType/review_displays.php:1346
+msgid "Date"
+msgstr "Data"
+
+#: lib/components/Review/EntityBundleType/review_displays.php:1463
+msgid "Search reviews"
+msgstr "Cerca Recensioni"
+
+#: lib/components/Review/EntityBundleType/review_fields.php:12
+msgid "Rating"
+msgstr "Valutazione"
+
+#: lib/components/Review/EntityBundleType/review_fields.php:41
+msgid "Photos"
+msgstr "Foto"
+
+#: lib/components/Review/FieldRenderer/RatingFieldRenderer.php:38,
+#: lib/components/Review/FieldRenderer/RatingFieldRenderer.php:143
+msgid "Decimals"
+msgstr "Decimali"
+
+#: lib/components/Review/FieldRenderer/RatingFieldRenderer.php:39
+msgid "0 (no decimals)"
+msgstr "0 (no decimali)"
+
+#: lib/components/Review/FieldRenderer/RatingFieldRenderer.php:44, 
+#: lib/components/Review/FieldRenderer/RatingFieldRenderer.php:149
+msgid "Render bar labels inline"
+msgstr "Etichette della barra di rendering in linea"
+
+#: lib/components/Review/FieldRenderer/RatingFieldRenderer.php:126
+msgid "Rating stars"
+msgstr "Stelle di valutazione"
+
+#: lib/components/Review/FieldRenderer/RatingFieldRenderer.php:127
+msgid "Rating bars"
+msgstr "Barre di valutazione"
+
+#: lib/components/Review/FieldRenderer/RatingFieldRenderer.php:139
+msgid "Color"
+msgstr "Colore"
+
+#: lib/components/Review/FieldRenderer/RatingFieldRenderer.php:154
+msgid "Bar height"
+msgstr "Altezza Barra"
+
+#: lib/components/Review/FieldRenderer/RatingsFieldRenderer.php:49
+msgid "Hide if no reviews"
+msgstr "Nascondi se non ci sono recensioni"
+
+#: lib/components/Review/FieldWidget/RatingFieldWidget.php:12
+msgid "Rating Stars"
+msgstr "Stelle di valutazione"
+
+#: lib/components/Review/FieldWidget/RatingFieldWidget.php:25
+msgid "Rating step"
+msgstr "Gradino di valutazione"
+
+#: lib/components/Review/SystemTool/RecalculateReviewRatingsSystemTool.php:11
+msgid "Recalculate review ratings"
+msgstr "Ricalcola le valutazioni delle recensioni"
+
+#: lib/components/Review/SystemTool/RecalculateReviewRatingsSystemTool.php:12
+msgid "This tool will recalculate review ratings for each content item."
+msgstr ""
+"Questo strumento ricalcola le valutazioni delle recensioni per ciascun "
+"elemento di contenuto."
+
+#: lib/components/Review/WordPressNotification/ReviewWordPressNotification.php:14
+msgid "Published"
+msgstr "Pubblicato"
+
+#: lib/components/Review/WordPressNotification/ReviewWordPressNotification.php:31
+msgid "A new review has been submitted"
+msgstr "È stata scritta una nuova recensione"
+
+#: lib/components/Review/WordPressNotification/ReviewWordPressNotification.php:41
+msgid "Dear %s,"
+msgstr "Caro %s,"
+
+#: lib/components/Review/WordPressNotification/ReviewWordPressNotification.php:43
+msgid "A new review has been submitted for your %1$s."
+msgstr "È stata scritta una nuova recensione per %1$s."
